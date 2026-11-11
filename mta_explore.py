@@ -65,6 +65,9 @@ def database(path):
       poll_id INTEGER, source_ts INTEGER, trip_key TEXT, route TEXT, stop TEXT,
       status TEXT, status_explicit INTEGER, vehicle_ts INTEGER,
       PRIMARY KEY(poll_id,trip_key));
+    CREATE TABLE IF NOT EXISTS trip_paths(
+      poll_id INTEGER, trip_key TEXT, stops TEXT, skipped TEXT,
+      PRIMARY KEY(poll_id,trip_key));
     CREATE TABLE IF NOT EXISTS alerts(
       poll_id INTEGER, alert_id TEXT, event_key TEXT, alert_type TEXT,
       created INTEGER, updated INTEGER, active_periods TEXT, active_at_source INTEGER,
@@ -105,6 +108,7 @@ def parse_trains(db, pid, body, scope):
     if not feed.header.HasField('timestamp'):
         raise ValueError('Train feed has no timestamp')
     stamp = feed.header.timestamp
+    save_paths(db, pid, feed)
     for entity in feed.entity:
         if entity.HasField('trip_update'):
             update = entity.trip_update
@@ -127,6 +131,18 @@ def parse_trains(db, pid, body, scope):
                        (pid, stamp, trip_key(v.trip), v.trip.route_id, v.stop_id, status,
                         int(v.HasField('current_status')), v.timestamp if v.HasField('timestamp') else None))
     return stamp
+
+
+def save_paths(db, pid, feed):
+    # Full ordered path matters: scope filtering must not hide an intermediate stop.
+    for entity in feed.entity:
+        if not entity.HasField('trip_update') or entity.trip_update.trip.route_id not in ROUTES:
+            continue
+        update = entity.trip_update
+        db.execute('INSERT OR REPLACE INTO trip_paths VALUES(?,?,?,?)',
+                   (pid, trip_key(update.trip), json.dumps([s.stop_id for s in update.stop_time_update]),
+                    json.dumps([s.stop_id for s in update.stop_time_update
+                                if s.HasField('schedule_relationship') and s.schedule_relationship == 1])))
 
 
 def parse_alerts(db, pid, body):
@@ -188,6 +204,40 @@ def transition(prev, row, max_gap=90):
     return prev['source_ts'], row['source_ts']
 
 
+def station_transition(prev, row, old_path, new_path, max_gap=90):
+    """Return evidence-based candidate/rejection. Does not establish a physical arrival."""
+    if not prev or prev['stop'] == row['stop']:
+        return None, 'no_station_change'
+    if not 0 < row['source_ts'] - prev['source_ts'] <= max_gap:
+        return None, 'repeated_out_of_order_or_gap'
+    if any(v['vehicle_ts'] is None or not 0 <= v['source_ts']-v['vehicle_ts'] <= 120
+           for v in (prev,row)):
+        return None, 'stale_or_future_vehicle_time'
+    if not prev['vehicle_ts'] < row['vehicle_ts'] or row['vehicle_ts'] <= prev['source_ts']:
+        return None, 'vehicle_time_not_new_since_previous_observation'
+    if not row['status_explicit'] or row['status'] != 'STOPPED_AT':
+        return None, 'no_explicit_stop_status_at_new_station'
+    if not old_path or not new_path:
+        return None, 'missing_trip_path'
+    before, after = old_path['stops'], new_path['stops']
+    if not before or not after or len(set(before)) != len(before) or len(set(after)) != len(after):
+        return None, 'empty_or_repeated_station_path'
+    if row['stop'] in old_path['skipped'] or row['stop'] in new_path['skipped']:
+        return None, 'explicitly_skipped_station'
+    if prev['stop'][-1:] != row['stop'][-1:]:
+        return None, 'direction_changed'
+    next_index = before.index(prev['stop'])+1 if prev['stop'] in before else 0
+    if next_index >= len(before) or before[next_index] != row['stop']:
+        return None, 'not_expected_next_station'
+    if len(after) > len(before) or after != before[-len(after):]:
+        return None, 'path_changed_not_suffix'
+    if after[0] != row['stop'] or prev['stop'] in after:
+        return None, 'remaining_path_not_yet_aligned'
+    return dict(observation_start=prev['source_ts'], observation_end=row['source_ts'],
+                estimated_event_ts=row['vehicle_ts'],
+                method='station_change_timestamp_path_consistent_UNVALIDATED'), 'candidate'
+
+
 def write_csv(path, rows, fields):
     with path.open('w', newline='', encoding='utf-8') as out:
         writer = csv.DictWriter(out, fieldnames=fields, extrasaction='ignore')
@@ -200,21 +250,46 @@ def analyze(run):
     db.row_factory = sqlite3.Row
     scope = json.loads((run / 'scope.json').read_text())
     polls = [dict(r) for r in db.execute('SELECT * FROM polls ORDER BY id')]
+    # Older runs retain raw responses, so they can be replayed without another download.
+    for poll in polls:
+        if poll['kind']=='trains' and not poll['error'] and poll['raw_path'] and not db.execute(
+                'SELECT 1 FROM trip_paths WHERE poll_id=? LIMIT 1', (poll['id'],)).fetchone():
+            feed = gtfs.FeedMessage()
+            feed.ParseFromString(gzip.decompress((run/poll['raw_path']).read_bytes()))
+            save_paths(db, poll['id'], feed)
+    db.commit()
+    paths = {(r['poll_id'],r['trip_key']):dict(stops=json.loads(r['stops']),skipped=json.loads(r['skipped']))
+             for r in db.execute('SELECT * FROM trip_paths')}
     good = {p['id'] for p in polls if not p['error'] and p['source_ts'] is not None
             and -5 <= p['received'] - p['source_ts'] <= 120}
-    last, seen, events = {}, set(), []
+    last, seen, events, audit = {}, set(), [], []
     for raw in db.execute('SELECT * FROM vehicles ORDER BY poll_id,trip_key'):
         row = dict(raw)
-        if row['poll_id'] not in good or row['vehicle_ts'] is None or not -5 <= row['source_ts'] - row['vehicle_ts'] <= 120:
-            continue
         key = row['trip_key']
+        if row['poll_id'] not in good:
+            last.pop(key, None)
+            continue
         prev = last.get(key)
         if prev and row['source_ts'] <= prev['source_ts']:
             continue  # repeated or out-of-order source data is not another observation
-        bounds = transition(prev, row)
+        evidence, reason = station_transition(prev, row,
+            paths.get((prev['poll_id'],key)) if prev else None, paths.get((row['poll_id'],key)))
+        if prev and row['stop'] != prev['stop']:
+            audit.append(dict(trip_key=key, route=row['route'], from_stop=prev['stop'],to_stop=row['stop'],
+                previous_source_ts=prev['source_ts'],source_ts=row['source_ts'],
+                previous_vehicle_ts=prev['vehicle_ts'],vehicle_ts=row['vehicle_ts'],reason=reason,
+                previous_path=json.dumps(paths.get((prev['poll_id'],key))),
+                current_path=json.dumps(paths.get((row['poll_id'],key)))))
+        valid_times = prev and all(v['vehicle_ts'] is not None and
+            0 <= v['source_ts']-v['vehicle_ts'] <= 120 for v in (prev,row))
+        bounds = transition(prev, row) if not evidence and valid_times else None
+        if bounds:
+            evidence=dict(observation_start=bounds[0],observation_end=bounds[1],
+                          estimated_event_ts=sum(bounds)/2,
+                          method='observed_transit_to_stopped_transition_UNVALIDATED')
         event_id = (key, row['stop'])
-        if bounds and event_id not in seen:
-            lo, hi = bounds
+        if evidence and event_id not in seen:
+            lo, hi = evidence['observation_start'], evidence['observation_end']
             seen.add(event_id)
             ref = db.execute('''SELECT p.eta,p.source_ts FROM predictions p JOIN polls q ON q.id=p.poll_id
               WHERE trip_key=? AND stop=? AND p.source_ts < ? AND eta-p.source_ts BETWEEN 240 AND 360
@@ -223,13 +298,17 @@ def analyze(run):
             events.append(dict(trip_key=key, route=row['route'], stop=row['stop'],
                                station=scope.get(parent_stop(row['stop']), ''),
                                observation_start=lo, observation_end=hi, midpoint=(lo+hi)/2,
+                               estimated_event_ts=evidence['estimated_event_ts'],
                                reference_eta=ref['eta'] if ref else None,
-                               eta_error_proxy_min=((lo+hi)/2-ref['eta'])/60 if ref else None,
-                               method='observed_transit_to_stopped_transition_NOT_ground_truth'))
+                               eta_error_proxy_min=(evidence['estimated_event_ts']-ref['eta'])/60 if ref else None,
+                               method=evidence['method']))
         last[key] = row
     write_csv(run / 'arrival_candidates.csv', events,
               ['trip_key','route','stop','station','observation_start','observation_end','midpoint',
-               'reference_eta','eta_error_proxy_min','method'])
+               'estimated_event_ts','reference_eta','eta_error_proxy_min','method'])
+    write_csv(run / 'arrival_evidence.csv', audit, ['trip_key','route','from_stop','to_stop',
+              'previous_source_ts','source_ts','previous_vehicle_ts','vehicle_ts','reason',
+              'previous_path','current_path'])
     changes = [dict(r) for r in db.execute('''SELECT trip_key,route,stop,COUNT(DISTINCT source_ts) AS snapshots,
        MIN(eta) AS earliest_eta,MAX(eta) AS latest_eta,(MAX(eta)-MIN(eta))/60.0 AS eta_range_minutes
        FROM predictions WHERE eta IS NOT NULL GROUP BY trip_key,route,stop HAVING COUNT(DISTINCT source_ts)>1''')]
@@ -253,9 +332,9 @@ def analyze(run):
         groups.setdefault((e['route'],e['stop']), []).append(e)
     station_stats = []
     for (route,stop), es in sorted(groups.items()):
-        es.sort(key=lambda e:e['midpoint'])
+        es.sort(key=lambda e:e['estimated_event_ts'])
         errors = [e['eta_error_proxy_min'] for e in es if e['eta_error_proxy_min'] is not None]
-        gaps = [(b['midpoint']-a['midpoint'])/60 for a,b in zip(es,es[1:])]
+        gaps = [(b['estimated_event_ts']-a['estimated_event_ts'])/60 for a,b in zip(es,es[1:])]
         station_stats.append(dict(route=route, stop=stop, station=scope.get(parent_stop(stop),''),
           observed_arrival_candidates=len(es), matched_eta_count=len(errors),
           mean_eta_error_proxy_min=statistics.mean(errors) if errors else None,
@@ -270,7 +349,10 @@ def analyze(run):
                'eta_matched_candidates':sum(e['reference_eta'] is not None for e in events),
                'tracked_trip_stops':len(changes),
                'positive_eta_range_trip_stops':sum(c['eta_range_minutes']>0 for c in changes),
-               'actual_delay_measured':False}
+               'actual_delay_measured':False, 'arrival_algorithm':'v2_station_path_timestamp',
+               'station_change_evidence':len(audit),
+               'rejection_reasons':{reason:sum(a['reason']==reason for a in audit)
+                   for reason in sorted({a['reason'] for a in audit})}}
     summary['vehicle_status_counts'] = dict(db.execute('SELECT status,COUNT(*) FROM vehicles GROUP BY status').fetchall())
     summary['prediction_counts_by_route'] = dict(db.execute('SELECT route,COUNT(*) FROM predictions GROUP BY route').fetchall())
     summary['distinct_station_directions'] = db.execute('SELECT COUNT(DISTINCT stop) FROM predictions').fetchone()[0]
@@ -287,7 +369,8 @@ def analyze(run):
       '## Collection', '', '```json', json.dumps(summary,indent=2), '```', '',
       '## Interpretation', '',
       '- ETA range means forecast revisions, not actual delay.',
-      '- Arrival candidates require fresh, increasing source timestamps and an explicit transit-to-stopped transition at the same stop.',
+      '- Arrival candidates use fresh station-ID changes, advancing vehicle timestamps, and consistent ordered remaining paths. Explicit same-stop transit-to-stopped transitions remain supported.',
+      '- Station-ID change estimates use the vehicle timestamp, NOT a verified arrival timestamp. See arrival_evidence.csv for path evidence and rejected changes.',
       '- A train already stopped when collection begins is left-censored and is excluded.',
       '- ETA error uses an earlier forecast showing 4–6 minutes remaining. Short runs may have no eligible reference.',
       '- Event gaps can include missed trains; they are not validated headways or trains/hour.',
