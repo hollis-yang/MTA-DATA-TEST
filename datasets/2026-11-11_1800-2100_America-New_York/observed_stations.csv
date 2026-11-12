@@ -1,0 +1,93 @@
+route,stop,station,trips,prediction_records
+B,A24N,59 St-Columbus Circle,36,3862
+B,A24S,59 St-Columbus Circle,37,2717
+B,D14N,7 Av,36,3760
+B,D14S,7 Av,37,2790
+B,D15N,47-50 Sts-Rockefeller Ctr,35,3673
+B,D15S,47-50 Sts-Rockefeller Ctr,37,2859
+B,D16N,42 St-Bryant Pk,35,3618
+B,D16S,42 St-Bryant Pk,38,2925
+B,D17N,34 St-Herald Sq,35,3564
+B,D17S,34 St-Herald Sq,38,2988
+B,D20N,W 4 St-Wash Sq,35,3427
+B,D20S,W 4 St-Wash Sq,39,3136
+B,D21N,Broadway-Lafayette St,34,3341
+B,D21S,Broadway-Lafayette St,40,3234
+B,D22N,Grand St,34,3268
+B,D22S,Grand St,40,3331
+B,F14S,2 Av,1,3
+D,A24N,59 St-Columbus Circle,53,4864
+D,A24S,59 St-Columbus Circle,68,3855
+D,A27S,42 St-Port Authority Bus Terminal,1,6
+D,A28S,34 St-Penn Station,1,9
+D,A31S,14 St,1,14
+D,A32S,W 4 St-Wash Sq,1,19
+D,A34S,Canal St,1,27
+D,A36S,Chambers St,1,32
+D,A38S,Fulton St,1,35
+D,D14N,7 Av,52,4748
+D,D14S,7 Av,68,3930
+D,D15N,47-50 Sts-Rockefeller Ctr,52,4660
+D,D15S,47-50 Sts-Rockefeller Ctr,69,4006
+D,D16N,42 St-Bryant Pk,52,4592
+D,D16S,42 St-Bryant Pk,69,4066
+D,D17N,34 St-Herald Sq,51,4526
+D,D17S,34 St-Herald Sq,70,4137
+D,D20N,W 4 St-Wash Sq,51,4379
+D,D20S,W 4 St-Wash Sq,70,4278
+D,D21N,Broadway-Lafayette St,51,4279
+D,D21S,Broadway-Lafayette St,70,4381
+D,D22N,Grand St,51,4182
+D,D22S,Grand St,71,4482
+F,B06N,Roosevelt Island,13,885
+F,B06S,Roosevelt Island,15,1170
+F,B08N,Lexington Av/63 St,13,885
+F,B08S,Lexington Av/63 St,15,1170
+F,B10N,57 St,13,885
+F,B10S,57 St,15,1170
+F,D15N,47-50 Sts-Rockefeller Ctr,77,6298
+F,D15S,47-50 Sts-Rockefeller Ctr,62,4924
+F,D16N,42 St-Bryant Pk,77,6184
+F,D16S,42 St-Bryant Pk,63,5013
+F,D17N,34 St-Herald Sq,76,6098
+F,D17S,34 St-Herald Sq,63,5086
+F,D18N,23 St,75,6005
+F,D18S,23 St,63,5200
+F,D19N,14 St,75,5918
+F,D19S,14 St,64,5284
+F,D20N,W 4 St-Wash Sq,74,5841
+F,D20S,W 4 St-Wash Sq,64,5404
+F,D21N,Broadway-Lafayette St,74,5710
+F,D21S,Broadway-Lafayette St,66,5548
+F,F11N,Lexington Av/53 St,64,5598
+F,F11S,Lexington Av/53 St,47,3558
+F,F12N,5 Av/53 St,64,5522
+F,F12S,5 Av/53 St,47,3620
+F,F14N,2 Av,74,5626
+F,F14S,2 Av,66,5630
+F,F15N,Delancey St-Essex St,73,5527
+F,F15S,Delancey St-Essex St,66,5723
+F,F16N,East Broadway,73,5457
+F,F16S,East Broadway,66,5802
+M,B06N,Roosevelt Island,31,3770
+M,B06S,Roosevelt Island,31,2712
+M,B08N,Lexington Av/63 St,31,3673
+M,B08S,Lexington Av/63 St,31,2801
+M,B10N,57 St,31,3564
+M,B10S,57 St,32,2904
+M,D15N,47-50 Sts-Rockefeller Ctr,31,3493
+M,D15S,47-50 Sts-Rockefeller Ctr,32,3013
+M,D16N,42 St-Bryant Pk,30,3398
+M,D16S,42 St-Bryant Pk,32,3087
+M,D17N,34 St-Herald Sq,30,3329
+M,D17S,34 St-Herald Sq,33,3162
+M,D18N,23 St,30,3249
+M,D18S,23 St,33,3253
+M,D19N,14 St,29,3175
+M,D19S,14 St,33,3310
+M,D20N,W 4 St-Wash Sq,29,3111
+M,D20S,W 4 St-Wash Sq,34,3431
+M,D21N,Broadway-Lafayette St,28,2998
+M,D21S,Broadway-Lafayette St,34,3557
+M,M18N,Delancey St-Essex St,35,3322
+M,M18S,Delancey St-Essex St,37,3826

@@ -1,0 +1,238 @@
+{
+  "scheduled_start_new_york": "2026-11-11T18:00:00-05:00",
+  "scheduled_end_new_york": "2026-11-11T21:00:00-05:00",
+  "first_request_new_york": "2026-11-11T18:00:02.068968-05:00",
+  "last_request_new_york": "2026-11-11T20:59:32.130112-05:00",
+  "last_response_new_york": "2026-11-11T20:59:32.345272-05:00",
+  "feeds": [
+    {
+      "kind": "alerts",
+      "requests": 360,
+      "successes": 360,
+      "errors": 0
+    },
+    {
+      "kind": "trains",
+      "requests": 360,
+      "successes": 360,
+      "errors": 0
+    }
+  ],
+  "arrival_candidates": 1102,
+  "eta_matched_candidates": 1060,
+  "official_alerts": [
+    {
+      "alert_type": "Boarding Change",
+      "snapshots": 1080,
+      "unique_events": 3,
+      "active_at_source_events": 0
+    },
+    {
+      "alert_type": "Delays",
+      "snapshots": 416,
+      "unique_events": 3,
+      "active_at_source_events": 3
+    },
+    {
+      "alert_type": "Express to Local",
+      "snapshots": 31,
+      "unique_events": 1,
+      "active_at_source_events": 1
+    },
+    {
+      "alert_type": "Planned - Express to Local",
+      "snapshots": 360,
+      "unique_events": 1,
+      "active_at_source_events": 0
+    },
+    {
+      "alert_type": "Planned - Part Suspended",
+      "snapshots": 1800,
+      "unique_events": 5,
+      "active_at_source_events": 0
+    },
+    {
+      "alert_type": "Planned - Reroute",
+      "snapshots": 720,
+      "unique_events": 2,
+      "active_at_source_events": 0
+    },
+    {
+      "alert_type": "Planned - Stops Skipped",
+      "snapshots": 7560,
+      "unique_events": 21,
+      "active_at_source_events": 0
+    },
+    {
+      "alert_type": "Planned - Suspended",
+      "snapshots": 720,
+      "unique_events": 2,
+      "active_at_source_events": 0
+    },
+    {
+      "alert_type": "Station Notice",
+      "snapshots": 360,
+      "unique_events": 1,
+      "active_at_source_events": 1
+    }
+  ],
+  "boundary_observations": [
+    {
+      "route": "B",
+      "stop": "A24N",
+      "records": 3862
+    },
+    {
+      "route": "B",
+      "stop": "A24S",
+      "records": 2717
+    },
+    {
+      "route": "D",
+      "stop": "A24N",
+      "records": 4864
+    },
+    {
+      "route": "D",
+      "stop": "A24S",
+      "records": 3855
+    },
+    {
+      "route": "F",
+      "stop": "B06N",
+      "records": 885
+    },
+    {
+      "route": "F",
+      "stop": "B06S",
+      "records": 1170
+    },
+    {
+      "route": "F",
+      "stop": "B08N",
+      "records": 885
+    },
+    {
+      "route": "F",
+      "stop": "B08S",
+      "records": 1170
+    },
+    {
+      "route": "M",
+      "stop": "B06N",
+      "records": 3770
+    },
+    {
+      "route": "M",
+      "stop": "B06S",
+      "records": 2712
+    },
+    {
+      "route": "M",
+      "stop": "B08N",
+      "records": 3673
+    },
+    {
+      "route": "M",
+      "stop": "B08S",
+      "records": 2801
+    }
+  ],
+  "route_directions": [
+    {
+      "route": "B",
+      "direction": "N",
+      "records": 28513
+    },
+    {
+      "route": "B",
+      "direction": "S",
+      "records": 23983
+    },
+    {
+      "route": "D",
+      "direction": "N",
+      "records": 36230
+    },
+    {
+      "route": "D",
+      "direction": "S",
+      "records": 33277
+    },
+    {
+      "route": "F",
+      "direction": "N",
+      "records": 72439
+    },
+    {
+      "route": "F",
+      "direction": "S",
+      "records": 64302
+    },
+    {
+      "route": "M",
+      "direction": "N",
+      "records": 37082
+    },
+    {
+      "route": "M",
+      "direction": "S",
+      "records": 35056
+    }
+  ],
+  "estimate_label": "API-based estimates; unvalidated arrival candidates, not observed actual arrivals or delays.",
+  "result_directory": "C:\\Users\\holli\\Documents\\ChatGPT\\Studio\\MTA-DATA-TEST\\data\\20261111T230000_613504Z",
+  "collector_log": "C:\\Users\\holli\\Documents\\ChatGPT\\Studio\\MTA-DATA-TEST\\data\\operations\\collector.log",
+  "summary": {
+    "run": "data\\20261111T230000_613504Z",
+    "counts": {
+      "predictions": 330882,
+      "vehicles": 8669,
+      "alerts": 13047
+    },
+    "feeds": {
+      "trains": {
+        "requests": 360,
+        "errors": 0,
+        "distinct_source_timestamps": 360,
+        "min_source_age_seconds": 1.2351305484771729,
+        "max_source_age_seconds": 8.350419998168945
+      },
+      "alerts": {
+        "requests": 360,
+        "errors": 0,
+        "distinct_source_timestamps": 30,
+        "min_source_age_seconds": 1.2822089195251465,
+        "max_source_age_seconds": 1400.294472694397
+      }
+    },
+    "arrival_candidates": 1102,
+    "estimate_basis": "API-based, unvalidated estimates; not actual arrival/delay measurements",
+    "eta_matched_candidates": 1060,
+    "tracked_trip_stops": 3901,
+    "positive_eta_range_trip_stops": 2172,
+    "actual_delay_measured": false,
+    "arrival_algorithm": "v2_station_path_timestamp",
+    "station_change_evidence": 1517,
+    "rejection_reasons": {
+      "candidate": 1102,
+      "not_expected_next_station": 5,
+      "remaining_path_not_yet_aligned": 368,
+      "repeated_out_of_order_or_gap": 1,
+      "stale_or_future_vehicle_time": 37,
+      "vehicle_time_not_new_since_previous_observation": 4
+    },
+    "vehicle_status_counts": {
+      "STOPPED_AT": 8561,
+      "UNKNOWN": 108
+    },
+    "prediction_counts_by_route": {
+      "B": 52496,
+      "D": 69507,
+      "F": 136741,
+      "M": 72138
+    },
+    "distinct_station_directions": 45,
+    "raw_compressed_bytes": 36062729
+  }
+}

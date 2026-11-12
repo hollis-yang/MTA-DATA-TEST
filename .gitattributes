@@ -1,0 +1,2 @@
+# Preserve published dataset bytes so SHA256SUMS works on every platform.
+datasets/** -text

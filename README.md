@@ -1,6 +1,13 @@
 # MTA DATA TEST — Stay / Switch 初步数据探索
 
-每 30 秒采集 MTA 列车与官方服务通知，默认运行 5 分钟。所有数据保存在本机 `data/`；Git 仅上传代码、说明和测试。
+每 30 秒采集 MTA 列车与官方服务通知，默认运行 5 分钟。新采集数据保存在本机 `data/`，不会自动提交；已整理发布的数据位于 `datasets/`。
+
+## 已发布数据
+
+- [2026 年 11 月 11 日 18:00–21:00，纽约时间](datasets/2026-11-11_1800-2100_America-New_York/README.md)：720 次成功请求、完整原始响应与 SQLite 压缩包，以及可直接查看的 CSV。
+- [本批数据分析](datasets/2026-11-11_1800-2100_America-New_York/analysis/README.md)：采集质量、ETA 偏差估计、线路和大站比较、官方事件、候选训练数据及质量复核。
+
+原始数据不作覆盖修改；派生分析可用 `scripts/analyze_collection.py` 重算。候选到站时间仍是 API 推断，尚未经过现场核验。
 
 ## 研究范围
 

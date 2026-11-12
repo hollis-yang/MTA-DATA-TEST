@@ -1,0 +1,19 @@
+{
+  "started": "2026-11-11T23:00:02.054817+00:00",
+  "interval": 30.0,
+  "duration_seconds": 10800.0,
+  "urls": {
+    "trains": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/nyct%2Fgtfs-bdfm",
+    "alerts": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts.json"
+  },
+  "station_source": "https://data.ny.gov/resource/39hk-dx4f.json?$limit=1000",
+  "routes": [
+    "B",
+    "D",
+    "F",
+    "FX",
+    "M"
+  ],
+  "scope": "Manhattan stations at/south of A24, including B08/B06; route-filtered per observation",
+  "max_source_age_for_arrival_estimates": 120
+}

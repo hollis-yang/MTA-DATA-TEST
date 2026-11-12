@@ -1,0 +1,52 @@
+{
+  "run": "data\\20261111T230000_613504Z",
+  "counts": {
+    "predictions": 330882,
+    "vehicles": 8669,
+    "alerts": 13047
+  },
+  "feeds": {
+    "trains": {
+      "requests": 360,
+      "errors": 0,
+      "distinct_source_timestamps": 360,
+      "min_source_age_seconds": 1.2351305484771729,
+      "max_source_age_seconds": 8.350419998168945
+    },
+    "alerts": {
+      "requests": 360,
+      "errors": 0,
+      "distinct_source_timestamps": 30,
+      "min_source_age_seconds": 1.2822089195251465,
+      "max_source_age_seconds": 1400.294472694397
+    }
+  },
+  "arrival_candidates": 1102,
+  "estimate_basis": "API-based, unvalidated estimates; not actual arrival/delay measurements",
+  "eta_matched_candidates": 1060,
+  "tracked_trip_stops": 3901,
+  "positive_eta_range_trip_stops": 2172,
+  "actual_delay_measured": false,
+  "arrival_algorithm": "v2_station_path_timestamp",
+  "station_change_evidence": 1517,
+  "rejection_reasons": {
+    "candidate": 1102,
+    "not_expected_next_station": 5,
+    "remaining_path_not_yet_aligned": 368,
+    "repeated_out_of_order_or_gap": 1,
+    "stale_or_future_vehicle_time": 37,
+    "vehicle_time_not_new_since_previous_observation": 4
+  },
+  "vehicle_status_counts": {
+    "STOPPED_AT": 8561,
+    "UNKNOWN": 108
+  },
+  "prediction_counts_by_route": {
+    "B": 52496,
+    "D": 69507,
+    "F": 136741,
+    "M": 72138
+  },
+  "distinct_station_directions": 45,
+  "raw_compressed_bytes": 36062729
+}
