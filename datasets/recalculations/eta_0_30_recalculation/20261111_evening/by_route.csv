@@ -1,0 +1,11 @@
+sample,route,cases,distinct_trips,mean_error_min,median_error_min,mean_absolute_error_min,over_1_min_count,over_1_min_pct,min_error_min,max_error_min
+all_matched,B,0,0,,,,0,,,
+all_matched,D,1,1,-0.35,-0.35,0.35,0,0.0,-0.35,-0.35
+all_matched,F,0,0,,,,0,,,
+all_matched,M,14,14,-0.15119047619047618,-0.041666666666666664,0.444047619047619,0,0.0,-1.25,0.43333333333333335
+all_matched,FX,0,0,,,,0,,,
+exclude_quality_flags,B,0,0,,,,0,,,
+exclude_quality_flags,D,1,1,-0.35,-0.35,0.35,0,0.0,-0.35,-0.35
+exclude_quality_flags,F,0,0,,,,0,,,
+exclude_quality_flags,M,14,14,-0.15119047619047618,-0.041666666666666664,0.444047619047619,0,0.0,-1.25,0.43333333333333335
+exclude_quality_flags,FX,0,0,,,,0,,,

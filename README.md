@@ -4,6 +4,10 @@
 
 ## 已发布数据
 
+- [11 月 12 日 6:30–9:30AM](datasets/2026-11-12_0630-0930_America-New_York/README.md)：430,920 条预测记录，720 次请求全部成功。
+- [11 月 12 日 12–3PM](datasets/2026-11-12_1200-1500_America-New_York/README.md)：372,293 条预测记录，720 次请求全部成功。
+- [三时段 ETA 重算结果及不同计算口径](datasets/recalculations/README.md)。
+
 - [2026 年 11 月 11 日 18:00–21:00，纽约时间](datasets/2026-11-11_1800-2100_America-New_York/README.md)：720 次成功请求、完整原始响应与 SQLite 压缩包，以及可直接查看的 CSV。
 - [本批数据分析](datasets/2026-11-11_1800-2100_America-New_York/analysis/README.md)：采集质量、ETA 偏差估计、线路和大站比较、官方事件、候选训练数据及质量复核。
 

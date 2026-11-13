@@ -1,0 +1,394 @@
+{
+  "source_run": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning",
+  "source_sha256": "97ea7d3cf1c8b48115ee187641d93f5c4afc53e34db38815c2e12245fbfdd275",
+  "collection_start": "2026-11-12T06:30:00-05:00",
+  "collection_end": "2026-11-12T09:30:00-05:00",
+  "method": {
+    "name": "closest_zero",
+    "remaining_eta_basis": "ETA absolute timestamp minus feed source timestamp",
+    "endpoint": "Prediction minimizing absolute remaining ETA, allowing positive and negative values; earliest source timestamp breaks ties",
+    "reference": "Earliest valid prediction before endpoint with 240 <= remaining ETA <= 360 seconds",
+    "calculation": "(endpoint ETA - reference ETA) / 60",
+    "validity": "HTTP 200, no parse error, feed age -5 to 120 seconds; repeated feed timestamps deduplicated",
+    "arrival_assumption": "Near-arrival ETA is approximately accurate, as specified by the user",
+    "route_scope": "B/D/F/M/FX retained; F and FX reported separately; all originally collected stops retained",
+    "quality_screen": "Flag prediction/vehicle gaps >90s, skipped or unexpected station steps, revisits, future ETA >30s after selected endpoint, conflicting timestamps, endpoints outside window",
+    "uncertainty": "No independent physical arrival validation; negative ETA is not clamped to zero"
+  },
+  "counts": {
+    "unique_trip_stops": 5028,
+    "near_arrival_snapshot_rows": 40,
+    "trip_stops_with_endpoint": 5028,
+    "endpoint_without_reference": 3072,
+    "trip_stops_with_near_arrival": 38
+  },
+  "all_matched": {
+    "cases": 1956,
+    "distinct_trips": 221,
+    "mean_error_min": 0.8696319018404908,
+    "median_error_min": 0.5,
+    "mean_absolute_error_min": 1.2756134969325152,
+    "over_1_min_count": 642,
+    "over_1_min_pct": 32.82208588957055,
+    "min_error_min": -3.3333333333333335,
+    "max_error_min": 18.116666666666667
+  },
+  "excluding_quality_flags": {
+    "cases": 1854,
+    "distinct_trips": 212,
+    "mean_error_min": 0.8063106796116505,
+    "median_error_min": 0.5,
+    "mean_absolute_error_min": 1.2260697590794678,
+    "over_1_min_count": 601,
+    "over_1_min_pct": 32.41639697950377,
+    "min_error_min": -3.3333333333333335,
+    "max_error_min": 13.333333333333334
+  },
+  "flagged_cases": 102,
+  "quality_flag_counts": {
+    "endpoint_outside_collection_window": 67,
+    "eta_returns_above_30s_after_selected_endpoint": 27,
+    "unexpected_station_step": 14,
+    "prediction_gap_over_90s": 3,
+    "vehicle_observation_gap_over_90s": 5,
+    "station_revisited": 5
+  },
+  "distinct_old_matched_cases": 1236,
+  "overlap_with_old_method": 1236,
+  "paired_old_stats": {
+    "cases": 1236,
+    "distinct_trips": 207,
+    "mean_error_min": 0.6523058252427184,
+    "median_error_min": 0.3333333333333333,
+    "mean_absolute_error_min": 1.1049757281553398,
+    "over_1_min_count": 312,
+    "over_1_min_pct": 25.24271844660194,
+    "min_error_min": -3.1666666666666665,
+    "max_error_min": 17.083333333333332
+  },
+  "paired_new_stats": {
+    "cases": 1236,
+    "distinct_trips": 207,
+    "mean_error_min": 0.9715614886731392,
+    "median_error_min": 0.6083333333333334,
+    "mean_absolute_error_min": 1.3035733549083064,
+    "over_1_min_count": 443,
+    "over_1_min_pct": 35.84142394822006,
+    "min_error_min": -3.1666666666666665,
+    "max_error_min": 18.116666666666667
+  },
+  "overlap_reference_changes": 0,
+  "major_stations": [
+    {
+      "sample": "all_matched",
+      "station_code": "D15",
+      "station": "Rockefeller",
+      "cases": 200,
+      "distinct_trips": 200,
+      "mean_error_min": 1.33175,
+      "median_error_min": 0.7083333333333333,
+      "mean_absolute_error_min": 1.65875,
+      "over_1_min_count": 89,
+      "over_1_min_pct": 44.5,
+      "min_error_min": -3.3333333333333335,
+      "max_error_min": 15.616666666666667
+    },
+    {
+      "sample": "all_matched",
+      "station_code": "D16",
+      "station": "Bryant Pk",
+      "cases": 192,
+      "distinct_trips": 192,
+      "mean_error_min": 1.1446180555555556,
+      "median_error_min": 0.6333333333333333,
+      "mean_absolute_error_min": 1.4743055555555555,
+      "over_1_min_count": 71,
+      "over_1_min_pct": 36.979166666666664,
+      "min_error_min": -2.5,
+      "max_error_min": 18.116666666666667
+    },
+    {
+      "sample": "all_matched",
+      "station_code": "D17",
+      "station": "Herald Sq",
+      "cases": 197,
+      "distinct_trips": 197,
+      "mean_error_min": 1.2505922165820642,
+      "median_error_min": 0.8333333333333334,
+      "mean_absolute_error_min": 1.4445008460236886,
+      "over_1_min_count": 84,
+      "over_1_min_pct": 42.63959390862944,
+      "min_error_min": -1.95,
+      "max_error_min": 17.616666666666667
+    },
+    {
+      "sample": "all_matched",
+      "station_code": "D20",
+      "station": "Wash Sq",
+      "cases": 192,
+      "distinct_trips": 192,
+      "mean_error_min": 0.7158854166666667,
+      "median_error_min": 0.5166666666666667,
+      "mean_absolute_error_min": 0.8766493055555555,
+      "over_1_min_count": 52,
+      "over_1_min_pct": 27.083333333333332,
+      "min_error_min": -1.3333333333333333,
+      "max_error_min": 11.666666666666666
+    },
+    {
+      "sample": "exclude_quality_flags",
+      "station_code": "D15",
+      "station": "Rockefeller",
+      "cases": 189,
+      "distinct_trips": 189,
+      "mean_error_min": 1.215784832451499,
+      "median_error_min": 0.7666666666666667,
+      "mean_absolute_error_min": 1.5556437389770723,
+      "over_1_min_count": 85,
+      "over_1_min_pct": 44.973544973544975,
+      "min_error_min": -3.3333333333333335,
+      "max_error_min": 13.333333333333334
+    },
+    {
+      "sample": "exclude_quality_flags",
+      "station_code": "D16",
+      "station": "Bryant Pk",
+      "cases": 183,
+      "distinct_trips": 183,
+      "mean_error_min": 1.0510928961748633,
+      "median_error_min": 0.5833333333333334,
+      "mean_absolute_error_min": 1.391712204007286,
+      "over_1_min_count": 66,
+      "over_1_min_pct": 36.0655737704918,
+      "min_error_min": -2.5,
+      "max_error_min": 7.233333333333333
+    },
+    {
+      "sample": "exclude_quality_flags",
+      "station_code": "D17",
+      "station": "Herald Sq",
+      "cases": 186,
+      "distinct_trips": 186,
+      "mean_error_min": 1.1794802867383511,
+      "median_error_min": 0.8333333333333334,
+      "mean_absolute_error_min": 1.3827060931899642,
+      "over_1_min_count": 78,
+      "over_1_min_pct": 41.935483870967744,
+      "min_error_min": -1.95,
+      "max_error_min": 6.583333333333333
+    },
+    {
+      "sample": "exclude_quality_flags",
+      "station_code": "D20",
+      "station": "Wash Sq",
+      "cases": 181,
+      "distinct_trips": 181,
+      "mean_error_min": 0.6195211786372007,
+      "median_error_min": 0.5,
+      "mean_absolute_error_min": 0.7891344383057091,
+      "over_1_min_count": 48,
+      "over_1_min_pct": 26.519337016574585,
+      "min_error_min": -1.3333333333333333,
+      "max_error_min": 5.25
+    }
+  ],
+  "routes": [
+    {
+      "sample": "all_matched",
+      "route": "B",
+      "cases": 353,
+      "distinct_trips": 48,
+      "mean_error_min": 0.8607648725212464,
+      "median_error_min": 0.5166666666666667,
+      "mean_absolute_error_min": 1.4038243626062323,
+      "over_1_min_count": 123,
+      "over_1_min_pct": 34.844192634560905,
+      "min_error_min": -3.1666666666666665,
+      "max_error_min": 7.25
+    },
+    {
+      "sample": "all_matched",
+      "route": "D",
+      "cases": 371,
+      "distinct_trips": 50,
+      "mean_error_min": 0.948607367475292,
+      "median_error_min": 0.8333333333333334,
+      "mean_absolute_error_min": 1.4589398023360287,
+      "over_1_min_count": 160,
+      "over_1_min_pct": 43.1266846361186,
+      "min_error_min": -2.7666666666666666,
+      "max_error_min": 6.883333333333334
+    },
+    {
+      "sample": "all_matched",
+      "route": "F",
+      "cases": 739,
+      "distinct_trips": 70,
+      "mean_error_min": 0.95148849797023,
+      "median_error_min": 0.48333333333333334,
+      "mean_absolute_error_min": 1.2320929183581417,
+      "over_1_min_count": 220,
+      "over_1_min_pct": 29.76995940460081,
+      "min_error_min": -1.95,
+      "max_error_min": 18.116666666666667
+    },
+    {
+      "sample": "all_matched",
+      "route": "M",
+      "cases": 470,
+      "distinct_trips": 51,
+      "mean_error_min": 0.7247872340425532,
+      "median_error_min": 0.42500000000000004,
+      "mean_absolute_error_min": 1.134290780141844,
+      "over_1_min_count": 134,
+      "over_1_min_pct": 28.51063829787234,
+      "min_error_min": -3.3333333333333335,
+      "max_error_min": 13.333333333333334
+    },
+    {
+      "sample": "all_matched",
+      "route": "FX",
+      "cases": 23,
+      "distinct_trips": 2,
+      "mean_error_min": 0.06159420289855072,
+      "median_error_min": -0.13333333333333333,
+      "mean_absolute_error_min": 0.6369565217391304,
+      "over_1_min_count": 5,
+      "over_1_min_pct": 21.73913043478261,
+      "min_error_min": -0.95,
+      "max_error_min": 1.5
+    },
+    {
+      "sample": "exclude_quality_flags",
+      "route": "B",
+      "cases": 338,
+      "distinct_trips": 46,
+      "mean_error_min": 0.8858481262327417,
+      "median_error_min": 0.55,
+      "mean_absolute_error_min": 1.4291420118343194,
+      "over_1_min_count": 119,
+      "over_1_min_pct": 35.20710059171598,
+      "min_error_min": -3.1666666666666665,
+      "max_error_min": 7.25
+    },
+    {
+      "sample": "exclude_quality_flags",
+      "route": "D",
+      "cases": 360,
+      "distinct_trips": 49,
+      "mean_error_min": 0.9671296296296297,
+      "median_error_min": 0.8666666666666667,
+      "mean_absolute_error_min": 1.4930555555555556,
+      "over_1_min_count": 160,
+      "over_1_min_pct": 44.44444444444444,
+      "min_error_min": -2.7666666666666666,
+      "max_error_min": 6.883333333333334
+    },
+    {
+      "sample": "exclude_quality_flags",
+      "route": "F",
+      "cases": 697,
+      "distinct_trips": 66,
+      "mean_error_min": 0.7543041606886657,
+      "median_error_min": 0.4166666666666667,
+      "mean_absolute_error_min": 1.0514347202295553,
+      "over_1_min_count": 193,
+      "over_1_min_pct": 27.69010043041607,
+      "min_error_min": -1.95,
+      "max_error_min": 11.916666666666666
+    },
+    {
+      "sample": "exclude_quality_flags",
+      "route": "M",
+      "cases": 439,
+      "distinct_trips": 49,
+      "mean_error_min": 0.7316249050873197,
+      "median_error_min": 0.45,
+      "mean_absolute_error_min": 1.157213363705391,
+      "over_1_min_count": 125,
+      "over_1_min_pct": 28.47380410022779,
+      "min_error_min": -3.3333333333333335,
+      "max_error_min": 13.333333333333334
+    },
+    {
+      "sample": "exclude_quality_flags",
+      "route": "FX",
+      "cases": 20,
+      "distinct_trips": 2,
+      "mean_error_min": 0.019166666666666658,
+      "median_error_min": -0.21666666666666667,
+      "mean_absolute_error_min": 0.5858333333333333,
+      "over_1_min_count": 4,
+      "over_1_min_pct": 20.0,
+      "min_error_min": -0.8666666666666667,
+      "max_error_min": 1.5
+    }
+  ],
+  "remaining_eta_distribution": [
+    {
+      "remaining_band": "0–30 seconds",
+      "snapshot_rows": 40
+    },
+    {
+      "remaining_band": "31–60 seconds",
+      "snapshot_rows": 4989
+    },
+    {
+      "remaining_band": "61–120 seconds",
+      "snapshot_rows": 2682
+    },
+    {
+      "remaining_band": "negative",
+      "snapshot_rows": 7775
+    },
+    {
+      "remaining_band": "over 120 seconds",
+      "snapshot_rows": 415434
+    }
+  ],
+  "independent_sql_reconciliation": "passed",
+  "endpoint_proximity": {
+    "all_matched": {
+      "median_absolute_seconds": 11.0,
+      "max_absolute_seconds": 351,
+      "negative_remaining_cases": 1852,
+      "within_15s": 1829,
+      "within_30s": 1871,
+      "within_60s": 1889,
+      "over_60s": 67
+    },
+    "exclude_quality_flags": {
+      "median_absolute_seconds": 11.0,
+      "max_absolute_seconds": 335,
+      "negative_remaining_cases": 1831,
+      "within_15s": 1808,
+      "within_30s": 1850,
+      "within_60s": 1850,
+      "over_60s": 4
+    }
+  },
+  "sensitivity_endpoint_within_60s": {
+    "cases": 1850,
+    "distinct_trips": 210,
+    "mean_error_min": 0.8081621621621622,
+    "median_error_min": 0.5,
+    "mean_absolute_error_min": 1.2284504504504505,
+    "over_1_min_count": 601,
+    "over_1_min_pct": 32.486486486486484,
+    "min_error_min": -3.3333333333333335,
+    "max_error_min": 13.333333333333334
+  },
+  "sensitivity_latest_tied_endpoint_same_cases": {
+    "cases": 1854,
+    "distinct_trips": 212,
+    "mean_error_min": 1.2790632865875584,
+    "median_error_min": 0.9,
+    "mean_absolute_error_min": 1.5329467817331894,
+    "over_1_min_count": 854,
+    "over_1_min_pct": 46.062567421790725,
+    "min_error_min": -3.1666666666666665,
+    "max_error_min": 14.333333333333334
+  },
+  "equal_distance_tie_cases": 764,
+  "source_unchanged": true
+}

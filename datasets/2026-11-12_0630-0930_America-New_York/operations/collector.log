@@ -1,0 +1,1235 @@
+{"status": "preparing", "updated_at": "2026-11-12T06:25:33.609903-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning"}
+{"status": "waiting", "updated_at": "2026-11-12T06:25:34.170404-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning"}
+2026-11-12T11:30:00.193991+00:00 trains source_age_s=14.2 saved
+2026-11-12T11:30:00.216062+00:00 alerts source_age_s=1216.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T06:30:00.216089-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 1, "scheduled_slot": 0, "missed_slots": 0}
+2026-11-12T11:30:30.156106+00:00 trains source_age_s=14.1 saved
+2026-11-12T11:30:30.176948+00:00 alerts source_age_s=1246.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T06:30:30.176968-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 2, "scheduled_slot": 1, "missed_slots": 0}
+2026-11-12T11:31:00.144036+00:00 trains source_age_s=14.1 saved
+2026-11-12T11:31:00.163211+00:00 alerts source_age_s=1276.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T06:31:00.163236-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 3, "scheduled_slot": 2, "missed_slots": 0}
+2026-11-12T11:31:30.198880+00:00 trains source_age_s=14.2 saved
+2026-11-12T11:31:30.219108+00:00 alerts source_age_s=1306.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T06:31:30.219136-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 4, "scheduled_slot": 3, "missed_slots": 0}
+2026-11-12T11:32:00.171786+00:00 trains source_age_s=14.1 saved
+2026-11-12T11:32:00.234151+00:00 alerts source_age_s=1336.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T06:32:00.234183-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 5, "scheduled_slot": 4, "missed_slots": 0}
+2026-11-12T11:32:30.157810+00:00 trains source_age_s=14.1 saved
+2026-11-12T11:32:30.177926+00:00 alerts source_age_s=1366.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T06:32:30.177948-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 6, "scheduled_slot": 5, "missed_slots": 0}
+2026-11-12T11:33:00.171859+00:00 trains source_age_s=14.1 saved
+2026-11-12T11:33:00.190020+00:00 alerts source_age_s=1396.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T06:33:00.190038-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 7, "scheduled_slot": 6, "missed_slots": 0}
+2026-11-12T11:33:30.177056+00:00 trains source_age_s=14.1 saved
+2026-11-12T11:33:30.197110+00:00 alerts source_age_s=1426.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T06:33:30.197126-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 8, "scheduled_slot": 7, "missed_slots": 0}
+2026-11-12T11:34:00.166093+00:00 trains source_age_s=14.1 saved
+2026-11-12T11:34:00.184395+00:00 alerts source_age_s=1456.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T06:34:00.184416-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 9, "scheduled_slot": 8, "missed_slots": 0}
+2026-11-12T11:34:30.182179+00:00 trains source_age_s=14.1 saved
+2026-11-12T11:34:30.201664+00:00 alerts source_age_s=1486.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T06:34:30.201687-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 10, "scheduled_slot": 9, "missed_slots": 0}
+2026-11-12T11:35:00.160269+00:00 trains source_age_s=14.1 saved
+2026-11-12T11:35:00.179404+00:00 alerts source_age_s=1516.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T06:35:00.179426-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 11, "scheduled_slot": 10, "missed_slots": 0}
+2026-11-12T11:35:30.156080+00:00 trains source_age_s=14.1 saved
+2026-11-12T11:35:30.194351+00:00 alerts source_age_s=1546.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T06:35:30.194371-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 12, "scheduled_slot": 11, "missed_slots": 0}
+2026-11-12T11:36:00.173759+00:00 trains source_age_s=14.1 saved
+2026-11-12T11:36:00.207206+00:00 alerts source_age_s=1576.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T06:36:00.207239-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 13, "scheduled_slot": 12, "missed_slots": 0}
+2026-11-12T11:36:30.212021+00:00 trains source_age_s=14.2 saved
+2026-11-12T11:36:30.232900+00:00 alerts source_age_s=1606.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T06:36:30.232933-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 14, "scheduled_slot": 13, "missed_slots": 0}
+2026-11-12T11:37:00.145646+00:00 trains source_age_s=14.1 saved
+2026-11-12T11:37:00.181795+00:00 alerts source_age_s=1636.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T06:37:00.181817-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 15, "scheduled_slot": 14, "missed_slots": 0}
+2026-11-12T11:37:30.177316+00:00 trains source_age_s=14.1 saved
+2026-11-12T11:37:30.196616+00:00 alerts source_age_s=1666.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T06:37:30.196634-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 16, "scheduled_slot": 15, "missed_slots": 0}
+2026-11-12T11:38:00.165446+00:00 trains source_age_s=14.1 saved
+2026-11-12T11:38:00.183766+00:00 alerts source_age_s=1696.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T06:38:00.183785-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 17, "scheduled_slot": 16, "missed_slots": 0}
+2026-11-12T11:38:30.170787+00:00 trains source_age_s=14.1 saved
+2026-11-12T11:38:30.189705+00:00 alerts source_age_s=13.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T06:38:30.189725-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 18, "scheduled_slot": 17, "missed_slots": 0}
+2026-11-12T11:39:00.166392+00:00 trains source_age_s=14.1 saved
+2026-11-12T11:39:00.183990+00:00 alerts source_age_s=43.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T06:39:00.184008-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 19, "scheduled_slot": 18, "missed_slots": 0}
+2026-11-12T11:39:30.159791+00:00 trains source_age_s=14.1 saved
+2026-11-12T11:39:30.181509+00:00 alerts source_age_s=73.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T06:39:30.181536-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 20, "scheduled_slot": 19, "missed_slots": 0}
+2026-11-12T11:40:00.166560+00:00 trains source_age_s=14.1 saved
+2026-11-12T11:40:00.184434+00:00 alerts source_age_s=103.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T06:40:00.184456-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 21, "scheduled_slot": 20, "missed_slots": 0}
+2026-11-12T11:40:30.180751+00:00 trains source_age_s=14.1 saved
+2026-11-12T11:40:30.201108+00:00 alerts source_age_s=30.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T06:40:30.201138-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 22, "scheduled_slot": 21, "missed_slots": 0}
+2026-11-12T11:41:00.153883+00:00 trains source_age_s=13.1 saved
+2026-11-12T11:41:00.171953+00:00 alerts source_age_s=60.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T06:41:00.171974-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 23, "scheduled_slot": 22, "missed_slots": 0}
+2026-11-12T11:41:30.160222+00:00 trains source_age_s=13.1 saved
+2026-11-12T11:41:30.178672+00:00 alerts source_age_s=90.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T06:41:30.178692-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 24, "scheduled_slot": 23, "missed_slots": 0}
+2026-11-12T11:42:00.219436+00:00 trains source_age_s=13.2 saved
+2026-11-12T11:42:00.238294+00:00 alerts source_age_s=120.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T06:42:00.238313-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 25, "scheduled_slot": 24, "missed_slots": 0}
+2026-11-12T11:42:30.158989+00:00 trains source_age_s=13.1 saved
+2026-11-12T11:42:30.177360+00:00 alerts source_age_s=150.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T06:42:30.177380-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 26, "scheduled_slot": 25, "missed_slots": 0}
+2026-11-12T11:43:00.175067+00:00 trains source_age_s=13.1 saved
+2026-11-12T11:43:00.193079+00:00 alerts source_age_s=180.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T06:43:00.193100-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 27, "scheduled_slot": 26, "missed_slots": 0}
+2026-11-12T11:43:30.225662+00:00 trains source_age_s=13.2 saved
+2026-11-12T11:43:30.243967+00:00 alerts source_age_s=210.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T06:43:30.243985-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 28, "scheduled_slot": 27, "missed_slots": 0}
+2026-11-12T11:44:00.188871+00:00 trains source_age_s=13.1 saved
+2026-11-12T11:44:00.205445+00:00 alerts source_age_s=240.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T06:44:00.205471-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 29, "scheduled_slot": 28, "missed_slots": 0}
+2026-11-12T11:44:30.168967+00:00 trains source_age_s=13.1 saved
+2026-11-12T11:44:30.189661+00:00 alerts source_age_s=270.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T06:44:30.189685-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 30, "scheduled_slot": 29, "missed_slots": 0}
+2026-11-12T11:45:00.197206+00:00 trains source_age_s=13.1 saved
+2026-11-12T11:45:00.215707+00:00 alerts source_age_s=300.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T06:45:00.215737-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 31, "scheduled_slot": 30, "missed_slots": 0}
+2026-11-12T11:45:30.159569+00:00 trains source_age_s=13.1 saved
+2026-11-12T11:45:30.177746+00:00 alerts source_age_s=330.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T06:45:30.177762-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 32, "scheduled_slot": 31, "missed_slots": 0}
+2026-11-12T11:46:00.152234+00:00 trains source_age_s=13.1 saved
+2026-11-12T11:46:00.188788+00:00 alerts source_age_s=360.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T06:46:00.188810-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 33, "scheduled_slot": 32, "missed_slots": 0}
+2026-11-12T11:46:30.201568+00:00 trains source_age_s=13.2 saved
+2026-11-12T11:46:30.219845+00:00 alerts source_age_s=390.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T06:46:30.219867-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 34, "scheduled_slot": 33, "missed_slots": 0}
+2026-11-12T11:47:00.169699+00:00 trains source_age_s=13.1 saved
+2026-11-12T11:47:00.187410+00:00 alerts source_age_s=420.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T06:47:00.187437-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 35, "scheduled_slot": 34, "missed_slots": 0}
+2026-11-12T11:47:30.169167+00:00 trains source_age_s=13.1 saved
+2026-11-12T11:47:30.187342+00:00 alerts source_age_s=450.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T06:47:30.187363-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 36, "scheduled_slot": 35, "missed_slots": 0}
+2026-11-12T11:48:00.197328+00:00 trains source_age_s=13.2 saved
+2026-11-12T11:48:00.214639+00:00 alerts source_age_s=480.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T06:48:00.214660-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 37, "scheduled_slot": 36, "missed_slots": 0}
+2026-11-12T11:48:30.169189+00:00 trains source_age_s=13.1 saved
+2026-11-12T11:48:30.187336+00:00 alerts source_age_s=510.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T06:48:30.187356-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 38, "scheduled_slot": 37, "missed_slots": 0}
+2026-11-12T11:49:00.178428+00:00 trains source_age_s=13.1 saved
+2026-11-12T11:49:00.197796+00:00 alerts source_age_s=540.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T06:49:00.197827-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 39, "scheduled_slot": 38, "missed_slots": 0}
+2026-11-12T11:49:30.268363+00:00 trains source_age_s=13.2 saved
+2026-11-12T11:49:30.286880+00:00 alerts source_age_s=570.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T06:49:30.286902-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 40, "scheduled_slot": 39, "missed_slots": 0}
+2026-11-12T11:50:00.154956+00:00 trains source_age_s=13.1 saved
+2026-11-12T11:50:00.172511+00:00 alerts source_age_s=600.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T06:50:00.172532-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 41, "scheduled_slot": 40, "missed_slots": 0}
+2026-11-12T11:50:30.168149+00:00 trains source_age_s=13.1 saved
+2026-11-12T11:50:30.186189+00:00 alerts source_age_s=630.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T06:50:30.186212-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 42, "scheduled_slot": 41, "missed_slots": 0}
+2026-11-12T11:51:00.183662+00:00 trains source_age_s=13.1 saved
+2026-11-12T11:51:00.200785+00:00 alerts source_age_s=660.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T06:51:00.200806-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 43, "scheduled_slot": 42, "missed_slots": 0}
+2026-11-12T11:51:30.166713+00:00 trains source_age_s=13.1 saved
+2026-11-12T11:51:30.184626+00:00 alerts source_age_s=690.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T06:51:30.184646-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 44, "scheduled_slot": 43, "missed_slots": 0}
+2026-11-12T11:52:00.187258+00:00 trains source_age_s=13.1 saved
+2026-11-12T11:52:00.204646+00:00 alerts source_age_s=720.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T06:52:00.204671-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 45, "scheduled_slot": 44, "missed_slots": 0}
+2026-11-12T11:52:30.193218+00:00 trains source_age_s=13.1 saved
+2026-11-12T11:52:30.211362+00:00 alerts source_age_s=750.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T06:52:30.211385-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 46, "scheduled_slot": 45, "missed_slots": 0}
+2026-11-12T11:53:00.176908+00:00 trains source_age_s=13.1 saved
+2026-11-12T11:53:00.196723+00:00 alerts source_age_s=780.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T06:53:00.196756-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 47, "scheduled_slot": 46, "missed_slots": 0}
+2026-11-12T11:53:30.166662+00:00 trains source_age_s=13.1 saved
+2026-11-12T11:53:30.184567+00:00 alerts source_age_s=810.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T06:53:30.184584-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 48, "scheduled_slot": 47, "missed_slots": 0}
+2026-11-12T11:54:00.231409+00:00 trains source_age_s=13.2 saved
+2026-11-12T11:54:00.247517+00:00 alerts source_age_s=840.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T06:54:00.247544-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 49, "scheduled_slot": 48, "missed_slots": 0}
+2026-11-12T11:54:30.170627+00:00 trains source_age_s=13.1 saved
+2026-11-12T11:54:30.188388+00:00 alerts source_age_s=870.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T06:54:30.188417-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 50, "scheduled_slot": 49, "missed_slots": 0}
+2026-11-12T11:55:00.156354+00:00 trains source_age_s=13.1 saved
+2026-11-12T11:55:00.173951+00:00 alerts source_age_s=900.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T06:55:00.173975-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 51, "scheduled_slot": 50, "missed_slots": 0}
+2026-11-12T11:55:30.192392+00:00 trains source_age_s=12.1 saved
+2026-11-12T11:55:30.210419+00:00 alerts source_age_s=930.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T06:55:30.210442-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 52, "scheduled_slot": 51, "missed_slots": 0}
+2026-11-12T11:56:00.183710+00:00 trains source_age_s=12.1 saved
+2026-11-12T11:56:00.200729+00:00 alerts source_age_s=960.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T06:56:00.200753-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 53, "scheduled_slot": 52, "missed_slots": 0}
+2026-11-12T11:56:30.172660+00:00 trains source_age_s=12.1 saved
+2026-11-12T11:56:30.190545+00:00 alerts source_age_s=990.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T06:56:30.190567-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 54, "scheduled_slot": 53, "missed_slots": 0}
+2026-11-12T11:57:00.185550+00:00 trains source_age_s=13.1 saved
+2026-11-12T11:57:00.205684+00:00 alerts source_age_s=1020.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T06:57:00.205722-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 55, "scheduled_slot": 54, "missed_slots": 0}
+2026-11-12T11:57:30.183067+00:00 trains source_age_s=12.1 saved
+2026-11-12T11:57:30.201142+00:00 alerts source_age_s=1050.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T06:57:30.201162-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 56, "scheduled_slot": 55, "missed_slots": 0}
+2026-11-12T11:58:00.179969+00:00 trains source_age_s=12.1 saved
+2026-11-12T11:58:00.197316+00:00 alerts source_age_s=1080.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T06:58:00.197345-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 57, "scheduled_slot": 56, "missed_slots": 0}
+2026-11-12T11:58:30.188890+00:00 trains source_age_s=12.1 saved
+2026-11-12T11:58:30.206466+00:00 alerts source_age_s=1110.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T06:58:30.206484-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 58, "scheduled_slot": 57, "missed_slots": 0}
+2026-11-12T11:59:00.187069+00:00 trains source_age_s=12.1 saved
+2026-11-12T11:59:00.205115+00:00 alerts source_age_s=19.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T06:59:00.205149-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 59, "scheduled_slot": 58, "missed_slots": 0}
+2026-11-12T11:59:30.171452+00:00 trains source_age_s=12.1 saved
+2026-11-12T11:59:30.189219+00:00 alerts source_age_s=49.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T06:59:30.189242-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 60, "scheduled_slot": 59, "missed_slots": 0}
+2026-11-12T12:00:00.188396+00:00 trains source_age_s=12.1 saved
+2026-11-12T12:00:00.205521+00:00 alerts source_age_s=79.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:00:00.205550-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 61, "scheduled_slot": 60, "missed_slots": 0}
+2026-11-12T12:00:30.167930+00:00 trains source_age_s=12.1 saved
+2026-11-12T12:00:30.185574+00:00 alerts source_age_s=109.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:00:30.185593-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 62, "scheduled_slot": 61, "missed_slots": 0}
+2026-11-12T12:01:00.175269+00:00 trains source_age_s=12.1 saved
+2026-11-12T12:01:00.192171+00:00 alerts source_age_s=139.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:01:00.192199-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 63, "scheduled_slot": 62, "missed_slots": 0}
+2026-11-12T12:01:30.194760+00:00 trains source_age_s=12.1 saved
+2026-11-12T12:01:30.214131+00:00 alerts source_age_s=169.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:01:30.214161-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 64, "scheduled_slot": 63, "missed_slots": 0}
+2026-11-12T12:02:00.162585+00:00 trains source_age_s=12.1 saved
+2026-11-12T12:02:00.197943+00:00 alerts source_age_s=199.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:02:00.197969-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 65, "scheduled_slot": 64, "missed_slots": 0}
+2026-11-12T12:02:30.174042+00:00 trains source_age_s=12.1 saved
+2026-11-12T12:02:30.191654+00:00 alerts source_age_s=229.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:02:30.191671-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 66, "scheduled_slot": 65, "missed_slots": 0}
+2026-11-12T12:03:00.204902+00:00 trains source_age_s=12.2 saved
+2026-11-12T12:03:00.222556+00:00 alerts source_age_s=259.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:03:00.222585-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 67, "scheduled_slot": 66, "missed_slots": 0}
+2026-11-12T12:03:30.172103+00:00 trains source_age_s=12.1 saved
+2026-11-12T12:03:30.189494+00:00 alerts source_age_s=289.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:03:30.189514-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 68, "scheduled_slot": 67, "missed_slots": 0}
+2026-11-12T12:04:00.214995+00:00 trains source_age_s=12.1 saved
+2026-11-12T12:04:00.231002+00:00 alerts source_age_s=319.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:04:00.231020-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 69, "scheduled_slot": 68, "missed_slots": 0}
+2026-11-12T12:04:30.184122+00:00 trains source_age_s=12.1 saved
+2026-11-12T12:04:30.231782+00:00 alerts source_age_s=349.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:04:30.231805-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 70, "scheduled_slot": 69, "missed_slots": 0}
+2026-11-12T12:05:00.163724+00:00 trains source_age_s=12.1 saved
+2026-11-12T12:05:00.180867+00:00 alerts source_age_s=379.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:05:00.180892-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 71, "scheduled_slot": 70, "missed_slots": 0}
+2026-11-12T12:05:30.187224+00:00 trains source_age_s=12.1 saved
+2026-11-12T12:05:30.206683+00:00 alerts source_age_s=409.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:05:30.206709-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 72, "scheduled_slot": 71, "missed_slots": 0}
+2026-11-12T12:06:00.184051+00:00 trains source_age_s=12.1 saved
+2026-11-12T12:06:00.200944+00:00 alerts source_age_s=439.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:06:00.200965-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 73, "scheduled_slot": 72, "missed_slots": 0}
+2026-11-12T12:06:30.172351+00:00 trains source_age_s=12.1 saved
+2026-11-12T12:06:30.189742+00:00 alerts source_age_s=469.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:06:30.189760-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 74, "scheduled_slot": 73, "missed_slots": 0}
+2026-11-12T12:07:00.184978+00:00 trains source_age_s=12.1 saved
+2026-11-12T12:07:00.202540+00:00 alerts source_age_s=499.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:07:00.202565-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 75, "scheduled_slot": 74, "missed_slots": 0}
+2026-11-12T12:07:30.209947+00:00 trains source_age_s=12.2 saved
+2026-11-12T12:07:30.227286+00:00 alerts source_age_s=19.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:07:30.227306-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 76, "scheduled_slot": 75, "missed_slots": 0}
+2026-11-12T12:08:00.168297+00:00 trains source_age_s=12.1 saved
+2026-11-12T12:08:00.186104+00:00 alerts source_age_s=49.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:08:00.186127-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 77, "scheduled_slot": 76, "missed_slots": 0}
+2026-11-12T12:08:30.190299+00:00 trains source_age_s=12.1 saved
+2026-11-12T12:08:30.207849+00:00 alerts source_age_s=79.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:08:30.207872-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 78, "scheduled_slot": 77, "missed_slots": 0}
+2026-11-12T12:09:00.231651+00:00 trains source_age_s=12.2 saved
+2026-11-12T12:09:00.248945+00:00 alerts source_age_s=109.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:09:00.248977-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 79, "scheduled_slot": 78, "missed_slots": 0}
+2026-11-12T12:09:30.384021+00:00 trains source_age_s=12.3 saved
+2026-11-12T12:09:30.402842+00:00 alerts source_age_s=139.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:09:30.402868-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 80, "scheduled_slot": 79, "missed_slots": 0}
+2026-11-12T12:10:00.162861+00:00 trains source_age_s=12.1 saved
+2026-11-12T12:10:00.179903+00:00 alerts source_age_s=169.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:10:00.179938-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 81, "scheduled_slot": 80, "missed_slots": 0}
+2026-11-12T12:10:30.240154+00:00 trains source_age_s=12.2 saved
+2026-11-12T12:10:30.257397+00:00 alerts source_age_s=199.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:10:30.257417-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 82, "scheduled_slot": 81, "missed_slots": 0}
+2026-11-12T12:11:00.192093+00:00 trains source_age_s=12.1 saved
+2026-11-12T12:11:00.209561+00:00 alerts source_age_s=12.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:11:00.209590-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 83, "scheduled_slot": 82, "missed_slots": 0}
+2026-11-12T12:11:30.183189+00:00 trains source_age_s=12.1 saved
+2026-11-12T12:11:30.200365+00:00 alerts source_age_s=42.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:11:30.200387-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 84, "scheduled_slot": 83, "missed_slots": 0}
+2026-11-12T12:12:00.200237+00:00 trains source_age_s=12.1 saved
+2026-11-12T12:12:00.217738+00:00 alerts source_age_s=72.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:12:00.217762-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 85, "scheduled_slot": 84, "missed_slots": 0}
+2026-11-12T12:12:30.188240+00:00 trains source_age_s=12.1 saved
+2026-11-12T12:12:30.205199+00:00 alerts source_age_s=102.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:12:30.205216-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 86, "scheduled_slot": 85, "missed_slots": 0}
+2026-11-12T12:13:00.165390+00:00 trains source_age_s=12.1 saved
+2026-11-12T12:13:00.190128+00:00 alerts source_age_s=132.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:13:00.190150-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 87, "scheduled_slot": 86, "missed_slots": 0}
+2026-11-12T12:13:30.204771+00:00 trains source_age_s=12.1 saved
+2026-11-12T12:13:30.221309+00:00 alerts source_age_s=162.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:13:30.221326-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 88, "scheduled_slot": 87, "missed_slots": 0}
+2026-11-12T12:14:00.270212+00:00 trains source_age_s=12.2 saved
+2026-11-12T12:14:00.287324+00:00 alerts source_age_s=192.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:14:00.287348-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 89, "scheduled_slot": 88, "missed_slots": 0}
+2026-11-12T12:14:30.174462+00:00 trains source_age_s=12.1 saved
+2026-11-12T12:14:30.203499+00:00 alerts source_age_s=222.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:14:30.203519-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 90, "scheduled_slot": 89, "missed_slots": 0}
+2026-11-12T12:15:00.164749+00:00 trains source_age_s=12.1 saved
+2026-11-12T12:15:00.180849+00:00 alerts source_age_s=252.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:15:00.180867-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 91, "scheduled_slot": 90, "missed_slots": 0}
+2026-11-12T12:15:30.207275+00:00 trains source_age_s=11.1 saved
+2026-11-12T12:15:30.224741+00:00 alerts source_age_s=282.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:15:30.224764-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 92, "scheduled_slot": 91, "missed_slots": 0}
+2026-11-12T12:16:00.168188+00:00 trains source_age_s=12.1 saved
+2026-11-12T12:16:00.185200+00:00 alerts source_age_s=312.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:16:00.185222-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 93, "scheduled_slot": 92, "missed_slots": 0}
+2026-11-12T12:16:30.196394+00:00 trains source_age_s=12.1 saved
+2026-11-12T12:16:30.213148+00:00 alerts source_age_s=342.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:16:30.213164-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 94, "scheduled_slot": 93, "missed_slots": 0}
+2026-11-12T12:17:00.238473+00:00 trains source_age_s=12.2 saved
+2026-11-12T12:17:00.255105+00:00 alerts source_age_s=372.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:17:00.255133-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 95, "scheduled_slot": 94, "missed_slots": 0}
+2026-11-12T12:17:30.173567+00:00 trains source_age_s=11.1 saved
+2026-11-12T12:17:30.190727+00:00 alerts source_age_s=402.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:17:30.190758-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 96, "scheduled_slot": 95, "missed_slots": 0}
+2026-11-12T12:18:00.194939+00:00 trains source_age_s=11.1 saved
+2026-11-12T12:18:00.214039+00:00 alerts source_age_s=432.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:18:00.214070-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 97, "scheduled_slot": 96, "missed_slots": 0}
+2026-11-12T12:18:30.195015+00:00 trains source_age_s=11.1 saved
+2026-11-12T12:18:30.212266+00:00 alerts source_age_s=462.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:18:30.212283-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 98, "scheduled_slot": 97, "missed_slots": 0}
+2026-11-12T12:19:00.177948+00:00 trains source_age_s=11.1 saved
+2026-11-12T12:19:00.224066+00:00 alerts source_age_s=492.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:19:00.224100-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 99, "scheduled_slot": 98, "missed_slots": 0}
+2026-11-12T12:19:30.260634+00:00 trains source_age_s=11.1 saved
+2026-11-12T12:19:30.276940+00:00 alerts source_age_s=522.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:19:30.276974-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 100, "scheduled_slot": 99, "missed_slots": 0}
+2026-11-12T12:20:00.217753+00:00 trains source_age_s=11.2 saved
+2026-11-12T12:20:00.234210+00:00 alerts source_age_s=552.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:20:00.234237-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 101, "scheduled_slot": 100, "missed_slots": 0}
+2026-11-12T12:20:30.181823+00:00 trains source_age_s=11.1 saved
+2026-11-12T12:20:30.198466+00:00 alerts source_age_s=582.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:20:30.198481-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 102, "scheduled_slot": 101, "missed_slots": 0}
+2026-11-12T12:21:00.177295+00:00 trains source_age_s=11.1 saved
+2026-11-12T12:21:00.194441+00:00 alerts source_age_s=612.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:21:00.194466-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 103, "scheduled_slot": 102, "missed_slots": 0}
+2026-11-12T12:21:30.208511+00:00 trains source_age_s=11.1 saved
+2026-11-12T12:21:30.225847+00:00 alerts source_age_s=642.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:21:30.225868-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 104, "scheduled_slot": 103, "missed_slots": 0}
+2026-11-12T12:22:00.208186+00:00 trains source_age_s=11.2 saved
+2026-11-12T12:22:00.227445+00:00 alerts source_age_s=672.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:22:00.227480-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 105, "scheduled_slot": 104, "missed_slots": 0}
+2026-11-12T12:22:30.190838+00:00 trains source_age_s=11.1 saved
+2026-11-12T12:22:30.207778+00:00 alerts source_age_s=702.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:22:30.207795-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 106, "scheduled_slot": 105, "missed_slots": 0}
+2026-11-12T12:23:00.192528+00:00 trains source_age_s=11.1 saved
+2026-11-12T12:23:00.212258+00:00 alerts source_age_s=732.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:23:00.212286-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 107, "scheduled_slot": 106, "missed_slots": 0}
+2026-11-12T12:23:30.199227+00:00 trains source_age_s=11.1 saved
+2026-11-12T12:23:30.216198+00:00 alerts source_age_s=762.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:23:30.216219-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 108, "scheduled_slot": 107, "missed_slots": 0}
+2026-11-12T12:24:00.237342+00:00 trains source_age_s=11.1 saved
+2026-11-12T12:24:00.252397+00:00 alerts source_age_s=792.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:24:00.252416-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 109, "scheduled_slot": 108, "missed_slots": 0}
+2026-11-12T12:24:30.192538+00:00 trains source_age_s=11.1 saved
+2026-11-12T12:24:30.209264+00:00 alerts source_age_s=822.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:24:30.209282-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 110, "scheduled_slot": 109, "missed_slots": 0}
+2026-11-12T12:25:00.203712+00:00 trains source_age_s=11.1 saved
+2026-11-12T12:25:00.220974+00:00 alerts source_age_s=852.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:25:00.221002-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 111, "scheduled_slot": 110, "missed_slots": 0}
+2026-11-12T12:25:30.183264+00:00 trains source_age_s=11.1 saved
+2026-11-12T12:25:30.199718+00:00 alerts source_age_s=882.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:25:30.199736-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 112, "scheduled_slot": 111, "missed_slots": 0}
+2026-11-12T12:26:00.197194+00:00 trains source_age_s=11.1 saved
+2026-11-12T12:26:00.215114+00:00 alerts source_age_s=912.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:26:00.215146-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 113, "scheduled_slot": 112, "missed_slots": 0}
+2026-11-12T12:26:30.283199+00:00 trains source_age_s=11.2 saved
+2026-11-12T12:26:30.301512+00:00 alerts source_age_s=942.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:26:30.301540-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 114, "scheduled_slot": 113, "missed_slots": 0}
+2026-11-12T12:27:00.184113+00:00 trains source_age_s=11.1 saved
+2026-11-12T12:27:00.201104+00:00 alerts source_age_s=972.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:27:00.201130-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 115, "scheduled_slot": 114, "missed_slots": 0}
+2026-11-12T12:27:30.176652+00:00 trains source_age_s=11.1 saved
+2026-11-12T12:27:30.194201+00:00 alerts source_age_s=1002.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:27:30.194223-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 116, "scheduled_slot": 115, "missed_slots": 0}
+2026-11-12T12:28:00.193275+00:00 trains source_age_s=11.1 saved
+2026-11-12T12:28:00.210318+00:00 alerts source_age_s=1032.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:28:00.210339-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 117, "scheduled_slot": 116, "missed_slots": 0}
+2026-11-12T12:28:30.172051+00:00 trains source_age_s=11.1 saved
+2026-11-12T12:28:30.189035+00:00 alerts source_age_s=1062.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:28:30.189068-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 118, "scheduled_slot": 117, "missed_slots": 0}
+2026-11-12T12:29:00.168408+00:00 trains source_age_s=11.1 saved
+2026-11-12T12:29:00.185050+00:00 alerts source_age_s=1092.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:29:00.185071-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 119, "scheduled_slot": 118, "missed_slots": 0}
+2026-11-12T12:29:30.207440+00:00 trains source_age_s=11.1 saved
+2026-11-12T12:29:30.224274+00:00 alerts source_age_s=1122.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:29:30.224293-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 120, "scheduled_slot": 119, "missed_slots": 0}
+2026-11-12T12:30:00.185154+00:00 trains source_age_s=11.1 saved
+2026-11-12T12:30:00.201815+00:00 alerts source_age_s=1152.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:30:00.201839-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 121, "scheduled_slot": 120, "missed_slots": 0}
+2026-11-12T12:30:30.179535+00:00 trains source_age_s=11.1 saved
+2026-11-12T12:30:30.198100+00:00 alerts source_age_s=1182.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:30:30.198119-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 122, "scheduled_slot": 121, "missed_slots": 0}
+2026-11-12T12:31:00.195140+00:00 trains source_age_s=11.1 saved
+2026-11-12T12:31:00.212296+00:00 alerts source_age_s=1212.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:31:00.212330-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 123, "scheduled_slot": 122, "missed_slots": 0}
+2026-11-12T12:31:30.188333+00:00 trains source_age_s=11.1 saved
+2026-11-12T12:31:30.206313+00:00 alerts source_age_s=1242.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:31:30.206333-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 124, "scheduled_slot": 123, "missed_slots": 0}
+2026-11-12T12:32:00.237204+00:00 trains source_age_s=11.2 saved
+2026-11-12T12:32:00.253990+00:00 alerts source_age_s=1272.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:32:00.254016-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 125, "scheduled_slot": 124, "missed_slots": 0}
+2026-11-12T12:32:30.219372+00:00 trains source_age_s=10.2 saved
+2026-11-12T12:32:30.236489+00:00 alerts source_age_s=1302.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:32:30.236510-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 126, "scheduled_slot": 125, "missed_slots": 0}
+2026-11-12T12:33:00.196095+00:00 trains source_age_s=11.1 saved
+2026-11-12T12:33:00.212884+00:00 alerts source_age_s=1332.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:33:00.212912-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 127, "scheduled_slot": 126, "missed_slots": 0}
+2026-11-12T12:33:30.172813+00:00 trains source_age_s=10.1 saved
+2026-11-12T12:33:30.189879+00:00 alerts source_age_s=21.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:33:30.189898-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 128, "scheduled_slot": 127, "missed_slots": 0}
+2026-11-12T12:34:00.252745+00:00 trains source_age_s=11.1 saved
+2026-11-12T12:34:00.267499+00:00 alerts source_age_s=51.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:34:00.267522-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 129, "scheduled_slot": 128, "missed_slots": 0}
+2026-11-12T12:34:30.230244+00:00 trains source_age_s=11.2 saved
+2026-11-12T12:34:30.248777+00:00 alerts source_age_s=81.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:34:30.248798-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 130, "scheduled_slot": 129, "missed_slots": 0}
+2026-11-12T12:35:00.235468+00:00 trains source_age_s=11.2 saved
+2026-11-12T12:35:00.252554+00:00 alerts source_age_s=111.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:35:00.252581-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 131, "scheduled_slot": 130, "missed_slots": 0}
+2026-11-12T12:35:30.225631+00:00 trains source_age_s=11.2 saved
+2026-11-12T12:35:30.242589+00:00 alerts source_age_s=141.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:35:30.242615-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 132, "scheduled_slot": 131, "missed_slots": 0}
+2026-11-12T12:36:00.226381+00:00 trains source_age_s=11.2 saved
+2026-11-12T12:36:00.243649+00:00 alerts source_age_s=171.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:36:00.243678-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 133, "scheduled_slot": 132, "missed_slots": 0}
+2026-11-12T12:36:30.218922+00:00 trains source_age_s=11.1 saved
+2026-11-12T12:36:30.234237+00:00 alerts source_age_s=201.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:36:30.234254-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 134, "scheduled_slot": 133, "missed_slots": 0}
+2026-11-12T12:37:00.199285+00:00 trains source_age_s=10.1 saved
+2026-11-12T12:37:00.215500+00:00 alerts source_age_s=231.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:37:00.215522-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 135, "scheduled_slot": 134, "missed_slots": 0}
+2026-11-12T12:37:30.192762+00:00 trains source_age_s=10.1 saved
+2026-11-12T12:37:30.209285+00:00 alerts source_age_s=261.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:37:30.209300-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 136, "scheduled_slot": 135, "missed_slots": 0}
+2026-11-12T12:38:00.172449+00:00 trains source_age_s=10.1 saved
+2026-11-12T12:38:00.188556+00:00 alerts source_age_s=291.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:38:00.188581-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 137, "scheduled_slot": 136, "missed_slots": 0}
+2026-11-12T12:38:30.198811+00:00 trains source_age_s=10.1 saved
+2026-11-12T12:38:30.218480+00:00 alerts source_age_s=321.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:38:30.218506-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 138, "scheduled_slot": 137, "missed_slots": 0}
+2026-11-12T12:39:00.175159+00:00 trains source_age_s=10.1 saved
+2026-11-12T12:39:00.258668+00:00 alerts source_age_s=351.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:39:00.258701-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 139, "scheduled_slot": 138, "missed_slots": 0}
+2026-11-12T12:39:30.179177+00:00 trains source_age_s=10.1 saved
+2026-11-12T12:39:30.200578+00:00 alerts source_age_s=381.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:39:30.200595-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 140, "scheduled_slot": 139, "missed_slots": 0}
+2026-11-12T12:40:00.208677+00:00 trains source_age_s=10.1 saved
+2026-11-12T12:40:00.225660+00:00 alerts source_age_s=411.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:40:00.225686-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 141, "scheduled_slot": 140, "missed_slots": 0}
+2026-11-12T12:40:30.174457+00:00 trains source_age_s=10.1 saved
+2026-11-12T12:40:30.191455+00:00 alerts source_age_s=441.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:40:30.191471-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 142, "scheduled_slot": 141, "missed_slots": 0}
+2026-11-12T12:41:00.177891+00:00 trains source_age_s=10.1 saved
+2026-11-12T12:41:00.193701+00:00 alerts source_age_s=471.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:41:00.193726-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 143, "scheduled_slot": 142, "missed_slots": 0}
+2026-11-12T12:41:30.227864+00:00 trains source_age_s=10.2 saved
+2026-11-12T12:41:30.244688+00:00 alerts source_age_s=501.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:41:30.244707-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 144, "scheduled_slot": 143, "missed_slots": 0}
+2026-11-12T12:42:00.184069+00:00 trains source_age_s=10.1 saved
+2026-11-12T12:42:00.200844+00:00 alerts source_age_s=8.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:42:00.200863-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 145, "scheduled_slot": 144, "missed_slots": 0}
+2026-11-12T12:42:30.187258+00:00 trains source_age_s=10.1 saved
+2026-11-12T12:42:30.204489+00:00 alerts source_age_s=38.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:42:30.204509-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 146, "scheduled_slot": 145, "missed_slots": 0}
+2026-11-12T12:43:00.236246+00:00 trains source_age_s=10.2 saved
+2026-11-12T12:43:00.255162+00:00 alerts source_age_s=68.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:43:00.255189-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 147, "scheduled_slot": 146, "missed_slots": 0}
+2026-11-12T12:43:30.187178+00:00 trains source_age_s=10.1 saved
+2026-11-12T12:43:30.204435+00:00 alerts source_age_s=28.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:43:30.204452-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 148, "scheduled_slot": 147, "missed_slots": 0}
+2026-11-12T12:44:00.246140+00:00 trains source_age_s=10.1 saved
+2026-11-12T12:44:00.261431+00:00 alerts source_age_s=58.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:44:00.261463-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 149, "scheduled_slot": 148, "missed_slots": 0}
+2026-11-12T12:44:30.279681+00:00 trains source_age_s=10.2 saved
+2026-11-12T12:44:30.294700+00:00 alerts source_age_s=30.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:44:30.294719-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 150, "scheduled_slot": 149, "missed_slots": 0}
+2026-11-12T12:45:00.205694+00:00 trains source_age_s=10.1 saved
+2026-11-12T12:45:00.222271+00:00 alerts source_age_s=60.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:45:00.222297-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 151, "scheduled_slot": 150, "missed_slots": 0}
+2026-11-12T12:45:30.192669+00:00 trains source_age_s=10.1 saved
+2026-11-12T12:45:30.210026+00:00 alerts source_age_s=90.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:45:30.210059-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 152, "scheduled_slot": 151, "missed_slots": 0}
+2026-11-12T12:46:00.208152+00:00 trains source_age_s=10.1 saved
+2026-11-12T12:46:00.224991+00:00 alerts source_age_s=20.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:46:00.225014-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 153, "scheduled_slot": 152, "missed_slots": 0}
+2026-11-12T12:46:30.211719+00:00 trains source_age_s=10.1 saved
+2026-11-12T12:46:30.227068+00:00 alerts source_age_s=50.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:46:30.227090-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 154, "scheduled_slot": 153, "missed_slots": 0}
+2026-11-12T12:47:00.219453+00:00 trains source_age_s=10.2 saved
+2026-11-12T12:47:00.238413+00:00 alerts source_age_s=6.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:47:00.238447-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 155, "scheduled_slot": 154, "missed_slots": 0}
+2026-11-12T12:47:30.243313+00:00 trains source_age_s=10.2 saved
+2026-11-12T12:47:30.260706+00:00 alerts source_age_s=36.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:47:30.260732-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 156, "scheduled_slot": 155, "missed_slots": 0}
+2026-11-12T12:48:00.182852+00:00 trains source_age_s=10.1 saved
+2026-11-12T12:48:00.200373+00:00 alerts source_age_s=66.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:48:00.200395-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 157, "scheduled_slot": 156, "missed_slots": 0}
+2026-11-12T12:48:30.181080+00:00 trains source_age_s=10.1 saved
+2026-11-12T12:48:30.198131+00:00 alerts source_age_s=96.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:48:30.198149-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 158, "scheduled_slot": 157, "missed_slots": 0}
+2026-11-12T12:49:00.198929+00:00 trains source_age_s=10.1 saved
+2026-11-12T12:49:00.216292+00:00 alerts source_age_s=126.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:49:00.216313-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 159, "scheduled_slot": 158, "missed_slots": 0}
+2026-11-12T12:49:30.172818+00:00 trains source_age_s=10.1 saved
+2026-11-12T12:49:30.190183+00:00 alerts source_age_s=156.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:49:30.190203-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 160, "scheduled_slot": 159, "missed_slots": 0}
+2026-11-12T12:50:00.208425+00:00 trains source_age_s=10.1 saved
+2026-11-12T12:50:00.223804+00:00 alerts source_age_s=186.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:50:00.223824-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 161, "scheduled_slot": 160, "missed_slots": 0}
+2026-11-12T12:50:30.205151+00:00 trains source_age_s=10.1 saved
+2026-11-12T12:50:30.224727+00:00 alerts source_age_s=20.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:50:30.224748-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 162, "scheduled_slot": 161, "missed_slots": 0}
+2026-11-12T12:51:00.194926+00:00 trains source_age_s=10.1 saved
+2026-11-12T12:51:00.211833+00:00 alerts source_age_s=50.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:51:00.211853-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 163, "scheduled_slot": 162, "missed_slots": 0}
+2026-11-12T12:51:30.196942+00:00 trains source_age_s=10.1 saved
+2026-11-12T12:51:30.214402+00:00 alerts source_age_s=80.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:51:30.214429-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 164, "scheduled_slot": 163, "missed_slots": 0}
+2026-11-12T12:52:00.233629+00:00 trains source_age_s=10.2 saved
+2026-11-12T12:52:00.250787+00:00 alerts source_age_s=110.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:52:00.250833-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 165, "scheduled_slot": 164, "missed_slots": 0}
+2026-11-12T12:52:30.202928+00:00 trains source_age_s=10.1 saved
+2026-11-12T12:52:30.220520+00:00 alerts source_age_s=140.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:52:30.220549-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 166, "scheduled_slot": 165, "missed_slots": 0}
+2026-11-12T12:53:00.182844+00:00 trains source_age_s=10.1 saved
+2026-11-12T12:53:00.199673+00:00 alerts source_age_s=25.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:53:00.199695-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 167, "scheduled_slot": 166, "missed_slots": 0}
+2026-11-12T12:53:30.260936+00:00 trains source_age_s=10.2 saved
+2026-11-12T12:53:30.278026+00:00 alerts source_age_s=17.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:53:30.278051-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 168, "scheduled_slot": 167, "missed_slots": 0}
+2026-11-12T12:54:00.266369+00:00 trains source_age_s=10.2 saved
+2026-11-12T12:54:00.281758+00:00 alerts source_age_s=47.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:54:00.281776-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 169, "scheduled_slot": 168, "missed_slots": 0}
+2026-11-12T12:54:30.237201+00:00 trains source_age_s=10.1 saved
+2026-11-12T12:54:30.254692+00:00 alerts source_age_s=28.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:54:30.254718-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 170, "scheduled_slot": 169, "missed_slots": 0}
+2026-11-12T12:55:00.194209+00:00 trains source_age_s=9.1 saved
+2026-11-12T12:55:00.211023+00:00 alerts source_age_s=58.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:55:00.211047-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 171, "scheduled_slot": 170, "missed_slots": 0}
+2026-11-12T12:55:30.190638+00:00 trains source_age_s=9.1 saved
+2026-11-12T12:55:30.207313+00:00 alerts source_age_s=88.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:55:30.207327-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 172, "scheduled_slot": 171, "missed_slots": 0}
+2026-11-12T12:56:00.195377+00:00 trains source_age_s=9.1 saved
+2026-11-12T12:56:00.211964+00:00 alerts source_age_s=118.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:56:00.211988-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 173, "scheduled_slot": 172, "missed_slots": 0}
+2026-11-12T12:56:30.213735+00:00 trains source_age_s=9.1 saved
+2026-11-12T12:56:30.230679+00:00 alerts source_age_s=148.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:56:30.230697-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 174, "scheduled_slot": 173, "missed_slots": 0}
+2026-11-12T12:57:00.215350+00:00 trains source_age_s=9.2 saved
+2026-11-12T12:57:00.232286+00:00 alerts source_age_s=178.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:57:00.232306-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 175, "scheduled_slot": 174, "missed_slots": 0}
+2026-11-12T12:57:30.213352+00:00 trains source_age_s=9.1 saved
+2026-11-12T12:57:30.230248+00:00 alerts source_age_s=23.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:57:30.230266-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 176, "scheduled_slot": 175, "missed_slots": 0}
+2026-11-12T12:58:00.215373+00:00 trains source_age_s=9.1 saved
+2026-11-12T12:58:00.232208+00:00 alerts source_age_s=53.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:58:00.232227-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 177, "scheduled_slot": 176, "missed_slots": 0}
+2026-11-12T12:58:30.189912+00:00 trains source_age_s=9.1 saved
+2026-11-12T12:58:30.208847+00:00 alerts source_age_s=2.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:58:30.208871-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 178, "scheduled_slot": 177, "missed_slots": 0}
+2026-11-12T12:59:00.173512+00:00 trains source_age_s=9.1 saved
+2026-11-12T12:59:00.190481+00:00 alerts source_age_s=32.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:59:00.190503-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 179, "scheduled_slot": 178, "missed_slots": 0}
+2026-11-12T12:59:30.210047+00:00 trains source_age_s=9.1 saved
+2026-11-12T12:59:30.227310+00:00 alerts source_age_s=62.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T07:59:30.227329-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 180, "scheduled_slot": 179, "missed_slots": 0}
+2026-11-12T13:00:00.176919+00:00 trains source_age_s=9.1 saved
+2026-11-12T13:00:00.194061+00:00 alerts source_age_s=92.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:00:00.194083-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 181, "scheduled_slot": 180, "missed_slots": 0}
+2026-11-12T13:00:30.192152+00:00 trains source_age_s=9.1 saved
+2026-11-12T13:00:30.209260+00:00 alerts source_age_s=122.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:00:30.209277-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 182, "scheduled_slot": 181, "missed_slots": 0}
+2026-11-12T13:01:00.261786+00:00 trains source_age_s=9.2 saved
+2026-11-12T13:01:00.278692+00:00 alerts source_age_s=27.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:01:00.278714-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 183, "scheduled_slot": 182, "missed_slots": 0}
+2026-11-12T13:01:30.186361+00:00 trains source_age_s=9.1 saved
+2026-11-12T13:01:30.347914+00:00 alerts source_age_s=57.3 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:01:30.347948-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 184, "scheduled_slot": 183, "missed_slots": 0}
+2026-11-12T13:02:00.177880+00:00 trains source_age_s=9.1 saved
+2026-11-12T13:02:00.195027+00:00 alerts source_age_s=87.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:02:00.195050-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 185, "scheduled_slot": 184, "missed_slots": 0}
+2026-11-12T13:02:30.263306+00:00 trains source_age_s=9.2 saved
+2026-11-12T13:02:30.281882+00:00 alerts source_age_s=117.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:02:30.281906-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 186, "scheduled_slot": 185, "missed_slots": 0}
+2026-11-12T13:03:00.203382+00:00 trains source_age_s=9.1 saved
+2026-11-12T13:03:00.220770+00:00 alerts source_age_s=147.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:03:00.220811-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 187, "scheduled_slot": 186, "missed_slots": 0}
+2026-11-12T13:03:30.179745+00:00 trains source_age_s=9.1 saved
+2026-11-12T13:03:30.196840+00:00 alerts source_age_s=177.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:03:30.196856-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 188, "scheduled_slot": 187, "missed_slots": 0}
+2026-11-12T13:04:00.255412+00:00 trains source_age_s=9.2 saved
+2026-11-12T13:04:00.273469+00:00 alerts source_age_s=207.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:04:00.273499-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 189, "scheduled_slot": 188, "missed_slots": 0}
+2026-11-12T13:04:30.243737+00:00 trains source_age_s=9.2 saved
+2026-11-12T13:04:30.260674+00:00 alerts source_age_s=4.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:04:30.260701-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 190, "scheduled_slot": 189, "missed_slots": 0}
+2026-11-12T13:05:00.185608+00:00 trains source_age_s=9.1 saved
+2026-11-12T13:05:00.202455+00:00 alerts source_age_s=34.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:05:00.202476-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 191, "scheduled_slot": 190, "missed_slots": 0}
+2026-11-12T13:05:30.195455+00:00 trains source_age_s=9.1 saved
+2026-11-12T13:05:30.212431+00:00 alerts source_age_s=64.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:05:30.212450-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 192, "scheduled_slot": 191, "missed_slots": 0}
+2026-11-12T13:06:00.198806+00:00 trains source_age_s=9.1 saved
+2026-11-12T13:06:00.215849+00:00 alerts source_age_s=94.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:06:00.215867-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 193, "scheduled_slot": 192, "missed_slots": 0}
+2026-11-12T13:06:30.267545+00:00 trains source_age_s=9.2 saved
+2026-11-12T13:06:30.286166+00:00 alerts source_age_s=124.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:06:30.286194-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 194, "scheduled_slot": 193, "missed_slots": 0}
+2026-11-12T13:07:00.201082+00:00 trains source_age_s=9.1 saved
+2026-11-12T13:07:00.218166+00:00 alerts source_age_s=7.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:07:00.218185-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 195, "scheduled_slot": 194, "missed_slots": 0}
+2026-11-12T13:07:30.191746+00:00 trains source_age_s=9.1 saved
+2026-11-12T13:07:30.208565+00:00 alerts source_age_s=37.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:07:30.208583-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 196, "scheduled_slot": 195, "missed_slots": 0}
+2026-11-12T13:08:00.196062+00:00 trains source_age_s=9.1 saved
+2026-11-12T13:08:00.213975+00:00 alerts source_age_s=67.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:08:00.213995-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 197, "scheduled_slot": 196, "missed_slots": 0}
+2026-11-12T13:08:30.195127+00:00 trains source_age_s=9.1 saved
+2026-11-12T13:08:30.212124+00:00 alerts source_age_s=97.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:08:30.212146-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 198, "scheduled_slot": 197, "missed_slots": 0}
+2026-11-12T13:09:00.174763+00:00 trains source_age_s=9.1 saved
+2026-11-12T13:09:00.192195+00:00 alerts source_age_s=127.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:09:00.192219-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 199, "scheduled_slot": 198, "missed_slots": 0}
+2026-11-12T13:09:30.212656+00:00 trains source_age_s=9.1 saved
+2026-11-12T13:09:30.229954+00:00 alerts source_age_s=1.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:09:30.229973-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 200, "scheduled_slot": 199, "missed_slots": 0}
+2026-11-12T13:10:00.186932+00:00 trains source_age_s=9.1 saved
+2026-11-12T13:10:00.204264+00:00 alerts source_age_s=31.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:10:00.204288-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 201, "scheduled_slot": 200, "missed_slots": 0}
+2026-11-12T13:10:30.185139+00:00 trains source_age_s=9.1 saved
+2026-11-12T13:10:30.203819+00:00 alerts source_age_s=61.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:10:30.203840-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 202, "scheduled_slot": 201, "missed_slots": 0}
+2026-11-12T13:11:00.289886+00:00 trains source_age_s=9.2 saved
+2026-11-12T13:11:00.306712+00:00 alerts source_age_s=91.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:11:00.306731-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 203, "scheduled_slot": 202, "missed_slots": 0}
+2026-11-12T13:11:30.236514+00:00 trains source_age_s=9.2 saved
+2026-11-12T13:11:30.253871+00:00 alerts source_age_s=121.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:11:30.253892-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 204, "scheduled_slot": 203, "missed_slots": 0}
+2026-11-12T13:12:00.181283+00:00 trains source_age_s=8.1 saved
+2026-11-12T13:12:00.197907+00:00 alerts source_age_s=23.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:12:00.197932-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 205, "scheduled_slot": 204, "missed_slots": 0}
+2026-11-12T13:12:30.200504+00:00 trains source_age_s=9.1 saved
+2026-11-12T13:12:30.227757+00:00 alerts source_age_s=53.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:12:30.227779-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 206, "scheduled_slot": 205, "missed_slots": 0}
+2026-11-12T13:13:00.165166+00:00 trains source_age_s=9.1 saved
+2026-11-12T13:13:00.181919+00:00 alerts source_age_s=83.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:13:00.181941-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 207, "scheduled_slot": 206, "missed_slots": 0}
+2026-11-12T13:13:30.199339+00:00 trains source_age_s=9.1 saved
+2026-11-12T13:13:30.216414+00:00 alerts source_age_s=113.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:13:30.216431-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 208, "scheduled_slot": 207, "missed_slots": 0}
+2026-11-12T13:14:00.231131+00:00 trains source_age_s=8.2 saved
+2026-11-12T13:14:00.250194+00:00 alerts source_age_s=143.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:14:00.250222-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 209, "scheduled_slot": 208, "missed_slots": 0}
+2026-11-12T13:14:30.225827+00:00 trains source_age_s=8.1 saved
+2026-11-12T13:14:30.241147+00:00 alerts source_age_s=173.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:14:30.241159-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 210, "scheduled_slot": 209, "missed_slots": 0}
+2026-11-12T13:15:00.179425+00:00 trains source_age_s=8.1 saved
+2026-11-12T13:15:00.196531+00:00 alerts source_age_s=203.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:15:00.196552-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 211, "scheduled_slot": 210, "missed_slots": 0}
+2026-11-12T13:15:30.275773+00:00 trains source_age_s=8.2 saved
+2026-11-12T13:15:30.293193+00:00 alerts source_age_s=233.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:15:30.293220-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 212, "scheduled_slot": 211, "missed_slots": 0}
+2026-11-12T13:16:00.189528+00:00 trains source_age_s=8.1 saved
+2026-11-12T13:16:00.206076+00:00 alerts source_age_s=263.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:16:00.206093-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 213, "scheduled_slot": 212, "missed_slots": 0}
+2026-11-12T13:16:30.184173+00:00 trains source_age_s=8.1 saved
+2026-11-12T13:16:30.201131+00:00 alerts source_age_s=293.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:16:30.201151-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 214, "scheduled_slot": 213, "missed_slots": 0}
+2026-11-12T13:17:00.204597+00:00 trains source_age_s=8.1 saved
+2026-11-12T13:17:00.221763+00:00 alerts source_age_s=20.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:17:00.221785-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 215, "scheduled_slot": 214, "missed_slots": 0}
+2026-11-12T13:17:30.180388+00:00 trains source_age_s=8.1 saved
+2026-11-12T13:17:30.197452+00:00 alerts source_age_s=50.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:17:30.197470-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 216, "scheduled_slot": 215, "missed_slots": 0}
+2026-11-12T13:18:00.191269+00:00 trains source_age_s=8.1 saved
+2026-11-12T13:18:00.210126+00:00 alerts source_age_s=80.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:18:00.210148-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 217, "scheduled_slot": 216, "missed_slots": 0}
+2026-11-12T13:18:30.224912+00:00 trains source_age_s=8.2 saved
+2026-11-12T13:18:30.242015+00:00 alerts source_age_s=21.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:18:30.242032-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 218, "scheduled_slot": 217, "missed_slots": 0}
+2026-11-12T13:19:00.172868+00:00 trains source_age_s=8.1 saved
+2026-11-12T13:19:00.189643+00:00 alerts source_age_s=27.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:19:00.189668-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 219, "scheduled_slot": 218, "missed_slots": 0}
+2026-11-12T13:19:30.190548+00:00 trains source_age_s=8.1 saved
+2026-11-12T13:19:30.207883+00:00 alerts source_age_s=57.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:19:30.207900-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 220, "scheduled_slot": 219, "missed_slots": 0}
+2026-11-12T13:20:00.205700+00:00 trains source_age_s=8.1 saved
+2026-11-12T13:20:00.222876+00:00 alerts source_age_s=2.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:20:00.222896-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 221, "scheduled_slot": 220, "missed_slots": 0}
+2026-11-12T13:20:30.182757+00:00 trains source_age_s=8.1 saved
+2026-11-12T13:20:30.200048+00:00 alerts source_age_s=32.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:20:30.200070-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 222, "scheduled_slot": 221, "missed_slots": 0}
+2026-11-12T13:21:00.162136+00:00 trains source_age_s=8.1 saved
+2026-11-12T13:21:00.179040+00:00 alerts source_age_s=62.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:21:00.179065-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 223, "scheduled_slot": 222, "missed_slots": 0}
+2026-11-12T13:21:30.213728+00:00 trains source_age_s=8.1 saved
+2026-11-12T13:21:30.230682+00:00 alerts source_age_s=18.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:21:30.230696-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 224, "scheduled_slot": 223, "missed_slots": 0}
+2026-11-12T13:22:00.177421+00:00 trains source_age_s=8.1 saved
+2026-11-12T13:22:00.195915+00:00 alerts source_age_s=48.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:22:00.195937-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 225, "scheduled_slot": 224, "missed_slots": 0}
+2026-11-12T13:22:30.183690+00:00 trains source_age_s=8.1 saved
+2026-11-12T13:22:30.201102+00:00 alerts source_age_s=78.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:22:30.201124-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 226, "scheduled_slot": 225, "missed_slots": 0}
+2026-11-12T13:23:00.195249+00:00 trains source_age_s=8.1 saved
+2026-11-12T13:23:00.212161+00:00 alerts source_age_s=108.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:23:00.212177-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 227, "scheduled_slot": 226, "missed_slots": 0}
+2026-11-12T13:23:30.225908+00:00 trains source_age_s=8.2 saved
+2026-11-12T13:23:30.242683+00:00 alerts source_age_s=138.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:23:30.242700-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 228, "scheduled_slot": 227, "missed_slots": 0}
+2026-11-12T13:24:00.183852+00:00 trains source_age_s=8.1 saved
+2026-11-12T13:24:00.200742+00:00 alerts source_age_s=168.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:24:00.200764-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 229, "scheduled_slot": 228, "missed_slots": 0}
+2026-11-12T13:24:30.321940+00:00 trains source_age_s=8.2 saved
+2026-11-12T13:24:30.337615+00:00 alerts source_age_s=14.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:24:30.337635-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 230, "scheduled_slot": 229, "missed_slots": 0}
+2026-11-12T13:25:00.183860+00:00 trains source_age_s=8.1 saved
+2026-11-12T13:25:00.201342+00:00 alerts source_age_s=18.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:25:00.201362-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 231, "scheduled_slot": 230, "missed_slots": 0}
+2026-11-12T13:25:30.195614+00:00 trains source_age_s=8.1 saved
+2026-11-12T13:25:30.212255+00:00 alerts source_age_s=3.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:25:30.212278-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 232, "scheduled_slot": 231, "missed_slots": 0}
+2026-11-12T13:26:00.196721+00:00 trains source_age_s=8.1 saved
+2026-11-12T13:26:00.215819+00:00 alerts source_age_s=6.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:26:00.215844-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 233, "scheduled_slot": 232, "missed_slots": 0}
+2026-11-12T13:26:30.225997+00:00 trains source_age_s=8.1 saved
+2026-11-12T13:26:30.243334+00:00 alerts source_age_s=36.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:26:30.243354-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 234, "scheduled_slot": 233, "missed_slots": 0}
+2026-11-12T13:27:00.176148+00:00 trains source_age_s=8.1 saved
+2026-11-12T13:27:00.207914+00:00 alerts source_age_s=66.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:27:00.207940-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 235, "scheduled_slot": 234, "missed_slots": 0}
+2026-11-12T13:27:30.185301+00:00 trains source_age_s=8.1 saved
+2026-11-12T13:27:30.202411+00:00 alerts source_age_s=96.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:27:30.202428-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 236, "scheduled_slot": 235, "missed_slots": 0}
+2026-11-12T13:28:00.207200+00:00 trains source_age_s=8.1 saved
+2026-11-12T13:28:00.224880+00:00 alerts source_age_s=19.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:28:00.224900-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 237, "scheduled_slot": 236, "missed_slots": 0}
+2026-11-12T13:28:30.190271+00:00 trains source_age_s=8.1 saved
+2026-11-12T13:28:30.207984+00:00 alerts source_age_s=49.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:28:30.208003-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 238, "scheduled_slot": 237, "missed_slots": 0}
+2026-11-12T13:29:00.207524+00:00 trains source_age_s=8.1 saved
+2026-11-12T13:29:00.224926+00:00 alerts source_age_s=28.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:29:00.224944-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 239, "scheduled_slot": 238, "missed_slots": 0}
+2026-11-12T13:29:30.258755+00:00 trains source_age_s=8.2 saved
+2026-11-12T13:29:30.277943+00:00 alerts source_age_s=12.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:29:30.277968-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 240, "scheduled_slot": 239, "missed_slots": 0}
+2026-11-12T13:30:00.197013+00:00 trains source_age_s=8.1 saved
+2026-11-12T13:30:00.214014+00:00 alerts source_age_s=42.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:30:00.214033-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 241, "scheduled_slot": 240, "missed_slots": 0}
+2026-11-12T13:30:30.189738+00:00 trains source_age_s=7.1 saved
+2026-11-12T13:30:30.207660+00:00 alerts source_age_s=19.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:30:30.207680-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 242, "scheduled_slot": 241, "missed_slots": 0}
+2026-11-12T13:31:00.203598+00:00 trains source_age_s=8.1 saved
+2026-11-12T13:31:00.221023+00:00 alerts source_age_s=49.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:31:00.221044-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 243, "scheduled_slot": 242, "missed_slots": 0}
+2026-11-12T13:31:30.189096+00:00 trains source_age_s=7.1 saved
+2026-11-12T13:31:30.206711+00:00 alerts source_age_s=79.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:31:30.206736-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 244, "scheduled_slot": 243, "missed_slots": 0}
+2026-11-12T13:32:00.190078+00:00 trains source_age_s=8.1 saved
+2026-11-12T13:32:00.207592+00:00 alerts source_age_s=109.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:32:00.207615-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 245, "scheduled_slot": 244, "missed_slots": 0}
+2026-11-12T13:32:30.217676+00:00 trains source_age_s=8.1 saved
+2026-11-12T13:32:30.235376+00:00 alerts source_age_s=10.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:32:30.235393-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 246, "scheduled_slot": 245, "missed_slots": 0}
+2026-11-12T13:33:00.166779+00:00 trains source_age_s=8.1 saved
+2026-11-12T13:33:00.187558+00:00 alerts source_age_s=40.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:33:00.187599-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 247, "scheduled_slot": 246, "missed_slots": 0}
+2026-11-12T13:33:30.196047+00:00 trains source_age_s=8.1 saved
+2026-11-12T13:33:30.215190+00:00 alerts source_age_s=70.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:33:30.215211-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 248, "scheduled_slot": 247, "missed_slots": 0}
+2026-11-12T13:34:00.268825+00:00 trains source_age_s=7.2 saved
+2026-11-12T13:34:00.286477+00:00 alerts source_age_s=100.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:34:00.286511-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 249, "scheduled_slot": 248, "missed_slots": 0}
+2026-11-12T13:34:30.236820+00:00 trains source_age_s=7.1 saved
+2026-11-12T13:34:30.252623+00:00 alerts source_age_s=130.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:34:30.252643-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 250, "scheduled_slot": 249, "missed_slots": 0}
+2026-11-12T13:35:00.186389+00:00 trains source_age_s=7.1 saved
+2026-11-12T13:35:00.203636+00:00 alerts source_age_s=160.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:35:00.203659-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 251, "scheduled_slot": 250, "missed_slots": 0}
+2026-11-12T13:35:30.206684+00:00 trains source_age_s=7.1 saved
+2026-11-12T13:35:30.223993+00:00 alerts source_age_s=23.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:35:30.224016-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 252, "scheduled_slot": 251, "missed_slots": 0}
+2026-11-12T13:36:00.180031+00:00 trains source_age_s=7.1 saved
+2026-11-12T13:36:00.197289+00:00 alerts source_age_s=5.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:36:00.197318-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 253, "scheduled_slot": 252, "missed_slots": 0}
+2026-11-12T13:36:30.166951+00:00 trains source_age_s=7.1 saved
+2026-11-12T13:36:30.203880+00:00 alerts source_age_s=35.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:36:30.203901-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 254, "scheduled_slot": 253, "missed_slots": 0}
+2026-11-12T13:37:00.227386+00:00 trains source_age_s=7.2 saved
+2026-11-12T13:37:00.247007+00:00 alerts source_age_s=65.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:37:00.247036-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 255, "scheduled_slot": 254, "missed_slots": 0}
+2026-11-12T13:37:30.230367+00:00 trains source_age_s=7.2 saved
+2026-11-12T13:37:30.248174+00:00 alerts source_age_s=95.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:37:30.248221-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 256, "scheduled_slot": 255, "missed_slots": 0}
+2026-11-12T13:38:00.203857+00:00 trains source_age_s=7.1 saved
+2026-11-12T13:38:00.221656+00:00 alerts source_age_s=125.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:38:00.221677-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 257, "scheduled_slot": 256, "missed_slots": 0}
+2026-11-12T13:38:30.217534+00:00 trains source_age_s=7.1 saved
+2026-11-12T13:38:30.236685+00:00 alerts source_age_s=15.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:38:30.236720-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 258, "scheduled_slot": 257, "missed_slots": 0}
+2026-11-12T13:39:00.200785+00:00 trains source_age_s=7.1 saved
+2026-11-12T13:39:00.225742+00:00 alerts source_age_s=1.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:39:00.225914-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 259, "scheduled_slot": 258, "missed_slots": 0}
+2026-11-12T13:39:30.190710+00:00 trains source_age_s=7.1 saved
+2026-11-12T13:39:30.208805+00:00 alerts source_age_s=19.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:39:30.208823-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 260, "scheduled_slot": 259, "missed_slots": 0}
+2026-11-12T13:40:00.213121+00:00 trains source_age_s=7.1 saved
+2026-11-12T13:40:00.231177+00:00 alerts source_age_s=49.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:40:00.231208-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 261, "scheduled_slot": 260, "missed_slots": 0}
+2026-11-12T13:40:30.181476+00:00 trains source_age_s=7.1 saved
+2026-11-12T13:40:30.201614+00:00 alerts source_age_s=11.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:40:30.201635-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 262, "scheduled_slot": 261, "missed_slots": 0}
+2026-11-12T13:41:00.185834+00:00 trains source_age_s=7.1 saved
+2026-11-12T13:41:00.203828+00:00 alerts source_age_s=41.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:41:00.203845-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 263, "scheduled_slot": 262, "missed_slots": 0}
+2026-11-12T13:41:30.267623+00:00 trains source_age_s=7.2 saved
+2026-11-12T13:41:30.286337+00:00 alerts source_age_s=71.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:41:30.286373-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 264, "scheduled_slot": 263, "missed_slots": 0}
+2026-11-12T13:42:00.202730+00:00 trains source_age_s=7.1 saved
+2026-11-12T13:42:00.221410+00:00 alerts source_age_s=11.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:42:00.221429-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 265, "scheduled_slot": 264, "missed_slots": 0}
+2026-11-12T13:42:30.199389+00:00 trains source_age_s=7.1 saved
+2026-11-12T13:42:30.217768+00:00 alerts source_age_s=41.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:42:30.217783-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 266, "scheduled_slot": 265, "missed_slots": 0}
+2026-11-12T13:43:00.216161+00:00 trains source_age_s=7.2 saved
+2026-11-12T13:43:00.234552+00:00 alerts source_age_s=71.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:43:00.234577-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 267, "scheduled_slot": 266, "missed_slots": 0}
+2026-11-12T13:43:30.182131+00:00 trains source_age_s=7.1 saved
+2026-11-12T13:43:30.200332+00:00 alerts source_age_s=4.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:43:30.200352-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 268, "scheduled_slot": 267, "missed_slots": 0}
+2026-11-12T13:44:00.176624+00:00 trains source_age_s=7.1 saved
+2026-11-12T13:44:00.196363+00:00 alerts source_age_s=34.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:44:00.196389-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 269, "scheduled_slot": 268, "missed_slots": 0}
+2026-11-12T13:44:30.286500+00:00 trains source_age_s=7.2 saved
+2026-11-12T13:44:30.303069+00:00 alerts source_age_s=64.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:44:30.303091-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 270, "scheduled_slot": 269, "missed_slots": 0}
+2026-11-12T13:45:00.194347+00:00 trains source_age_s=7.1 saved
+2026-11-12T13:45:00.212491+00:00 alerts source_age_s=94.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:45:00.212517-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 271, "scheduled_slot": 270, "missed_slots": 0}
+2026-11-12T13:45:30.192206+00:00 trains source_age_s=7.1 saved
+2026-11-12T13:45:30.210223+00:00 alerts source_age_s=124.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:45:30.210242-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 272, "scheduled_slot": 271, "missed_slots": 0}
+2026-11-12T13:46:00.234249+00:00 trains source_age_s=7.2 saved
+2026-11-12T13:46:00.252020+00:00 alerts source_age_s=13.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:46:00.252041-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 273, "scheduled_slot": 272, "missed_slots": 0}
+2026-11-12T13:46:30.199214+00:00 trains source_age_s=7.1 saved
+2026-11-12T13:46:30.217591+00:00 alerts source_age_s=43.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:46:30.217605-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 274, "scheduled_slot": 273, "missed_slots": 0}
+2026-11-12T13:47:00.197053+00:00 trains source_age_s=7.1 saved
+2026-11-12T13:47:00.215256+00:00 alerts source_age_s=73.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:47:00.215274-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 275, "scheduled_slot": 274, "missed_slots": 0}
+2026-11-12T13:47:30.216978+00:00 trains source_age_s=7.1 saved
+2026-11-12T13:47:30.237230+00:00 alerts source_age_s=103.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:47:30.237250-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 276, "scheduled_slot": 275, "missed_slots": 0}
+2026-11-12T13:48:00.202954+00:00 trains source_age_s=7.1 saved
+2026-11-12T13:48:00.221480+00:00 alerts source_age_s=23.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:48:00.221507-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 277, "scheduled_slot": 276, "missed_slots": 0}
+2026-11-12T13:48:30.193250+00:00 trains source_age_s=7.1 saved
+2026-11-12T13:48:30.211748+00:00 alerts source_age_s=53.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:48:30.211772-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 278, "scheduled_slot": 277, "missed_slots": 0}
+2026-11-12T13:49:00.204263+00:00 trains source_age_s=7.1 saved
+2026-11-12T13:49:00.222887+00:00 alerts source_age_s=83.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:49:00.222907-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 279, "scheduled_slot": 278, "missed_slots": 0}
+2026-11-12T13:49:30.180926+00:00 trains source_age_s=7.1 saved
+2026-11-12T13:49:30.199235+00:00 alerts source_age_s=113.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:49:30.199254-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 280, "scheduled_slot": 279, "missed_slots": 0}
+2026-11-12T13:50:00.176653+00:00 trains source_age_s=7.1 saved
+2026-11-12T13:50:00.195110+00:00 alerts source_age_s=9.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:50:00.195133-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 281, "scheduled_slot": 280, "missed_slots": 0}
+2026-11-12T13:50:30.203490+00:00 trains source_age_s=7.1 saved
+2026-11-12T13:50:30.222042+00:00 alerts source_age_s=39.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:50:30.222058-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 282, "scheduled_slot": 281, "missed_slots": 0}
+2026-11-12T13:51:00.215777+00:00 trains source_age_s=7.1 saved
+2026-11-12T13:51:00.236622+00:00 alerts source_age_s=12.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:51:00.236651-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 283, "scheduled_slot": 282, "missed_slots": 0}
+2026-11-12T13:51:30.198154+00:00 trains source_age_s=7.1 saved
+2026-11-12T13:51:30.216553+00:00 alerts source_age_s=42.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:51:30.216578-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 284, "scheduled_slot": 283, "missed_slots": 0}
+2026-11-12T13:52:00.204857+00:00 trains source_age_s=7.1 saved
+2026-11-12T13:52:00.223311+00:00 alerts source_age_s=26.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:52:00.223332-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 285, "scheduled_slot": 284, "missed_slots": 0}
+2026-11-12T13:52:30.187891+00:00 trains source_age_s=7.1 saved
+2026-11-12T13:52:30.206473+00:00 alerts source_age_s=56.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:52:30.206489-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 286, "scheduled_slot": 285, "missed_slots": 0}
+2026-11-12T13:53:00.194162+00:00 trains source_age_s=7.1 saved
+2026-11-12T13:53:00.212660+00:00 alerts source_age_s=86.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:53:00.212680-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 287, "scheduled_slot": 286, "missed_slots": 0}
+2026-11-12T13:53:30.216901+00:00 trains source_age_s=6.1 saved
+2026-11-12T13:53:30.235508+00:00 alerts source_age_s=116.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:53:30.235526-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 288, "scheduled_slot": 287, "missed_slots": 0}
+2026-11-12T13:54:00.188435+00:00 trains source_age_s=7.1 saved
+2026-11-12T13:54:00.206660+00:00 alerts source_age_s=4.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:54:00.206679-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 289, "scheduled_slot": 288, "missed_slots": 0}
+2026-11-12T13:54:30.244918+00:00 trains source_age_s=7.1 saved
+2026-11-12T13:54:30.264010+00:00 alerts source_age_s=34.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:54:30.264031-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 290, "scheduled_slot": 289, "missed_slots": 0}
+2026-11-12T13:55:00.359906+00:00 trains source_age_s=6.3 saved
+2026-11-12T13:55:00.380212+00:00 alerts source_age_s=13.3 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:55:00.380235-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 291, "scheduled_slot": 290, "missed_slots": 0}
+2026-11-12T13:55:30.210122+00:00 trains source_age_s=6.1 saved
+2026-11-12T13:55:30.230083+00:00 alerts source_age_s=23.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:55:30.230102-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 292, "scheduled_slot": 291, "missed_slots": 0}
+2026-11-12T13:56:00.195124+00:00 trains source_age_s=6.1 saved
+2026-11-12T13:56:00.215071+00:00 alerts source_age_s=53.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:56:00.215110-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 293, "scheduled_slot": 292, "missed_slots": 0}
+2026-11-12T13:56:30.305994+00:00 trains source_age_s=6.2 saved
+2026-11-12T13:56:30.326427+00:00 alerts source_age_s=18.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:56:30.326447-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 294, "scheduled_slot": 293, "missed_slots": 0}
+2026-11-12T13:57:00.194166+00:00 trains source_age_s=6.1 saved
+2026-11-12T13:57:00.212822+00:00 alerts source_age_s=13.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:57:00.212843-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 295, "scheduled_slot": 294, "missed_slots": 0}
+2026-11-12T13:57:30.184676+00:00 trains source_age_s=6.1 saved
+2026-11-12T13:57:30.203457+00:00 alerts source_age_s=43.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:57:30.203474-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 296, "scheduled_slot": 295, "missed_slots": 0}
+2026-11-12T13:58:00.214865+00:00 trains source_age_s=6.1 saved
+2026-11-12T13:58:00.235705+00:00 alerts source_age_s=73.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:58:00.235736-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 297, "scheduled_slot": 296, "missed_slots": 0}
+2026-11-12T13:58:30.169412+00:00 trains source_age_s=6.1 saved
+2026-11-12T13:58:30.187795+00:00 alerts source_age_s=9.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:58:30.187814-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 298, "scheduled_slot": 297, "missed_slots": 0}
+2026-11-12T13:59:00.176111+00:00 trains source_age_s=6.1 saved
+2026-11-12T13:59:00.196509+00:00 alerts source_age_s=39.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:59:00.196530-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 299, "scheduled_slot": 298, "missed_slots": 0}
+2026-11-12T13:59:30.218852+00:00 trains source_age_s=6.1 saved
+2026-11-12T13:59:30.237751+00:00 alerts source_age_s=69.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T08:59:30.237770-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 300, "scheduled_slot": 299, "missed_slots": 0}
+2026-11-12T14:00:00.190807+00:00 trains source_age_s=6.1 saved
+2026-11-12T14:00:00.209577+00:00 alerts source_age_s=99.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T09:00:00.209601-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 301, "scheduled_slot": 300, "missed_slots": 0}
+2026-11-12T14:00:30.208261+00:00 trains source_age_s=6.1 saved
+2026-11-12T14:00:30.226502+00:00 alerts source_age_s=129.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T09:00:30.226516-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 302, "scheduled_slot": 301, "missed_slots": 0}
+2026-11-12T14:01:00.249168+00:00 trains source_age_s=6.2 saved
+2026-11-12T14:01:00.267054+00:00 alerts source_age_s=159.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T09:01:00.267073-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 303, "scheduled_slot": 302, "missed_slots": 0}
+2026-11-12T14:01:30.223446+00:00 trains source_age_s=6.1 saved
+2026-11-12T14:01:30.241376+00:00 alerts source_age_s=189.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T09:01:30.241398-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 304, "scheduled_slot": 303, "missed_slots": 0}
+2026-11-12T14:02:00.191728+00:00 trains source_age_s=6.1 saved
+2026-11-12T14:02:00.209691+00:00 alerts source_age_s=219.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T09:02:00.209716-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 305, "scheduled_slot": 304, "missed_slots": 0}
+2026-11-12T14:02:30.230532+00:00 trains source_age_s=6.2 saved
+2026-11-12T14:02:30.249456+00:00 alerts source_age_s=249.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T09:02:30.249476-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 306, "scheduled_slot": 305, "missed_slots": 0}
+2026-11-12T14:03:00.177995+00:00 trains source_age_s=6.1 saved
+2026-11-12T14:03:00.196096+00:00 alerts source_age_s=279.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T09:03:00.196121-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 307, "scheduled_slot": 306, "missed_slots": 0}
+2026-11-12T14:03:30.193971+00:00 trains source_age_s=6.1 saved
+2026-11-12T14:03:30.212585+00:00 alerts source_age_s=309.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T09:03:30.212605-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 308, "scheduled_slot": 307, "missed_slots": 0}
+2026-11-12T14:04:00.206009+00:00 trains source_age_s=6.1 saved
+2026-11-12T14:04:00.224599+00:00 alerts source_age_s=339.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T09:04:00.224619-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 309, "scheduled_slot": 308, "missed_slots": 0}
+2026-11-12T14:04:30.233277+00:00 trains source_age_s=6.1 saved
+2026-11-12T14:04:30.249895+00:00 alerts source_age_s=369.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T09:04:30.249918-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 310, "scheduled_slot": 309, "missed_slots": 0}
+2026-11-12T14:05:00.198873+00:00 trains source_age_s=6.1 saved
+2026-11-12T14:05:00.219372+00:00 alerts source_age_s=22.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T09:05:00.219402-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 311, "scheduled_slot": 310, "missed_slots": 0}
+2026-11-12T14:05:30.201383+00:00 trains source_age_s=6.1 saved
+2026-11-12T14:05:30.219932+00:00 alerts source_age_s=52.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T09:05:30.219950-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 312, "scheduled_slot": 311, "missed_slots": 0}
+2026-11-12T14:06:00.191157+00:00 trains source_age_s=6.1 saved
+2026-11-12T14:06:00.209280+00:00 alerts source_age_s=82.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T09:06:00.209306-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 313, "scheduled_slot": 312, "missed_slots": 0}
+2026-11-12T14:06:30.195978+00:00 trains source_age_s=6.1 saved
+2026-11-12T14:06:30.214381+00:00 alerts source_age_s=23.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T09:06:30.214401-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 314, "scheduled_slot": 313, "missed_slots": 0}
+2026-11-12T14:07:00.223556+00:00 trains source_age_s=6.2 saved
+2026-11-12T14:07:00.242617+00:00 alerts source_age_s=16.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T09:07:00.242645-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 315, "scheduled_slot": 314, "missed_slots": 0}
+2026-11-12T14:07:30.192017+00:00 trains source_age_s=6.1 saved
+2026-11-12T14:07:30.210507+00:00 alerts source_age_s=46.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T09:07:30.210528-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 316, "scheduled_slot": 315, "missed_slots": 0}
+2026-11-12T14:08:00.325498+00:00 trains source_age_s=6.3 saved
+2026-11-12T14:08:00.343602+00:00 alerts source_age_s=7.3 saved
+{"status": "collecting", "updated_at": "2026-11-12T09:08:00.343623-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 317, "scheduled_slot": 316, "missed_slots": 0}
+2026-11-12T14:08:30.202500+00:00 trains source_age_s=6.1 saved
+2026-11-12T14:08:30.223451+00:00 alerts source_age_s=37.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T09:08:30.223477-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 318, "scheduled_slot": 317, "missed_slots": 0}
+2026-11-12T14:09:00.166447+00:00 trains source_age_s=6.1 saved
+2026-11-12T14:09:00.184901+00:00 alerts source_age_s=67.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T09:09:00.184921-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 319, "scheduled_slot": 318, "missed_slots": 0}
+2026-11-12T14:09:30.212675+00:00 trains source_age_s=6.1 saved
+2026-11-12T14:09:30.231544+00:00 alerts source_age_s=97.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T09:09:30.231564-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 320, "scheduled_slot": 319, "missed_slots": 0}
+2026-11-12T14:10:00.184256+00:00 trains source_age_s=5.1 saved
+2026-11-12T14:10:00.203456+00:00 alerts source_age_s=127.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T09:10:00.203486-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 321, "scheduled_slot": 320, "missed_slots": 0}
+2026-11-12T14:10:30.191046+00:00 trains source_age_s=6.1 saved
+2026-11-12T14:10:30.209739+00:00 alerts source_age_s=9.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T09:10:30.209761-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 322, "scheduled_slot": 321, "missed_slots": 0}
+2026-11-12T14:11:00.204037+00:00 trains source_age_s=6.1 saved
+2026-11-12T14:11:00.223287+00:00 alerts source_age_s=39.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T09:11:00.223314-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 323, "scheduled_slot": 322, "missed_slots": 0}
+2026-11-12T14:11:30.177526+00:00 trains source_age_s=5.1 saved
+2026-11-12T14:11:30.196119+00:00 alerts source_age_s=69.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T09:11:30.196140-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 324, "scheduled_slot": 323, "missed_slots": 0}
+2026-11-12T14:12:00.174205+00:00 trains source_age_s=6.1 saved
+2026-11-12T14:12:00.208993+00:00 alerts source_age_s=99.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T09:12:00.209024-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 325, "scheduled_slot": 324, "missed_slots": 0}
+2026-11-12T14:12:30.197279+00:00 trains source_age_s=5.1 saved
+2026-11-12T14:12:30.215999+00:00 alerts source_age_s=129.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T09:12:30.216018-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 326, "scheduled_slot": 325, "missed_slots": 0}
+2026-11-12T14:13:00.181150+00:00 trains source_age_s=5.1 saved
+2026-11-12T14:13:00.200107+00:00 alerts source_age_s=159.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T09:13:00.200133-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 327, "scheduled_slot": 326, "missed_slots": 0}
+2026-11-12T14:13:30.179296+00:00 trains source_age_s=5.1 saved
+2026-11-12T14:13:30.197927+00:00 alerts source_age_s=189.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T09:13:30.197948-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 328, "scheduled_slot": 327, "missed_slots": 0}
+2026-11-12T14:14:00.201637+00:00 trains source_age_s=5.1 saved
+2026-11-12T14:14:00.220545+00:00 alerts source_age_s=219.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T09:14:00.220570-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 329, "scheduled_slot": 328, "missed_slots": 0}
+2026-11-12T14:14:30.243888+00:00 trains source_age_s=5.1 saved
+2026-11-12T14:14:30.261244+00:00 alerts source_age_s=249.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T09:14:30.261272-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 330, "scheduled_slot": 329, "missed_slots": 0}
+2026-11-12T14:15:00.186348+00:00 trains source_age_s=5.1 saved
+2026-11-12T14:15:00.205110+00:00 alerts source_age_s=279.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T09:15:00.205138-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 331, "scheduled_slot": 330, "missed_slots": 0}
+2026-11-12T14:15:30.212528+00:00 trains source_age_s=5.1 saved
+2026-11-12T14:15:30.233199+00:00 alerts source_age_s=309.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T09:15:30.233223-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 332, "scheduled_slot": 331, "missed_slots": 0}
+2026-11-12T14:16:00.183250+00:00 trains source_age_s=5.1 saved
+2026-11-12T14:16:00.201742+00:00 alerts source_age_s=339.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T09:16:00.201761-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 333, "scheduled_slot": 332, "missed_slots": 0}
+2026-11-12T14:16:30.188130+00:00 trains source_age_s=5.1 saved
+2026-11-12T14:16:30.208256+00:00 alerts source_age_s=369.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T09:16:30.208291-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 334, "scheduled_slot": 333, "missed_slots": 0}
+2026-11-12T14:17:00.196756+00:00 trains source_age_s=5.1 saved
+2026-11-12T14:17:00.215116+00:00 alerts source_age_s=10.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T09:17:00.215134-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 335, "scheduled_slot": 334, "missed_slots": 0}
+2026-11-12T14:17:30.193515+00:00 trains source_age_s=5.1 saved
+2026-11-12T14:17:30.212576+00:00 alerts source_age_s=40.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T09:17:30.212598-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 336, "scheduled_slot": 335, "missed_slots": 0}
+2026-11-12T14:18:00.180780+00:00 trains source_age_s=5.1 saved
+2026-11-12T14:18:00.199634+00:00 alerts source_age_s=70.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T09:18:00.199657-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 337, "scheduled_slot": 336, "missed_slots": 0}
+2026-11-12T14:18:30.214718+00:00 trains source_age_s=5.1 saved
+2026-11-12T14:18:30.234149+00:00 alerts source_age_s=21.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T09:18:30.234170-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 338, "scheduled_slot": 337, "missed_slots": 0}
+2026-11-12T14:19:00.189746+00:00 trains source_age_s=5.1 saved
+2026-11-12T14:19:00.211188+00:00 alerts source_age_s=11.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T09:19:00.211219-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 339, "scheduled_slot": 338, "missed_slots": 0}
+2026-11-12T14:19:30.189738+00:00 trains source_age_s=5.1 saved
+2026-11-12T14:19:30.208793+00:00 alerts source_age_s=41.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T09:19:30.208816-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 340, "scheduled_slot": 339, "missed_slots": 0}
+2026-11-12T14:20:00.230319+00:00 trains source_age_s=5.2 saved
+2026-11-12T14:20:00.249946+00:00 alerts source_age_s=9.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T09:20:00.249981-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 341, "scheduled_slot": 340, "missed_slots": 0}
+2026-11-12T14:20:30.182808+00:00 trains source_age_s=5.1 saved
+2026-11-12T14:20:30.202430+00:00 alerts source_age_s=14.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T09:20:30.202452-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 342, "scheduled_slot": 341, "missed_slots": 0}
+2026-11-12T14:21:00.202856+00:00 trains source_age_s=5.1 saved
+2026-11-12T14:21:00.223479+00:00 alerts source_age_s=1.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T09:21:00.223512-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 343, "scheduled_slot": 342, "missed_slots": 0}
+2026-11-12T14:21:30.212411+00:00 trains source_age_s=5.1 saved
+2026-11-12T14:21:30.232174+00:00 alerts source_age_s=15.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T09:21:30.232192-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 344, "scheduled_slot": 343, "missed_slots": 0}
+2026-11-12T14:22:00.255367+00:00 trains source_age_s=5.2 saved
+2026-11-12T14:22:00.275593+00:00 alerts source_age_s=21.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T09:22:00.275627-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 345, "scheduled_slot": 344, "missed_slots": 0}
+2026-11-12T14:22:30.190995+00:00 trains source_age_s=5.1 saved
+2026-11-12T14:22:30.213168+00:00 alerts source_age_s=51.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T09:22:30.213195-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 346, "scheduled_slot": 345, "missed_slots": 0}
+2026-11-12T14:23:00.222117+00:00 trains source_age_s=5.2 saved
+2026-11-12T14:23:00.242135+00:00 alerts source_age_s=81.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T09:23:00.242167-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 347, "scheduled_slot": 346, "missed_slots": 0}
+2026-11-12T14:23:30.187545+00:00 trains source_age_s=5.1 saved
+2026-11-12T14:23:30.207227+00:00 alerts source_age_s=111.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T09:23:30.207252-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 348, "scheduled_slot": 347, "missed_slots": 0}
+2026-11-12T14:24:00.181730+00:00 trains source_age_s=5.1 saved
+2026-11-12T14:24:00.201377+00:00 alerts source_age_s=141.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T09:24:00.201406-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 349, "scheduled_slot": 348, "missed_slots": 0}
+2026-11-12T14:24:30.305547+00:00 trains source_age_s=5.2 saved
+2026-11-12T14:24:30.323163+00:00 alerts source_age_s=171.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T09:24:30.323181-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 350, "scheduled_slot": 349, "missed_slots": 0}
+2026-11-12T14:25:00.179774+00:00 trains source_age_s=5.1 saved
+2026-11-12T14:25:00.199630+00:00 alerts source_age_s=201.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T09:25:00.199651-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 351, "scheduled_slot": 350, "missed_slots": 0}
+2026-11-12T14:25:30.194387+00:00 trains source_age_s=5.1 saved
+2026-11-12T14:25:30.213729+00:00 alerts source_age_s=28.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T09:25:30.213748-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 352, "scheduled_slot": 351, "missed_slots": 0}
+2026-11-12T14:26:00.247625+00:00 trains source_age_s=5.2 saved
+2026-11-12T14:26:00.269594+00:00 alerts source_age_s=58.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T09:26:00.269632-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 353, "scheduled_slot": 352, "missed_slots": 0}
+2026-11-12T14:26:30.258617+00:00 trains source_age_s=5.2 saved
+2026-11-12T14:26:30.278724+00:00 alerts source_age_s=88.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T09:26:30.278749-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 354, "scheduled_slot": 353, "missed_slots": 0}
+2026-11-12T14:27:00.198463+00:00 trains source_age_s=5.1 saved
+2026-11-12T14:27:00.218509+00:00 alerts source_age_s=118.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T09:27:00.218534-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 355, "scheduled_slot": 354, "missed_slots": 0}
+2026-11-12T14:27:30.178807+00:00 trains source_age_s=5.1 saved
+2026-11-12T14:27:30.198627+00:00 alerts source_age_s=148.1 saved
+{"status": "collecting", "updated_at": "2026-11-12T09:27:30.198662-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 356, "scheduled_slot": 355, "missed_slots": 0}
+2026-11-12T14:28:00.230565+00:00 trains source_age_s=5.2 saved
+2026-11-12T14:28:00.250539+00:00 alerts source_age_s=178.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T09:28:00.250572-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 357, "scheduled_slot": 356, "missed_slots": 0}
+2026-11-12T14:28:30.191735+00:00 trains source_age_s=5.1 saved
+2026-11-12T14:28:30.226917+00:00 alerts source_age_s=208.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T09:28:30.226939-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 358, "scheduled_slot": 357, "missed_slots": 0}
+2026-11-12T14:29:00.203673+00:00 trains source_age_s=5.1 saved
+2026-11-12T14:29:00.227628+00:00 alerts source_age_s=238.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T09:29:00.227663-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 359, "scheduled_slot": 358, "missed_slots": 0}
+2026-11-12T14:29:30.208466+00:00 trains source_age_s=5.1 saved
+2026-11-12T14:29:30.228345+00:00 alerts source_age_s=268.2 saved
+{"status": "collecting", "updated_at": "2026-11-12T09:29:30.228372-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 360, "scheduled_slot": 359, "missed_slots": 0}
+{"status": "analyzing", "updated_at": "2026-11-12T09:30:00.005665-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 360}
+{
+  "run": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning",
+  "counts": {
+    "predictions": 430920,
+    "vehicles": 9773,
+    "alerts": 14029
+  },
+  "feeds": {
+    "trains": {
+      "requests": 360,
+      "errors": 0,
+      "distinct_source_timestamps": 360,
+      "min_source_age_seconds": 5.1053690910339355,
+      "max_source_age_seconds": 14.170076847076416
+    },
+    "alerts": {
+      "requests": 360,
+      "errors": 0,
+      "distinct_source_timestamps": 70,
+      "min_source_age_seconds": 1.1485040187835693,
+      "max_source_age_seconds": 1696.1494870185852
+    }
+  },
+  "arrival_candidates": 1266,
+  "eta_matched_candidates": 1236,
+  "tracked_trip_stops": 4974,
+  "positive_eta_range_trip_stops": 2543,
+  "actual_delay_measured": false,
+  "arrival_algorithm": "v2_station_path_timestamp",
+  "station_change_evidence": 1723,
+  "rejection_reasons": {
+    "candidate": 1266,
+    "not_expected_next_station": 5,
+    "path_changed_not_suffix": 2,
+    "remaining_path_not_yet_aligned": 392,
+    "repeated_out_of_order_or_gap": 1,
+    "stale_or_future_vehicle_time": 56,
+    "vehicle_time_not_new_since_previous_observation": 1
+  },
+  "vehicle_status_counts": {
+    "STOPPED_AT": 9767,
+    "UNKNOWN": 6
+  },
+  "prediction_counts_by_route": {
+    "B": 72756,
+    "D": 81347,
+    "F": 172143,
+    "FX": 4529,
+    "M": 100145
+  },
+  "distinct_station_directions": 41,
+  "raw_compressed_bytes": 40143636
+}
+{
+  "timezone": "America/New_York",
+  "estimate_basis": "API-derived unvalidated candidate arrivals",
+  "counts": {
+    "polls": 720,
+    "predictions": 430920,
+    "vehicles": 9773,
+    "alerts": 14029,
+    "trip_paths": 59694
+  },
+  "distinct_prediction_trips": 517,
+  "distinct_predicted_trip_stops": 5028,
+  "distinct_station_directions": 41,
+  "feeds": [
+    {
+      "feed": "trains",
+      "requests": 360,
+      "successful": 360,
+      "success_pct": 100.0,
+      "first_request": "2026-11-12T06:30:00-05:00",
+      "last_request": "2026-11-12T09:29:30-05:00",
+      "distinct_source_timestamps": 360,
+      "median_source_age_sec": 9.146336555480957,
+      "p90_source_age_sec": 13.127058482170105,
+      "max_source_age_sec": 14.170076847076416,
+      "median_interval_sec": 29.999934911727905,
+      "max_interval_sec": 30.00884699821472
+    },
+    {
+      "feed": "alerts",
+      "requests": 360,
+      "successful": 360,
+      "success_pct": 100.0,
+      "first_request": "2026-11-12T06:30:00-05:00",
+      "last_request": "2026-11-12T09:29:30-05:00",
+      "distinct_source_timestamps": 70,
+      "median_source_age_sec": 111.15503311157227,
+      "p90_source_age_sec": 943.9802017688755,
+      "max_source_age_sec": 1696.1494870185852,
+      "median_interval_sec": 29.999921083450317,
+      "max_interval_sec": 30.008946180343628
+    }
+  ],
+  "arrival_candidates": 1266,
+  "matched_candidates": 1236,
+  "matched_pct_of_candidates": 97.6303317535545,
+  "matched_pct_of_predicted_trip_stops": 24.58233890214797,
+  "overall": {
+    "matched_cases": 1236,
+    "distinct_trips": 207,
+    "mean_error_min": 0.6523058252427184,
+    "median_error_min": 0.3333333333333333,
+    "p90_error_min": 2.466666666666667,
+    "mean_absolute_error_min": 1.1049757281553398,
+    "min_error_min": -3.1666666666666665,
+    "max_error_min": 17.083333333333332,
+    "later_than_eta_count": 766,
+    "over_1_min_count": 312,
+    "over_1_min_pct": 25.24271844660194,
+    "over_2_min_count": 163,
+    "over_2_min_pct": 13.187702265372168
+  },
+  "label_review_flag_counts": {
+    "unexpected_station_step": 5,
+    "vehicle_observation_gap_over_90s": 2,
+    "station_revisited": 2
+  },
+  "flagged_cases": 7,
+  "sensitivity_excluding_flagged_cases": {
+    "matched_cases": 1229,
+    "distinct_trips": 207,
+    "mean_error_min": 0.6235692975318687,
+    "median_error_min": 0.3333333333333333,
+    "p90_error_min": 2.4366666666666674,
+    "mean_absolute_error_min": 1.078817466775156,
+    "min_error_min": -3.1666666666666665,
+    "max_error_min": 12.75,
+    "later_than_eta_count": 759,
+    "over_1_min_count": 306,
+    "over_1_min_pct": 24.898291293734744,
+    "over_2_min_count": 160,
+    "over_2_min_pct": 13.018714401952808
+  },
+  "tracked_trip_stops": 4974,
+  "eta_varied_trip_stops": 2543,
+  "maximum_eta_range": {
+    "trip_key": "20261112|M|054000_M..S|09:00:00",
+    "route": "M",
+    "stop": "M18S",
+    "station": "Delancey St-Essex St",
+    "snapshots": "22",
+    "earliest_eta": "1794492224",
+    "latest_eta": "1794495222",
+    "eta_range_minutes": "49.96666666666667"
+  },
+  "unique_delay_events": 9,
+  "unique_active_delay_events": 8
+}
+{"status": "completed", "updated_at": "2026-11-12T09:30:03.410666-05:00", "scheduled_start": "2026-11-12T06:30:00-05:00", "scheduled_end": "2026-11-12T09:30:00-05:00", "interval_seconds": 30, "pid": 20120, "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "completed_slots": 360, "summary": {"run": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning", "counts": {"predictions": 430920, "vehicles": 9773, "alerts": 14029}, "feeds": {"trains": {"requests": 360, "errors": 0, "distinct_source_timestamps": 360, "min_source_age_seconds": 5.1053690910339355, "max_source_age_seconds": 14.170076847076416}, "alerts": {"requests": 360, "errors": 0, "distinct_source_timestamps": 70, "min_source_age_seconds": 1.1485040187835693, "max_source_age_seconds": 1696.1494870185852}}, "arrival_candidates": 1266, "eta_matched_candidates": 1236, "tracked_trip_stops": 4974, "positive_eta_range_trip_stops": 2543, "actual_delay_measured": false, "arrival_algorithm": "v2_station_path_timestamp", "station_change_evidence": 1723, "rejection_reasons": {"candidate": 1266, "not_expected_next_station": 5, "path_changed_not_suffix": 2, "remaining_path_not_yet_aligned": 392, "repeated_out_of_order_or_gap": 1, "stale_or_future_vehicle_time": 56, "vehicle_time_not_new_since_previous_observation": 1}, "vehicle_status_counts": {"STOPPED_AT": 9767, "UNKNOWN": 6}, "prediction_counts_by_route": {"B": 72756, "D": 81347, "F": 172143, "FX": 4529, "M": 100145}, "distinct_station_directions": 41, "raw_compressed_bytes": 40143636}}

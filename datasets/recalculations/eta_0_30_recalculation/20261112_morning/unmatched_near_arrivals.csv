@@ -1,0 +1,7 @@
+trip_key,stop,route,reason
+20261112|M|036300_M..N24R|06:03:00,D21N,M,no_earlier_4_to_6_min_reference
+20261112|M|046100_M..N24R|07:40:23,D21N,M,no_earlier_4_to_6_min_reference
+20261112|M|051700_M..S|08:37:00,F11S,M,no_earlier_4_to_6_min_reference
+20261112|M|051950_M..S|08:39:30,F11S,M,no_earlier_4_to_6_min_reference
+20261112|M|052600_M..N24R|08:46:08,D21N,M,no_earlier_4_to_6_min_reference
+20261112|M|054000_M..S|09:00:00,M21S,M,no_earlier_4_to_6_min_reference

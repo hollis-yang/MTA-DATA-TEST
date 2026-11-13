@@ -1,0 +1,80 @@
+route,stop,station,observed_arrival_candidates,matched_eta_count,mean_eta_error_proxy_min,mean_detected_event_gap_min,note
+B,A24N,59 St-Columbus Circle,20,20,1.7808333333333333,7.716666666666667,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+B,D14N,7 Av,22,22,2.3356060606060605,8.104761904761904,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+B,D14S,7 Av,20,20,0.8183333333333334,9.136842105263158,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+B,D15N,47-50 Sts-Rockefeller Ctr,22,22,1.3795454545454546,7.981746031746032,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+B,D15S,47-50 Sts-Rockefeller Ctr,18,18,0.9851851851851852,9.683333333333334,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+B,D16N,42 St-Bryant Pk,22,22,1.3295454545454546,7.457142857142857,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+B,D16S,42 St-Bryant Pk,15,15,0.8888888888888888,11.758333333333333,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+B,D17N,34 St-Herald Sq,20,20,1.1475,9.242982456140352,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+B,D17S,34 St-Herald Sq,13,13,1.0166666666666666,13.08611111111111,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+B,D20N,W 4 St-Wash Sq,24,21,0.3952380952380952,7.722463768115942,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+B,D20S,W 4 St-Wash Sq,20,19,-0.3491228070175439,8.926315789473684,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+B,D21N,Broadway-Lafayette St,24,23,-1.6818840579710146,7.2876811594202895,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+B,D21S,Broadway-Lafayette St,20,20,-0.44833333333333336,8.927192982456141,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+B,D22S,Grand St,18,17,-0.0647058823529412,10.158823529411764,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+D,A24N,59 St-Columbus Circle,20,19,1.7403508771929825,9.343859649122807,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+D,D14N,7 Av,21,20,2.618333333333333,8.551666666666666,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+D,D14S,7 Av,22,21,0.9293650793650794,8.152380952380952,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+D,D15N,47-50 Sts-Rockefeller Ctr,21,20,1.7191666666666667,8.776666666666667,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+D,D15S,47-50 Sts-Rockefeller Ctr,19,19,1.262280701754386,9.501851851851852,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+D,D16N,42 St-Bryant Pk,16,15,1.27,11.841111111111111,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+D,D16S,42 St-Bryant Pk,17,17,1.2117647058823529,10.002083333333333,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+D,D17N,34 St-Herald Sq,17,17,1.3186274509803921,10.252083333333333,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+D,D17S,34 St-Herald Sq,11,10,1.44,16.511666666666667,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+D,D20N,W 4 St-Wash Sq,22,20,0.4041666666666667,7.838095238095238,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+D,D20S,W 4 St-Wash Sq,22,22,0.19545454545454544,7.886507936507936,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+D,D21N,Broadway-Lafayette St,25,25,-1.6853333333333333,7.251388888888889,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+D,D21S,Broadway-Lafayette St,21,21,-0.38253968253968257,7.976666666666667,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+D,D22S,Grand St,20,20,-0.125,7.6947368421052635,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+F,B06N,Roosevelt Island,1,0,,,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+F,B08N,Lexington Av/63 St,1,0,,,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+F,D15N,47-50 Sts-Rockefeller Ctr,16,16,0.6822916666666666,11.107777777777779,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+F,D15S,47-50 Sts-Rockefeller Ctr,31,29,0.7867816091954023,5.806666666666667,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+F,D16N,42 St-Bryant Pk,9,9,0.8611111111111112,9.816666666666666,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+F,D16S,42 St-Bryant Pk,15,14,2.236904761904762,12.49047619047619,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+F,D17N,34 St-Herald Sq,24,24,1.0041666666666667,7.265942028985507,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+F,D17S,34 St-Herald Sq,6,6,0.5722222222222222,33.839999999999996,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+F,D18N,23 St,15,15,0.8677777777777778,10.657142857142857,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+F,D18S,23 St,31,31,0.3494623655913978,5.752777777777778,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+F,D19N,14 St,25,24,1.1159722222222221,6.841666666666667,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+F,D19S,14 St,12,12,0.5486111111111112,15.416666666666666,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+F,D20N,W 4 St-Wash Sq,26,26,0.39743589743589747,6.268,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+F,D20S,W 4 St-Wash Sq,32,31,0.23709677419354838,5.374193548387097,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+F,D21N,Broadway-Lafayette St,14,14,1.2238095238095237,13.278205128205128,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+F,D21S,Broadway-Lafayette St,31,30,0.585,5.553888888888889,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+F,F11N,Lexington Av/53 St,10,10,0.5883333333333334,16.114814814814814,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+F,F12N,5 Av/53 St,21,21,0.44603174603174606,8.301666666666666,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+F,F12S,5 Av/53 St,26,25,0.9666666666666667,6.979333333333333,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+F,F14N,2 Av,17,17,0.03235294117647059,9.7,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+F,F14S,2 Av,22,22,0.503030303030303,7.953968253968254,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+F,F15N,Delancey St-Essex St,10,10,0.14999999999999997,18.177777777777777,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+F,F15S,Delancey St-Essex St,18,18,0.7212962962962963,9.83529411764706,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+F,F16S,East Broadway,15,15,0.7133333333333333,11.929761904761905,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+FX,D16N,42 St-Bryant Pk,1,1,-0.3,,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+FX,D18N,23 St,1,1,-0.38333333333333336,,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+FX,D19N,14 St,1,1,-0.5166666666666667,,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+FX,D20N,W 4 St-Wash Sq,2,2,0.08333333333333334,22.166666666666668,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+FX,D21N,Broadway-Lafayette St,2,2,0.3666666666666667,21.666666666666668,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+FX,F11N,Lexington Av/53 St,1,1,-0.11666666666666667,,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+FX,F12N,5 Av/53 St,2,2,-0.675,20.983333333333334,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+FX,F14N,2 Av,1,1,0.08333333333333333,,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+M,B06N,Roosevelt Island,21,20,0.2583333333333333,8.680833333333334,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+M,B08N,Lexington Av/63 St,21,20,0.8283333333333334,8.714166666666667,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+M,B08S,Lexington Av/63 St,18,18,0.19814814814814818,9.211764705882352,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+M,B10N,57 St,17,17,1.2843137254901962,10.636458333333334,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+M,B10S,57 St,21,21,-0.43174603174603177,8.430833333333332,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+M,D15N,47-50 Sts-Rockefeller Ctr,15,15,1.451111111111111,12.186904761904762,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+M,D15S,47-50 Sts-Rockefeller Ctr,16,16,-0.3510416666666667,10.907777777777778,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+M,D16N,42 St-Bryant Pk,3,3,-0.08888888888888889,55.016666666666666,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+M,D16S,42 St-Bryant Pk,5,4,1.9708333333333334,43.3,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+M,D17N,34 St-Herald Sq,18,17,0.5343137254901961,10.075490196078432,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+M,D18N,23 St,5,5,1.5433333333333334,33.55,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+M,D18S,23 St,19,19,0.9070175438596492,8.9,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+M,D19N,14 St,11,11,1.5303030303030303,14.101666666666667,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+M,D19S,14 St,4,4,0.325,34.666666666666664,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+M,D20N,W 4 St-Wash Sq,20,19,1.1280701754385964,8.61140350877193,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+M,D20S,W 4 St-Wash Sq,20,19,0.13508771929824562,9.185964912280701,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+M,D21S,Broadway-Lafayette St,21,21,0.46904761904761905,8.73,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+M,M18S,Delancey St-Essex St,19,19,-0.456140350877193,9.001851851851852,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.
+M,M19S,Bowery,1,0,,,Unvalidated estimates; missed trains can inflate event gaps. Not actual service frequency.

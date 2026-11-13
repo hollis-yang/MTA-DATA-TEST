@@ -1,0 +1,9 @@
+sample,station_code,station,cases,distinct_trips,mean_error_min,median_error_min,mean_absolute_error_min,over_1_min_count,over_1_min_pct,min_error_min,max_error_min
+all_matched,D15,Rockefeller,0,0,,,,0,,,
+all_matched,D16,Bryant Pk,0,0,,,,0,,,
+all_matched,D17,Herald Sq,0,0,,,,0,,,
+all_matched,D20,Wash Sq,0,0,,,,0,,,
+exclude_quality_flags,D15,Rockefeller,0,0,,,,0,,,
+exclude_quality_flags,D16,Bryant Pk,0,0,,,,0,,,
+exclude_quality_flags,D17,Herald Sq,0,0,,,,0,,,
+exclude_quality_flags,D20,Wash Sq,0,0,,,,0,,,

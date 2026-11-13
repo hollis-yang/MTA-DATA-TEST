@@ -1,0 +1,63 @@
+{
+  "status": "completed",
+  "updated_at": "2026-11-12T09:30:03.410666-05:00",
+  "scheduled_start": "2026-11-12T06:30:00-05:00",
+  "scheduled_end": "2026-11-12T09:30:00-05:00",
+  "interval_seconds": 30,
+  "pid": 20120,
+  "run_directory": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning",
+  "completed_slots": 360,
+  "summary": {
+    "run": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning",
+    "counts": {
+      "predictions": 430920,
+      "vehicles": 9773,
+      "alerts": 14029
+    },
+    "feeds": {
+      "trains": {
+        "requests": 360,
+        "errors": 0,
+        "distinct_source_timestamps": 360,
+        "min_source_age_seconds": 5.1053690910339355,
+        "max_source_age_seconds": 14.170076847076416
+      },
+      "alerts": {
+        "requests": 360,
+        "errors": 0,
+        "distinct_source_timestamps": 70,
+        "min_source_age_seconds": 1.1485040187835693,
+        "max_source_age_seconds": 1696.1494870185852
+      }
+    },
+    "arrival_candidates": 1266,
+    "eta_matched_candidates": 1236,
+    "tracked_trip_stops": 4974,
+    "positive_eta_range_trip_stops": 2543,
+    "actual_delay_measured": false,
+    "arrival_algorithm": "v2_station_path_timestamp",
+    "station_change_evidence": 1723,
+    "rejection_reasons": {
+      "candidate": 1266,
+      "not_expected_next_station": 5,
+      "path_changed_not_suffix": 2,
+      "remaining_path_not_yet_aligned": 392,
+      "repeated_out_of_order_or_gap": 1,
+      "stale_or_future_vehicle_time": 56,
+      "vehicle_time_not_new_since_previous_observation": 1
+    },
+    "vehicle_status_counts": {
+      "STOPPED_AT": 9767,
+      "UNKNOWN": 6
+    },
+    "prediction_counts_by_route": {
+      "B": 72756,
+      "D": 81347,
+      "F": 172143,
+      "FX": 4529,
+      "M": 100145
+    },
+    "distinct_station_directions": 41,
+    "raw_compressed_bytes": 40143636
+  }
+}

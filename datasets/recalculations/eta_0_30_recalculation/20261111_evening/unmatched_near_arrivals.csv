@@ -1,0 +1,5 @@
+trip_key,stop,route,reason
+20261111|M|105500_M..N24R|17:35:30,D21N,M,no_earlier_4_to_6_min_reference
+20261111|M|108050_M..N24R|18:00:30,D21N,M,no_earlier_4_to_6_min_reference
+20261111|M|114850_M..N24R|19:08:30,D21N,M,no_earlier_4_to_6_min_reference
+20261111|M|115850_M..N24R|19:18:30,D21N,M,no_earlier_4_to_6_min_reference

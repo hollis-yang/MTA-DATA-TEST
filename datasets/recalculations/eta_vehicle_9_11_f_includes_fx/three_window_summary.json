@@ -1,0 +1,824 @@
+{
+  "method": "Original vehicle-based arrival inference; first ETA in 9–11 minute predicted-wait band; trajectory flags excluded; F includes FX",
+  "periods": [
+    {
+      "label": "Nov 11, 6–9PM",
+      "source_summary": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/eta_vehicle_9_11_f_includes_fx/20261111_evening/summary.json",
+      "prediction_rows": 330882,
+      "corridor_prediction_rows": 330740,
+      "other_prediction_rows": 142,
+      "feeds": [
+        {
+          "kind": "alerts",
+          "requests": 360,
+          "successful": 360
+        },
+        {
+          "kind": "trains",
+          "requests": 360,
+          "successful": 360
+        }
+      ],
+      "matched": 1018,
+      "excluded": 12,
+      "excluded_pct": 1.1787819253438114,
+      "overall": {
+        "cases": 1006,
+        "distinct_trips": 175,
+        "mean_error_min": 0.3069913850231942,
+        "median_error_min": 0.11666666666666667,
+        "mean_absolute_error_min": 1.181245858184228,
+        "over_1_min_count": 265,
+        "over_1_min_pct": 26.341948310139166,
+        "min_error_min": -3.716666666666667,
+        "max_error_min": 8.85
+      },
+      "stations": [
+        {
+          "sample": "exclude_trajectory_flags",
+          "station_code": "D15",
+          "station": "Rockefeller",
+          "cases": 122,
+          "distinct_trips": 122,
+          "mean_error_min": 0.13811475409836066,
+          "median_error_min": -0.06666666666666667,
+          "mean_absolute_error_min": 0.9594262295081968,
+          "over_1_min_count": 24,
+          "over_1_min_pct": 19.672131147540984,
+          "min_error_min": -2.5,
+          "max_error_min": 5.383333333333334
+        },
+        {
+          "sample": "exclude_trajectory_flags",
+          "station_code": "D16",
+          "station": "Bryant Pk",
+          "cases": 76,
+          "distinct_trips": 76,
+          "mean_error_min": 0.3513157894736842,
+          "median_error_min": 0.175,
+          "mean_absolute_error_min": 1.1302631578947369,
+          "over_1_min_count": 21,
+          "over_1_min_pct": 27.63157894736842,
+          "min_error_min": -1.7833333333333334,
+          "max_error_min": 5.716666666666667
+        },
+        {
+          "sample": "exclude_trajectory_flags",
+          "station_code": "D17",
+          "station": "Herald Sq",
+          "cases": 82,
+          "distinct_trips": 82,
+          "mean_error_min": 0.11239837398373982,
+          "median_error_min": -0.041666666666666664,
+          "mean_absolute_error_min": 1.2550813008130082,
+          "over_1_min_count": 23,
+          "over_1_min_pct": 28.048780487804876,
+          "min_error_min": -2.9166666666666665,
+          "max_error_min": 3.9833333333333334
+        },
+        {
+          "sample": "exclude_trajectory_flags",
+          "station_code": "D20",
+          "station": "Wash Sq",
+          "cases": 157,
+          "distinct_trips": 157,
+          "mean_error_min": -0.026114649681528657,
+          "median_error_min": -0.16666666666666666,
+          "mean_absolute_error_min": 1.3796178343949044,
+          "over_1_min_count": 37,
+          "over_1_min_pct": 23.56687898089172,
+          "min_error_min": -3.716666666666667,
+          "max_error_min": 8.85
+        }
+      ],
+      "routes": [
+        {
+          "sample": "exclude_trajectory_flags",
+          "route": "B",
+          "included_source_routes": "B",
+          "cases": 201,
+          "distinct_trips": 38,
+          "mean_error_min": -0.09013266998341625,
+          "median_error_min": -0.06666666666666667,
+          "mean_absolute_error_min": 1.1224709784411278,
+          "over_1_min_count": 40,
+          "over_1_min_pct": 19.90049751243781,
+          "min_error_min": -3.716666666666667,
+          "max_error_min": 4.133333333333334
+        },
+        {
+          "sample": "exclude_trajectory_flags",
+          "route": "D",
+          "included_source_routes": "D",
+          "cases": 228,
+          "distinct_trips": 43,
+          "mean_error_min": -0.17960526315789474,
+          "median_error_min": -0.2,
+          "mean_absolute_error_min": 1.0877923976608188,
+          "over_1_min_count": 36,
+          "over_1_min_pct": 15.789473684210526,
+          "min_error_min": -3.3333333333333335,
+          "max_error_min": 4.85
+        },
+        {
+          "sample": "exclude_trajectory_flags",
+          "route": "F",
+          "included_source_routes": "F;FX",
+          "cases": 303,
+          "distinct_trips": 49,
+          "mean_error_min": 1.0637513751375138,
+          "median_error_min": 0.75,
+          "mean_absolute_error_min": 1.4364686468646866,
+          "over_1_min_count": 129,
+          "over_1_min_pct": 42.57425742574257,
+          "min_error_min": -1.95,
+          "max_error_min": 8.85
+        },
+        {
+          "sample": "exclude_trajectory_flags",
+          "route": "M",
+          "included_source_routes": "M",
+          "cases": 274,
+          "distinct_trips": 45,
+          "mean_error_min": 0.1663625304136253,
+          "median_error_min": -0.008333333333333333,
+          "mean_absolute_error_min": 1.0198905109489051,
+          "over_1_min_count": 60,
+          "over_1_min_pct": 21.8978102189781,
+          "min_error_min": -3.3333333333333335,
+          "max_error_min": 6.516666666666667
+        }
+      ],
+      "directions": [
+        {
+          "direction": "N",
+          "cases": 447,
+          "mean_error_min": 0.2237509321401939,
+          "over_1_min_pct": 29.530201342281877
+        },
+        {
+          "direction": "S",
+          "cases": 559,
+          "mean_error_min": 0.37355396541443053,
+          "over_1_min_pct": 23.792486583184257
+        }
+      ],
+      "max_case": {
+        "trip_key": "20261111|F|111800_F..S54R|18:38:00",
+        "route": "F",
+        "stop": "D20S",
+        "station_code": "D20",
+        "station": "W 4 St-Wash Sq",
+        "direction": "S",
+        "reference_poll_id": "291",
+        "reference_source_ts": "1794442347",
+        "reference_source_local": "2026-11-11T19:12:27-05:00",
+        "reference_eta": "1794442970",
+        "reference_eta_local": "2026-11-11T19:22:50-05:00",
+        "reference_remaining_sec": "623",
+        "estimated_arrival_ts": "1794443501.0",
+        "estimated_arrival_local": "2026-11-11T19:31:41-05:00",
+        "arrival_method": "station_change_timestamp_path_consistent_UNVALIDATED",
+        "observation_start": "1794443488.0",
+        "observation_end": "1794443518.0",
+        "eta_error_min": "8.85",
+        "quality_flags": "",
+        "included_after_screen": "True",
+        "old_4_6_eta": "1794443141",
+        "old_4_6_error_min": "6.0",
+        "old_4_6_quality_flags": "",
+        "physical_arrival_validated": "False"
+      }
+    },
+    {
+      "label": "Nov 12, 6:30–9:30AM",
+      "source_summary": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/eta_vehicle_9_11_f_includes_fx/20261112_morning/summary.json",
+      "prediction_rows": 430920,
+      "corridor_prediction_rows": 430889,
+      "other_prediction_rows": 31,
+      "feeds": [
+        {
+          "kind": "alerts",
+          "requests": 360,
+          "successful": 360
+        },
+        {
+          "kind": "trains",
+          "requests": 360,
+          "successful": 360
+        }
+      ],
+      "matched": 1189,
+      "excluded": 16,
+      "excluded_pct": 1.3456686291000841,
+      "overall": {
+        "cases": 1173,
+        "distinct_trips": 202,
+        "mean_error_min": 0.6703324808184143,
+        "median_error_min": 0.26666666666666666,
+        "mean_absolute_error_min": 1.4162546177891446,
+        "over_1_min_count": 385,
+        "over_1_min_pct": 32.82182438192668,
+        "min_error_min": -3.6333333333333333,
+        "max_error_min": 15.916666666666666
+      },
+      "stations": [
+        {
+          "sample": "exclude_trajectory_flags",
+          "station_code": "D15",
+          "station": "Rockefeller",
+          "cases": 145,
+          "distinct_trips": 145,
+          "mean_error_min": 0.9397701149425287,
+          "median_error_min": 0.6666666666666666,
+          "mean_absolute_error_min": 1.5786206896551724,
+          "over_1_min_count": 62,
+          "over_1_min_pct": 42.758620689655174,
+          "min_error_min": -3.25,
+          "max_error_min": 8.083333333333334
+        },
+        {
+          "sample": "exclude_trajectory_flags",
+          "station_code": "D16",
+          "station": "Bryant Pk",
+          "cases": 95,
+          "distinct_trips": 95,
+          "mean_error_min": 1.3019298245614035,
+          "median_error_min": 0.8833333333333333,
+          "mean_absolute_error_min": 1.6145614035087719,
+          "over_1_min_count": 45,
+          "over_1_min_pct": 47.36842105263158,
+          "min_error_min": -1.5833333333333333,
+          "max_error_min": 9.166666666666666
+        },
+        {
+          "sample": "exclude_trajectory_flags",
+          "station_code": "D17",
+          "station": "Herald Sq",
+          "cases": 89,
+          "distinct_trips": 89,
+          "mean_error_min": 0.8035580524344569,
+          "median_error_min": 0.5,
+          "mean_absolute_error_min": 1.4608614232209738,
+          "over_1_min_count": 31,
+          "over_1_min_pct": 34.831460674157306,
+          "min_error_min": -2.316666666666667,
+          "max_error_min": 8.933333333333334
+        },
+        {
+          "sample": "exclude_trajectory_flags",
+          "station_code": "D20",
+          "station": "Wash Sq",
+          "cases": 176,
+          "distinct_trips": 176,
+          "mean_error_min": -0.025378787878787883,
+          "median_error_min": -0.24166666666666667,
+          "mean_absolute_error_min": 1.128787878787879,
+          "over_1_min_count": 37,
+          "over_1_min_pct": 21.022727272727273,
+          "min_error_min": -3.2666666666666666,
+          "max_error_min": 4.4
+        }
+      ],
+      "routes": [
+        {
+          "sample": "exclude_trajectory_flags",
+          "route": "B",
+          "included_source_routes": "B",
+          "cases": 260,
+          "distinct_trips": 45,
+          "mean_error_min": 0.6849358974358974,
+          "median_error_min": 0.31666666666666665,
+          "mean_absolute_error_min": 1.4186538461538463,
+          "over_1_min_count": 85,
+          "over_1_min_pct": 32.69230769230769,
+          "min_error_min": -3.2666666666666666,
+          "max_error_min": 7.083333333333333
+        },
+        {
+          "sample": "exclude_trajectory_flags",
+          "route": "D",
+          "included_source_routes": "D",
+          "cases": 256,
+          "distinct_trips": 47,
+          "mean_error_min": 0.7839192708333333,
+          "median_error_min": 0.55,
+          "mean_absolute_error_min": 1.5184244791666666,
+          "over_1_min_count": 108,
+          "over_1_min_pct": 42.1875,
+          "min_error_min": -3.216666666666667,
+          "max_error_min": 6.033333333333333
+        },
+        {
+          "sample": "exclude_trajectory_flags",
+          "route": "F",
+          "included_source_routes": "F;FX",
+          "cases": 409,
+          "distinct_trips": 66,
+          "mean_error_min": 0.6921352893235534,
+          "median_error_min": 0.16666666666666666,
+          "mean_absolute_error_min": 1.3429910350448249,
+          "over_1_min_count": 122,
+          "over_1_min_pct": 29.82885085574572,
+          "min_error_min": -2.683333333333333,
+          "max_error_min": 15.916666666666666
+        },
+        {
+          "sample": "exclude_trajectory_flags",
+          "route": "M",
+          "included_source_routes": "M",
+          "cases": 248,
+          "distinct_trips": 44,
+          "mean_error_min": 0.5018145161290323,
+          "median_error_min": 0.058333333333333334,
+          "mean_absolute_error_min": 1.4290994623655915,
+          "over_1_min_count": 70,
+          "over_1_min_pct": 28.225806451612904,
+          "min_error_min": -3.6333333333333333,
+          "max_error_min": 13.25
+        }
+      ],
+      "directions": [
+        {
+          "direction": "N",
+          "cases": 575,
+          "mean_error_min": 0.8871304347826087,
+          "over_1_min_pct": 40.34782608695652
+        },
+        {
+          "direction": "S",
+          "cases": 598,
+          "mean_error_min": 0.46187290969899664,
+          "over_1_min_pct": 25.585284280936456
+        }
+      ],
+      "max_case": {
+        "trip_key": "20261112|F|048500_F..S54R|08:05:00",
+        "route": "F",
+        "stop": "F12S",
+        "station_code": "F12",
+        "station": "5 Av/53 St",
+        "direction": "S",
+        "reference_poll_id": "473",
+        "reference_source_ts": "1794490072",
+        "reference_source_local": "2026-11-12T08:27:52-05:00",
+        "reference_eta": "1794490727",
+        "reference_eta_local": "2026-11-12T08:38:47-05:00",
+        "reference_remaining_sec": "655",
+        "estimated_arrival_ts": "1794491682.0",
+        "estimated_arrival_local": "2026-11-12T08:54:42-05:00",
+        "arrival_method": "station_change_timestamp_path_consistent_UNVALIDATED",
+        "observation_start": "1794491663.0",
+        "observation_end": "1794491694.0",
+        "eta_error_min": "15.916666666666666",
+        "quality_flags": "",
+        "included_after_screen": "True",
+        "old_4_6_eta": "1794491487",
+        "old_4_6_error_min": "3.25",
+        "old_4_6_quality_flags": "",
+        "physical_arrival_validated": "False"
+      }
+    },
+    {
+      "label": "Nov 12, 12–3PM",
+      "source_summary": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/eta_vehicle_9_11_f_includes_fx/20261112_midday/summary.json",
+      "prediction_rows": 372293,
+      "corridor_prediction_rows": 371554,
+      "other_prediction_rows": 739,
+      "feeds": [
+        {
+          "kind": "alerts",
+          "requests": 360,
+          "successful": 360
+        },
+        {
+          "kind": "trains",
+          "requests": 360,
+          "successful": 360
+        }
+      ],
+      "matched": 887,
+      "excluded": 19,
+      "excluded_pct": 2.142051860202931,
+      "overall": {
+        "cases": 868,
+        "distinct_trips": 164,
+        "mean_error_min": 2.8706797235023043,
+        "median_error_min": 0.7166666666666667,
+        "mean_absolute_error_min": 3.374903993855607,
+        "over_1_min_count": 364,
+        "over_1_min_pct": 41.935483870967744,
+        "min_error_min": -3.25,
+        "max_error_min": 33.833333333333336
+      },
+      "stations": [
+        {
+          "sample": "exclude_trajectory_flags",
+          "station_code": "D15",
+          "station": "Rockefeller",
+          "cases": 93,
+          "distinct_trips": 93,
+          "mean_error_min": 1.8994623655913978,
+          "median_error_min": 0.5833333333333334,
+          "mean_absolute_error_min": 2.410573476702509,
+          "over_1_min_count": 37,
+          "over_1_min_pct": 39.784946236559136,
+          "min_error_min": -3.25,
+          "max_error_min": 19.016666666666666
+        },
+        {
+          "sample": "exclude_trajectory_flags",
+          "station_code": "D16",
+          "station": "Bryant Pk",
+          "cases": 69,
+          "distinct_trips": 69,
+          "mean_error_min": 3.9814009661835748,
+          "median_error_min": 1.0833333333333333,
+          "mean_absolute_error_min": 4.478502415458937,
+          "over_1_min_count": 35,
+          "over_1_min_pct": 50.72463768115942,
+          "min_error_min": -2.1666666666666665,
+          "max_error_min": 18.883333333333333
+        },
+        {
+          "sample": "exclude_trajectory_flags",
+          "station_code": "D17",
+          "station": "Herald Sq",
+          "cases": 83,
+          "distinct_trips": 83,
+          "mean_error_min": 3.3417670682730924,
+          "median_error_min": 0.5833333333333334,
+          "mean_absolute_error_min": 4.028915662650602,
+          "over_1_min_count": 34,
+          "over_1_min_pct": 40.963855421686745,
+          "min_error_min": -3.05,
+          "max_error_min": 24.966666666666665
+        },
+        {
+          "sample": "exclude_trajectory_flags",
+          "station_code": "D20",
+          "station": "Wash Sq",
+          "cases": 115,
+          "distinct_trips": 115,
+          "mean_error_min": 3.6908695652173913,
+          "median_error_min": 1.0,
+          "mean_absolute_error_min": 4.214927536231884,
+          "over_1_min_count": 56,
+          "over_1_min_pct": 48.69565217391305,
+          "min_error_min": -2.6,
+          "max_error_min": 26.883333333333333
+        }
+      ],
+      "routes": [
+        {
+          "sample": "exclude_trajectory_flags",
+          "route": "B",
+          "included_source_routes": "B",
+          "cases": 137,
+          "distinct_trips": 30,
+          "mean_error_min": 3.7880778588807784,
+          "median_error_min": 0.9,
+          "mean_absolute_error_min": 4.0878345498783455,
+          "over_1_min_count": 65,
+          "over_1_min_pct": 47.44525547445255,
+          "min_error_min": -2.55,
+          "max_error_min": 29.583333333333332
+        },
+        {
+          "sample": "exclude_trajectory_flags",
+          "route": "D",
+          "included_source_routes": "D",
+          "cases": 195,
+          "distinct_trips": 41,
+          "mean_error_min": 2.1599145299145297,
+          "median_error_min": 0.5666666666666667,
+          "mean_absolute_error_min": 2.894957264957265,
+          "over_1_min_count": 78,
+          "over_1_min_pct": 40.0,
+          "min_error_min": -3.05,
+          "max_error_min": 27.616666666666667
+        },
+        {
+          "sample": "exclude_trajectory_flags",
+          "route": "F",
+          "included_source_routes": "F;FX",
+          "cases": 288,
+          "distinct_trips": 49,
+          "mean_error_min": 2.4484953703703702,
+          "median_error_min": 0.7,
+          "mean_absolute_error_min": 2.872685185185185,
+          "over_1_min_count": 120,
+          "over_1_min_pct": 41.666666666666664,
+          "min_error_min": -3.25,
+          "max_error_min": 33.833333333333336
+        },
+        {
+          "sample": "exclude_trajectory_flags",
+          "route": "M",
+          "included_source_routes": "M",
+          "cases": 248,
+          "distinct_trips": 44,
+          "mean_error_min": 3.413037634408602,
+          "median_error_min": 0.6916666666666667,
+          "mean_absolute_error_min": 3.941666666666667,
+          "over_1_min_count": 101,
+          "over_1_min_pct": 40.725806451612904,
+          "min_error_min": -2.6,
+          "max_error_min": 27.8
+        }
+      ],
+      "directions": [
+        {
+          "direction": "N",
+          "cases": 415,
+          "mean_error_min": 0.49,
+          "over_1_min_pct": 30.602409638554217
+        },
+        {
+          "direction": "S",
+          "cases": 453,
+          "mean_error_min": 5.051655629139073,
+          "over_1_min_pct": 52.317880794701985
+        }
+      ],
+      "max_case": {
+        "trip_key": "20261112|F|074150_F..S54R|12:21:32",
+        "route": "F",
+        "stop": "D18S",
+        "station_code": "D18",
+        "station": "23 St",
+        "direction": "S",
+        "reference_poll_id": "199",
+        "reference_source_ts": "1794505761",
+        "reference_source_local": "2026-11-12T12:49:21-05:00",
+        "reference_eta": "1794506392",
+        "reference_eta_local": "2026-11-12T12:59:52-05:00",
+        "reference_remaining_sec": "631",
+        "estimated_arrival_ts": "1794508422.0",
+        "estimated_arrival_local": "2026-11-12T13:33:42-05:00",
+        "arrival_method": "station_change_timestamp_path_consistent_UNVALIDATED",
+        "observation_start": "1794508403.0",
+        "observation_end": "1794508433.0",
+        "eta_error_min": "33.833333333333336",
+        "quality_flags": "",
+        "included_after_screen": "True",
+        "old_4_6_eta": "1794506809",
+        "old_4_6_error_min": "26.883333333333333",
+        "old_4_6_quality_flags": "",
+        "physical_arrival_validated": "False"
+      }
+    }
+  ],
+  "totals": {
+    "prediction_rows": 1134095,
+    "corridor_prediction_rows": 1133183,
+    "scheduled_requests": 2160,
+    "matched": 3094,
+    "excluded": 47,
+    "retained": 3047
+  },
+  "midday_official_events": [
+    {
+      "event_key": "lmm:alert:275985",
+      "alert_types": [
+        "Delays"
+      ],
+      "routes": [
+        "B",
+        "Q"
+      ],
+      "first_seen_local": "2026-11-12T12:00:00-05:00",
+      "last_seen_local": "2026-11-12T13:43:00-05:00",
+      "snapshot_records": 207,
+      "active_at_source": true,
+      "active_at_collection": true,
+      "titles": [
+        "Uptown [B][Q] trains are running with delays after we moved a train with a mechanical problem near Prospect Park."
+      ],
+      "descriptions": [
+        ""
+      ]
+    },
+    {
+      "event_key": "lmm:alert:275986",
+      "alert_types": [
+        "Delays"
+      ],
+      "routes": [
+        "D"
+      ],
+      "first_seen_local": "2026-11-12T12:00:00-05:00",
+      "last_seen_local": "2026-11-12T14:16:00-05:00",
+      "snapshot_records": 273,
+      "active_at_source": true,
+      "active_at_collection": true,
+      "titles": [
+        "Uptown [D] trains are running with delays while we address a signal problem at Bay 50 St.",
+        "Uptown [D] trains are running with delays after we addressed a signal problem at Bay 50 St."
+      ],
+      "descriptions": [
+        ""
+      ]
+    },
+    {
+      "event_key": "lmm:alert:275987",
+      "alert_types": [
+        "Delays"
+      ],
+      "routes": [
+        "E",
+        "F"
+      ],
+      "first_seen_local": "2026-11-12T12:00:00-05:00",
+      "last_seen_local": "2026-11-12T14:59:30-05:00",
+      "snapshot_records": 360,
+      "active_at_source": true,
+      "active_at_collection": true,
+      "titles": [
+        "Downtown [E][F] trains are running with delays while we address a signal malfunction near 5 Av/53 St.",
+        "[E][F] trains are running with delays in both directions while we address a signal malfunction near 5 Av/53 St."
+      ],
+      "descriptions": [
+        ""
+      ]
+    },
+    {
+      "event_key": "lmm:alert:275990",
+      "alert_types": [
+        "Delays"
+      ],
+      "routes": [
+        "B",
+        "D",
+        "F",
+        "M"
+      ],
+      "first_seen_local": "2026-11-12T12:42:00-05:00",
+      "last_seen_local": "2026-11-12T14:59:30-05:00",
+      "snapshot_records": 276,
+      "active_at_source": true,
+      "active_at_collection": true,
+      "titles": [
+        "Downtown [B][D] trains are delayed while we remove a train with a mechanical problem from service at W 4 St-Wash Sq.",
+        "[B][D] trains in both directions and downtown [F][M] trains are running with delays after we removed a train with a mechanical problem from service at W 4 St-Wash Sq.",
+        "[B][D] trains in both directions and downtown [M] trains are running with delays after we removed a train with a mechanical problem from service at W 4 St-Wash Sq."
+      ],
+      "descriptions": [
+        "",
+        "Some downtown [B] trains via [F] line from W 4 St-Wash Sq to 2 Av, where they will turn back for uptown service.\nSome downtown [D] trains via [F] line from W 4 St-Wash Sq to Coney Island-Stillwell Av.\nListen for announcements to hear how your train will run.",
+        "Downtown [B][D] trains have resumed making scheduled stops."
+      ]
+    },
+    {
+      "event_key": "lmm:alert:276001",
+      "alert_types": [
+        "Delays"
+      ],
+      "routes": [
+        "F"
+      ],
+      "first_seen_local": "2026-11-12T14:59:00-05:00",
+      "last_seen_local": "2026-11-12T14:59:30-05:00",
+      "snapshot_records": 2,
+      "active_at_source": true,
+      "active_at_collection": true,
+      "titles": [
+        "[F] trains are delayed in both directions while we remove water from the tracks near Jamaica-179 St."
+      ],
+      "descriptions": [
+        ""
+      ]
+    }
+  ],
+  "midday_inactive_planned_reroutes": [
+    {
+      "event_key": "lmm:planned_work:35567",
+      "alert_types": [
+        "Planned - Reroute"
+      ],
+      "routes": [
+        "D"
+      ],
+      "first_seen_local": "2026-11-12T12:00:00-05:00",
+      "last_seen_local": "2026-11-12T14:59:30-05:00",
+      "snapshot_records": 360,
+      "active_at_source": false,
+      "active_at_collection": false,
+      "titles": [
+        "In Brooklyn, Manhattan-bound [D] runs via the [N] from Coney Island-Stillwell Av to 36 St"
+      ],
+      "descriptions": [
+        "Trains stop at 62 St/New Utrecht Av.\n\nFor service to Bay 50 St, 25 Av, Bay Pkwy, 20 Av, 18 Av, 79 St and 71 St, take the [D] to 62 St/New Utrecht Av [accessibility icon] and transfer to a Coney Island-bound [D].\n\nFor service to 55 St, 50 St, Fort Hamilton Pkwy and 9 Av, take the [D] to 36 St and transfer to a Coney Island-bound [D].\n\nFor service from these stations, take the [D] to 62 St/New Utrecht Av [accessibility icon] or Coney Island-Stillwell Av and transfer to a Manhattan-bound [D] or [N].\n\nNote: Manhattan-bound [D] skips 53 St and 45 St [N] stations.\n\nWhat's happening?\nStructural maintenance\n\n[accessibility icon] This service change affects one or more ADA accessible stations and these travel alternatives may not be fully accessible. Please contact 511 to plan your trip."
+      ]
+    },
+    {
+      "event_key": "lmm:planned_work:36210",
+      "alert_types": [
+        "Planned - Reroute"
+      ],
+      "routes": [
+        "F"
+      ],
+      "first_seen_local": "2026-11-12T12:00:00-05:00",
+      "last_seen_local": "2026-11-12T14:59:30-05:00",
+      "snapshot_records": 360,
+      "active_at_source": false,
+      "active_at_collection": false,
+      "titles": [
+        "In Brooklyn, [F] trains are rerouted in both directions via [C] between Jay St-MetroTech and Euclid Av, the last stop"
+      ],
+      "descriptions": [
+        "[G] trains replace [F] service between Bergen St and Coney Island-Stillwell Av, all weekend.\n\nTravel Alternatives:\nTransfer between [F] and [G] trains at Hoyt-Schermerhorn Sts.\nFor direct service between Manhattan/Downtown Brooklyn and Coney Island, take the [D][N] or [Q] instead.\n\nTransfer stations:\nLexington Av/63 St [accessibility icon] | [F][Q]\n47-50 Sts-Rockefeller Ctr [accessibility icon] | [D][F]\n42 St-Port Authority/Times Sq/Bryant Pk [A][E][D][F][N][Q]\n34 St-Herald Sq [accessibility icon] | [D][F][N][Q]\nW 4 St-Wash Sq [accessibility icon] | [A][D][F]\nJay St-MetroTech [accessibility icon] | [A][F], [N] (late nights), [R]\nHoyt-Schermerhorn Sts [F][G]\n\nWhat's happening?\nWe're making electrical improvements\n\n\n[accessibility icon] This service change affects one or more ADA accessible stations and these travel alternatives may not be fully accessible. Please contact 511 to plan your trip."
+      ]
+    },
+    {
+      "event_key": "lmm:planned_work:36390",
+      "alert_types": [
+        "Planned - Reroute"
+      ],
+      "routes": [
+        "F"
+      ],
+      "first_seen_local": "2026-11-12T12:00:00-05:00",
+      "last_seen_local": "2026-11-12T14:59:30-05:00",
+      "snapshot_records": 360,
+      "active_at_source": false,
+      "active_at_collection": false,
+      "titles": [
+        "In Lower Manhattan and Brooklyn, no Coney Island-bound [F] at Broadway-Lafayette St, 2 Av, Delancey St-Essex St, East Broadway and York St"
+      ],
+      "descriptions": [
+        "Coney Island-bound [F] runs via the [A] local from W 4 St-Wash Sq to Jay St-MetroTech.\n\nTravel alternatives:\nFor Broadway-Lafayette St, take the [D] or Jamaica-bound [F] via transfer at W 4 St-Wash Sq.\n\nFor 2 Av and East Broadway, take a Jamaica-bound [F] via transfer to/from the Coney Island-bound [F] at W 4 St-Wash Sq or Jay St-MetroTech.\n\nFor Delancey St-Essex St, take the [J] via transfer at Fulton St.\n\nFor York St, use the nearby High St [A][C] station instead.\n\nTravel tip:\nFor 2 Av and East Broadway, use nearby Broadway-Lafayette St or Grand St [D] stations via transfer at W 4 St-Wash Sq.\n\nWhat's happening?\nTrack maintenance"
+      ]
+    }
+  ],
+  "notes": [
+    "Official notice first/last-seen times are observation times, not proven incident start/end times.",
+    "Route summaries retain the original geographic collection scope, including observed reroute stops.",
+    "All arrival labels remain inferred, without independent physical arrival validation."
+  ],
+  "midday_by_arrival_hour": [
+    {
+      "hour": 12,
+      "cases": 227,
+      "mean_error_min": 0.8707782672540382,
+      "over_1_min_pct": 29.07488986784141
+    },
+    {
+      "hour": 13,
+      "cases": 298,
+      "mean_error_min": 4.463366890380313,
+      "over_1_min_pct": 51.67785234899329
+    },
+    {
+      "hour": 14,
+      "cases": 343,
+      "mean_error_min": 2.8104956268221573,
+      "over_1_min_pct": 41.98250728862974
+    }
+  ],
+  "midday_tail": [
+    {
+      "threshold_min": 5,
+      "cases": 151,
+      "distinct_trips": 43
+    },
+    {
+      "threshold_min": 10,
+      "cases": 98,
+      "distinct_trips": 33
+    },
+    {
+      "threshold_min": 20,
+      "cases": 32,
+      "distinct_trips": 14
+    }
+  ],
+  "midday_w4_notice_versions": [
+    {
+      "first_seen": "2026-11-12T12:42:00-05:00",
+      "last_seen": "2026-11-12T12:54:00-05:00",
+      "title": "Downtown [B][D] trains are delayed while we remove a train with a mechanical problem from service at W 4 St-Wash Sq.",
+      "description": ""
+    },
+    {
+      "first_seen": "2026-11-12T12:54:30-05:00",
+      "last_seen": "2026-11-12T14:16:00-05:00",
+      "title": "Downtown [B][D] trains are delayed while we remove a train with a mechanical problem from service at W 4 St-Wash Sq.",
+      "description": "Some downtown [B] trains via [F] line from W 4 St-Wash Sq to 2 Av, where they will turn back for uptown service.\nSome downtown [D] trains via [F] line from W 4 St-Wash Sq to Coney Island-Stillwell Av.\nListen for announcements to hear how your train will run."
+    },
+    {
+      "first_seen": "2026-11-12T14:16:30-05:00",
+      "last_seen": "2026-11-12T14:27:30-05:00",
+      "title": "[B][D] trains in both directions and downtown [F][M] trains are running with delays after we removed a train with a mechanical problem from service at W 4 St-Wash Sq.",
+      "description": "Downtown [B][D] trains have resumed making scheduled stops."
+    },
+    {
+      "first_seen": "2026-11-12T14:28:00-05:00",
+      "last_seen": "2026-11-12T14:59:30-05:00",
+      "title": "[B][D] trains in both directions and downtown [M] trains are running with delays after we removed a train with a mechanical problem from service at W 4 St-Wash Sq.",
+      "description": "Downtown [B][D] trains have resumed making scheduled stops."
+    }
+  ],
+  "validation": "Original arrival timestamps verified against vehicle data; 4–6 minute baseline reproduced; 9–11 minute references independently reconciled in SQL; all station/route aggregates recomputed from detail; source files unchanged."
+}

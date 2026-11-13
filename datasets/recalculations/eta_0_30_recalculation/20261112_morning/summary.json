@@ -1,0 +1,344 @@
+{
+  "source_run": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T113000_morning",
+  "source_sha256": "97ea7d3cf1c8b48115ee187641d93f5c4afc53e34db38815c2e12245fbfdd275",
+  "collection_start": "2026-11-12T06:30:00-05:00",
+  "collection_end": "2026-11-12T09:30:00-05:00",
+  "method": {
+    "remaining_eta_basis": "ETA absolute timestamp minus feed source timestamp",
+    "endpoint": "Last valid prediction with 0 <= remaining ETA <= 30 seconds, per trip and directional stop",
+    "reference": "Earliest valid prediction before endpoint with 240 <= remaining ETA <= 360 seconds",
+    "calculation": "(endpoint ETA - reference ETA) / 60",
+    "validity": "HTTP 200, no parse error, feed age -5 to 120 seconds; repeated feed timestamps deduplicated",
+    "arrival_assumption": "Near-arrival ETA is approximately accurate, as specified by the user",
+    "route_scope": "B/D/F/M/FX retained; F and FX reported separately; all originally collected stops retained",
+    "quality_screen": "Flag prediction gaps >90s, explicit skipped stops, future ETA >30s after final near-arrival, conflicting timestamps, endpoints outside window",
+    "uncertainty": "No independent physical arrival validation; negative ETA is not clamped to zero"
+  },
+  "counts": {
+    "unique_trip_stops": 5028,
+    "near_arrival_snapshot_rows": 40,
+    "trip_stops_with_near_arrival": 38,
+    "near_arrival_without_reference": 6
+  },
+  "all_matched": {
+    "cases": 32,
+    "distinct_trips": 20,
+    "mean_error_min": 0.19375,
+    "median_error_min": 0.0,
+    "mean_absolute_error_min": 0.6552083333333333,
+    "over_1_min_count": 5,
+    "over_1_min_pct": 15.625,
+    "min_error_min": -1.4166666666666667,
+    "max_error_min": 3.1666666666666665
+  },
+  "excluding_quality_flags": {
+    "cases": 30,
+    "distinct_trips": 19,
+    "mean_error_min": 0.20666666666666667,
+    "median_error_min": 0.0,
+    "mean_absolute_error_min": 0.6988888888888889,
+    "over_1_min_count": 5,
+    "over_1_min_pct": 16.666666666666668,
+    "min_error_min": -1.4166666666666667,
+    "max_error_min": 3.1666666666666665
+  },
+  "flagged_cases": 2,
+  "quality_flag_counts": {
+    "eta_returns_above_30s_after_last_near_arrival": 2
+  },
+  "distinct_old_matched_cases": 1236,
+  "overlap_with_old_method": 10,
+  "paired_old_stats": {
+    "cases": 10,
+    "distinct_trips": 2,
+    "mean_error_min": 0.0,
+    "median_error_min": 0.0,
+    "mean_absolute_error_min": 0.0,
+    "over_1_min_count": 0,
+    "over_1_min_pct": 0.0,
+    "min_error_min": 0.0,
+    "max_error_min": 0.0
+  },
+  "paired_new_stats": {
+    "cases": 10,
+    "distinct_trips": 2,
+    "mean_error_min": 0.0,
+    "median_error_min": 0.0,
+    "mean_absolute_error_min": 0.0,
+    "over_1_min_count": 0,
+    "over_1_min_pct": 0.0,
+    "min_error_min": 0.0,
+    "max_error_min": 0.0
+  },
+  "overlap_reference_changes": 0,
+  "major_stations": [
+    {
+      "sample": "all_matched",
+      "station_code": "D15",
+      "station": "Rockefeller",
+      "cases": 1,
+      "distinct_trips": 1,
+      "mean_error_min": 0.0,
+      "median_error_min": 0.0,
+      "mean_absolute_error_min": 0.0,
+      "over_1_min_count": 0,
+      "over_1_min_pct": 0.0,
+      "min_error_min": 0.0,
+      "max_error_min": 0.0
+    },
+    {
+      "sample": "all_matched",
+      "station_code": "D16",
+      "station": "Bryant Pk",
+      "cases": 1,
+      "distinct_trips": 1,
+      "mean_error_min": 0.0,
+      "median_error_min": 0.0,
+      "mean_absolute_error_min": 0.0,
+      "over_1_min_count": 0,
+      "over_1_min_pct": 0.0,
+      "min_error_min": 0.0,
+      "max_error_min": 0.0
+    },
+    {
+      "sample": "all_matched",
+      "station_code": "D17",
+      "station": "Herald Sq",
+      "cases": 1,
+      "distinct_trips": 1,
+      "mean_error_min": 0.0,
+      "median_error_min": 0.0,
+      "mean_absolute_error_min": 0.0,
+      "over_1_min_count": 0,
+      "over_1_min_pct": 0.0,
+      "min_error_min": 0.0,
+      "max_error_min": 0.0
+    },
+    {
+      "sample": "all_matched",
+      "station_code": "D20",
+      "station": "Wash Sq",
+      "cases": 1,
+      "distinct_trips": 1,
+      "mean_error_min": 0.0,
+      "median_error_min": 0.0,
+      "mean_absolute_error_min": 0.0,
+      "over_1_min_count": 0,
+      "over_1_min_pct": 0.0,
+      "min_error_min": 0.0,
+      "max_error_min": 0.0
+    },
+    {
+      "sample": "exclude_quality_flags",
+      "station_code": "D15",
+      "station": "Rockefeller",
+      "cases": 1,
+      "distinct_trips": 1,
+      "mean_error_min": 0.0,
+      "median_error_min": 0.0,
+      "mean_absolute_error_min": 0.0,
+      "over_1_min_count": 0,
+      "over_1_min_pct": 0.0,
+      "min_error_min": 0.0,
+      "max_error_min": 0.0
+    },
+    {
+      "sample": "exclude_quality_flags",
+      "station_code": "D16",
+      "station": "Bryant Pk",
+      "cases": 1,
+      "distinct_trips": 1,
+      "mean_error_min": 0.0,
+      "median_error_min": 0.0,
+      "mean_absolute_error_min": 0.0,
+      "over_1_min_count": 0,
+      "over_1_min_pct": 0.0,
+      "min_error_min": 0.0,
+      "max_error_min": 0.0
+    },
+    {
+      "sample": "exclude_quality_flags",
+      "station_code": "D17",
+      "station": "Herald Sq",
+      "cases": 1,
+      "distinct_trips": 1,
+      "mean_error_min": 0.0,
+      "median_error_min": 0.0,
+      "mean_absolute_error_min": 0.0,
+      "over_1_min_count": 0,
+      "over_1_min_pct": 0.0,
+      "min_error_min": 0.0,
+      "max_error_min": 0.0
+    },
+    {
+      "sample": "exclude_quality_flags",
+      "station_code": "D20",
+      "station": "Wash Sq",
+      "cases": 1,
+      "distinct_trips": 1,
+      "mean_error_min": 0.0,
+      "median_error_min": 0.0,
+      "mean_absolute_error_min": 0.0,
+      "over_1_min_count": 0,
+      "over_1_min_pct": 0.0,
+      "min_error_min": 0.0,
+      "max_error_min": 0.0
+    }
+  ],
+  "routes": [
+    {
+      "sample": "all_matched",
+      "route": "B",
+      "cases": 1,
+      "distinct_trips": 1,
+      "mean_error_min": 2.2,
+      "median_error_min": 2.2,
+      "mean_absolute_error_min": 2.2,
+      "over_1_min_count": 1,
+      "over_1_min_pct": 100.0,
+      "min_error_min": 2.2,
+      "max_error_min": 2.2
+    },
+    {
+      "sample": "all_matched",
+      "route": "D",
+      "cases": 0,
+      "distinct_trips": 0,
+      "mean_error_min": null,
+      "median_error_min": null,
+      "mean_absolute_error_min": null,
+      "over_1_min_count": 0,
+      "over_1_min_pct": null,
+      "min_error_min": null,
+      "max_error_min": null
+    },
+    {
+      "sample": "all_matched",
+      "route": "F",
+      "cases": 14,
+      "distinct_trips": 2,
+      "mean_error_min": 0.0,
+      "median_error_min": 0.0,
+      "mean_absolute_error_min": 0.0,
+      "over_1_min_count": 0,
+      "over_1_min_pct": 0.0,
+      "min_error_min": 0.0,
+      "max_error_min": 0.0
+    },
+    {
+      "sample": "all_matched",
+      "route": "M",
+      "cases": 17,
+      "distinct_trips": 17,
+      "mean_error_min": 0.2352941176470588,
+      "median_error_min": -0.21666666666666667,
+      "mean_absolute_error_min": 1.103921568627451,
+      "over_1_min_count": 4,
+      "over_1_min_pct": 23.529411764705884,
+      "min_error_min": -1.4166666666666667,
+      "max_error_min": 3.1666666666666665
+    },
+    {
+      "sample": "all_matched",
+      "route": "FX",
+      "cases": 0,
+      "distinct_trips": 0,
+      "mean_error_min": null,
+      "median_error_min": null,
+      "mean_absolute_error_min": null,
+      "over_1_min_count": 0,
+      "over_1_min_pct": null,
+      "min_error_min": null,
+      "max_error_min": null
+    },
+    {
+      "sample": "exclude_quality_flags",
+      "route": "B",
+      "cases": 1,
+      "distinct_trips": 1,
+      "mean_error_min": 2.2,
+      "median_error_min": 2.2,
+      "mean_absolute_error_min": 2.2,
+      "over_1_min_count": 1,
+      "over_1_min_pct": 100.0,
+      "min_error_min": 2.2,
+      "max_error_min": 2.2
+    },
+    {
+      "sample": "exclude_quality_flags",
+      "route": "D",
+      "cases": 0,
+      "distinct_trips": 0,
+      "mean_error_min": null,
+      "median_error_min": null,
+      "mean_absolute_error_min": null,
+      "over_1_min_count": 0,
+      "over_1_min_pct": null,
+      "min_error_min": null,
+      "max_error_min": null
+    },
+    {
+      "sample": "exclude_quality_flags",
+      "route": "F",
+      "cases": 12,
+      "distinct_trips": 1,
+      "mean_error_min": 0.0,
+      "median_error_min": 0.0,
+      "mean_absolute_error_min": 0.0,
+      "over_1_min_count": 0,
+      "over_1_min_pct": 0.0,
+      "min_error_min": 0.0,
+      "max_error_min": 0.0
+    },
+    {
+      "sample": "exclude_quality_flags",
+      "route": "M",
+      "cases": 17,
+      "distinct_trips": 17,
+      "mean_error_min": 0.2352941176470588,
+      "median_error_min": -0.21666666666666667,
+      "mean_absolute_error_min": 1.103921568627451,
+      "over_1_min_count": 4,
+      "over_1_min_pct": 23.529411764705884,
+      "min_error_min": -1.4166666666666667,
+      "max_error_min": 3.1666666666666665
+    },
+    {
+      "sample": "exclude_quality_flags",
+      "route": "FX",
+      "cases": 0,
+      "distinct_trips": 0,
+      "mean_error_min": null,
+      "median_error_min": null,
+      "mean_absolute_error_min": null,
+      "over_1_min_count": 0,
+      "over_1_min_pct": null,
+      "min_error_min": null,
+      "max_error_min": null
+    }
+  ],
+  "remaining_eta_distribution": [
+    {
+      "remaining_band": "0–30 seconds",
+      "snapshot_rows": 40
+    },
+    {
+      "remaining_band": "31–60 seconds",
+      "snapshot_rows": 4989
+    },
+    {
+      "remaining_band": "61–120 seconds",
+      "snapshot_rows": 2682
+    },
+    {
+      "remaining_band": "negative",
+      "snapshot_rows": 7775
+    },
+    {
+      "remaining_band": "over 120 seconds",
+      "snapshot_rows": 415434
+    }
+  ],
+  "independent_sql_reconciliation": "passed",
+  "source_unchanged": true
+}

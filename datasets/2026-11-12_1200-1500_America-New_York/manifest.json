@@ -1,0 +1,20 @@
+{
+  "scheduled_start": "2026-11-12T12:00:00-05:00",
+  "scheduled_end": "2026-11-12T15:00:00-05:00",
+  "interval": 30,
+  "duration_seconds": 10800.0,
+  "urls": {
+    "trains": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/nyct%2Fgtfs-bdfm",
+    "alerts": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts.json"
+  },
+  "station_source": "https://data.ny.gov/resource/39hk-dx4f.json?$limit=1000",
+  "routes": [
+    "B",
+    "D",
+    "F",
+    "FX",
+    "M"
+  ],
+  "scope": "Same geographic and route filters as the Nov 11 evening run",
+  "max_source_age_for_arrival_estimates": 120
+}

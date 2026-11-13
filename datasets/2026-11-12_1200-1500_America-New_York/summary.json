@@ -1,0 +1,51 @@
+{
+  "run": "/Users/hollisyang/Desktop/Studio/MTA-DATA-TEST/data/20261112T170000_midday",
+  "counts": {
+    "predictions": 372293,
+    "vehicles": 10293,
+    "alerts": 16958
+  },
+  "feeds": {
+    "trains": {
+      "requests": 360,
+      "errors": 0,
+      "distinct_source_timestamps": 360,
+      "min_source_age_seconds": 2.1217458248138428,
+      "max_source_age_seconds": 12.172976970672607
+    },
+    "alerts": {
+      "requests": 360,
+      "errors": 0,
+      "distinct_source_timestamps": 49,
+      "min_source_age_seconds": 1.1538140773773193,
+      "max_source_age_seconds": 1822.1590440273285
+    }
+  },
+  "arrival_candidates": 1001,
+  "eta_matched_candidates": 952,
+  "tracked_trip_stops": 4421,
+  "positive_eta_range_trip_stops": 2233,
+  "actual_delay_measured": false,
+  "arrival_algorithm": "v2_station_path_timestamp",
+  "station_change_evidence": 1436,
+  "rejection_reasons": {
+    "candidate": 1005,
+    "not_expected_next_station": 7,
+    "remaining_path_not_yet_aligned": 325,
+    "repeated_out_of_order_or_gap": 1,
+    "stale_or_future_vehicle_time": 88,
+    "vehicle_time_not_new_since_previous_observation": 10
+  },
+  "vehicle_status_counts": {
+    "STOPPED_AT": 10278,
+    "UNKNOWN": 15
+  },
+  "prediction_counts_by_route": {
+    "B": 60463,
+    "D": 77028,
+    "F": 136390,
+    "M": 98412
+  },
+  "distinct_station_directions": 54,
+  "raw_compressed_bytes": 43229752
+}
