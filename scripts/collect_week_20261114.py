@@ -1,6 +1,6 @@
-"""Seven-day Manhattan subway archive, Nov 14–21, 2026, New York time.
+"""Seven-day all-borough subway archive, Nov 14–21, 2026, New York time.
 
-Full raw line-group feeds are retained; scope.json defines Manhattan-only analysis.
+Full raw line-group feeds are retained; scope.json lists all known stations; exports retain unknown station IDs too.
 Daily SQLite is a download index, not an expanded prediction database.
 """
 import argparse
@@ -28,10 +28,10 @@ START = datetime(2026, 11, 14, tzinfo=NY).timestamp()
 END = datetime(2026, 11, 21, tzinfo=NY).timestamp()
 INTERVAL = 30
 SLOTS = int((END - START) / INTERVAL)
-RUN = ROOT / 'data/20261114_20261121_manhattan'
+RUN = ROOT / 'data/20261114_20261121_all_boroughs'
 BASE = 'https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/'
 URLS = {k: BASE + 'nyct%2Fgtfs' + ('-' + k if k != 'numbered' else '')
-        for k in ['numbered', 'ace', 'bdfm', 'g', 'jz', 'l', 'nqrw']}
+        for k in ['numbered', 'ace', 'bdfm', 'g', 'jz', 'l', 'nqrw', 'si']}
 URLS['alerts'] = m.URLS['alerts']
 MIN_FREE = 5 * 1024**3
 
@@ -53,7 +53,7 @@ def status(state, **extra):
     print(f'{iso()} {state}', flush=True)
     atomic(RUN / 'status.json', json.dumps(dict(status=state, updated_at=iso(),
         pid=os.getpid(), scheduled_start=iso(START), scheduled_end=iso(END),
-        interval_seconds=INTERVAL, scope='Manhattan stations, all subway routes',
+        interval_seconds=INTERVAL, scope='All boroughs, all subway routes including Staten Island Railway',
         **extra), indent=2).encode())
 
 
@@ -150,13 +150,13 @@ def metadata():
     r = m.fetch(m.STATIONS_URL)
     if r['error']: raise RuntimeError(r['error'])
     rows = json.loads(r['body'])
-    scope = {r['gtfs_stop_id']:r['stop_name'] for r in rows if r['borough']=='M'}
-    if not scope: raise ValueError('Empty Manhattan scope')
+    scope = {r['gtfs_stop_id']:r['stop_name'] for r in rows}
+    if not scope: raise ValueError('Empty station metadata')
     atomic(RUN/'stations_source.json',r['body'])
     atomic(RUN/'scope.json',json.dumps(scope,indent=2).encode())
     atomic(RUN/'manifest.json',json.dumps(dict(start=iso(START),end=iso(END),
-        interval=INTERVAL,urls=URLS,scope='All Manhattan station IDs, both directions, all routes',
-        raw_scope='Full line-group feeds and subway alerts, including out-of-borough data',
+        interval=INTERVAL,urls=URLS,scope='All boroughs and station IDs, both directions, all subway routes including Staten Island Railway',
+        raw_scope='Full line-group feeds and subway alerts, without borough filtering',
         overlap='A route may appear in multiple feeds. Deduplicate by trip, stop and source timestamp before analysis.',
         storage='gzip raw responses plus daily SQLite request index; parse predictions offline'),indent=2).encode())
 
@@ -175,7 +175,7 @@ def acquire_lock(lock):
 
 
 def export_day(name):
-    """Materialize one day's Manhattan observations without network access."""
+    """Materialize one day's all-borough observations without network access."""
     if len(name)!=8 or not name.isdigit(): raise ValueError('Use YYYYMMDD')
     day = RUN / name
     out = RUN / 'exports' / name
@@ -199,23 +199,33 @@ def export_day(name):
                 f = m.gtfs.FeedMessage(); f.ParseFromString(body)
                 m.ROUTES = {e.trip_update.trip.route_id for e in f.entity if e.HasField('trip_update')}
                 m.ROUTES.update(e.vehicle.trip.route_id for e in f.entity if e.HasField('vehicle'))
+                # Metadata can lag newly added/changed stops. No geographic or
+                # metadata membership filtering for this all-borough export.
+                for entity in f.entity:
+                    stops = [s.stop_id for s in entity.trip_update.stop_time_update] if entity.HasField('trip_update') else []
+                    if entity.HasField('vehicle') and entity.vehicle.stop_id:
+                        stops.append(entity.vehicle.stop_id)
+                    for stop in stops:
+                        parent = m.parent_stop(stop)
+                        scope.setdefault(parent, parent)
                 kind = 'trains'
             m.ingest(db,out,kind,dict(started=row['started'],received=row['received'],
                 http_status=row['http_status'],headers={},error=None,body=body),scope)
             pid = db.execute('SELECT max(id) FROM polls').fetchone()[0]
             db.execute('INSERT INTO source_polls VALUES(?,?,?)',(pid,row['feed'],row['slot']))
             db.commit()
+        atomic(out/'scope.json',json.dumps(scope,indent=2).encode())
         db.execute('CREATE VIEW unique_predictions AS SELECT DISTINCT source_ts,trip_key,route,stop,eta,departure FROM predictions')
         db.commit()
     finally:
         db.close(); index.close()
-    print(f'Exported Manhattan predictions and vehicles to {out}; full-line notices retained.')
+    print(f'Exported all-borough predictions and vehicles to {out}; full-line notices retained.')
 
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--summary',action='store_true')
-    parser.add_argument('--export-day',metavar='YYYYMMDD',help='Offline Manhattan SQLite export for a single day; needs extra disk space')
+    parser.add_argument('--export-day',metavar='YYYYMMDD',help='Offline all-borough SQLite export for a single day; needs extra disk space')
     args = parser.parse_args()
     RUN.mkdir(parents=True,exist_ok=True)
     if args.export_day:
