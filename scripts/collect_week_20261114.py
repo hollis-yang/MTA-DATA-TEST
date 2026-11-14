@@ -1,4 +1,4 @@
-"""Seven-day all-borough subway archive, Nov 14–21, 2026, New York time.
+"""All-borough subway archive, Nov 13 10:15PM–Nov 21 12AM, 2026, New York time.
 
 Full raw line-group feeds are retained; scope.json lists all known stations; exports retain unknown station IDs too.
 Daily SQLite is a download index, not an expanded prediction database.
@@ -24,11 +24,11 @@ sys.path.insert(0, str(ROOT))
 import mta_explore as m
 
 NY = ZoneInfo('America/New_York')
-START = datetime(2026, 11, 14, tzinfo=NY).timestamp()
+START = datetime(2026, 11, 13, 22, 15, tzinfo=NY).timestamp()
 END = datetime(2026, 11, 21, tzinfo=NY).timestamp()
 INTERVAL = 30
 SLOTS = int((END - START) / INTERVAL)
-RUN = ROOT / 'data/20261114_20261121_all_boroughs'
+RUN = ROOT / 'data/20261113T221500_20261121_all_boroughs'
 BASE = 'https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/'
 URLS = {k: BASE + 'nyct%2Fgtfs' + ('-' + k if k != 'numbered' else '')
         for k in ['numbered', 'ace', 'bdfm', 'g', 'jz', 'l', 'nqrw', 'si']}

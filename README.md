@@ -4,7 +4,7 @@
 
 ## 七天全纽约地铁采集
 
-[手动运行说明与容量估算](WEEK_COLLECTION.md)：11/14 12AM 至 11/21 12AM（纽约时间），每30秒、所有 borough 的全部地铁线路，包含 Staten Island Railway。
+[手动运行说明与容量估算](WEEK_COLLECTION.md)：11/13 10:15PM 至 11/21 12AM（纽约时间），每30秒、所有 borough 的全部地铁线路，包含 Staten Island Railway。
 
 ## 已发布数据
 

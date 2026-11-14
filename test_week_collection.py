@@ -9,9 +9,11 @@ from scripts import collect_week_20261114 as w
 
 class WeekTests(unittest.TestCase):
     def test_window_and_resume(self):
-        self.assertEqual(w.SLOTS,20160)
+        self.assertEqual(w.SLOTS,20370)
+        self.assertEqual(w.iso(w.START), "2026-11-13T22:15:00-05:00")
+        self.assertEqual(w.iso(w.END), "2026-11-21T00:00:00-05:00")
         self.assertIn('si',w.URLS)
-        self.assertEqual(w.SLOTS*len(w.URLS),181440)
+        self.assertEqual(w.SLOTS*len(w.URLS),183330)
         self.assertEqual(w.next_slot(w.START-50),0)
         self.assertEqual(w.next_slot(w.START+0.1),0)
         self.assertEqual(w.next_slot(w.START+45),2)
